@@ -9,11 +9,21 @@ fontsize: 11pt
 theme: boxes
 header-includes:
   - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, dev = "png", dpi = 300)
 ```
+
+# Introduction
+- Ethan Linck ("Ethan", "Dr. Linck", "Professor", whatever)
+- BA Biology, Reed College; PhD Biology University of Washington
+- Postdocs at UNM, UWy; 4th year at MSU
 
 # Introduction
 - Ethan Linck ("Ethan", "Dr. Linck", "Professor", whatever)
