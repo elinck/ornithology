@@ -25,7 +25,7 @@ Monday and Wednesday class periods will consist of 50-minute lectures. Thursday 
 ## Textbook 
 - Gill, F. B., & R.O. Prum. 2019. Ornithology. 4th ed. W. H. Freeman and Co. 666 pp. Required. (2 copies will be at the MSU library on 2-hr reserve.)
 - A field guide to birds. No specific field guide is required but you will need to have 1 of the following: Peterson's guide to Western Birds; Robbins, Bruun, and Zim's Guide to Birds of North America; The Audubon Society's bird guide; Sibley Birds West or Sibley Birds; or National Geographic's guide to birds. The National Geographic guide is certainly one of the best and is in the bookstore. Required.
-- Lab manual: handouts provided on the course Canvas site for you to print or access digitally as needed. 
+- Lab manual: [available as a .pdf here](manual/lab_manual.pdf)
 
 ## Learning Outcomes
 - Describe the key characteristics of birds and to summarize their evolutionary history; 
