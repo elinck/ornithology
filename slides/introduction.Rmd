@@ -1,0 +1,329 @@
+---
+title: "BIOO 470: Ornithology"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner.png}}{}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+- Ethan Linck ("Ethan", "Dr. Linck", "Professor", whatever)
+- BA Biology, Reed College; PhD Biology University of Washington
+- Postdocs at UNM, UWy; 4th year at MSU
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/ecbe.jpg}
+\end{figure}  
+\hfill \tiny (Me at 26 in PNG + Eastern Crested Berrypecker, [*Paramythia montium*](https://ebird.org/species/creber2))
+
+# Introduction
+
+- Research: Evolutionary history, adaptation, and distribution of birds (and sometimes insects and mammals)
+- Elective Member, American Ornithological Society
+- Recreational birder; 2nd time teaching BIOO470
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/syma.png}
+\end{figure}  
+\hfill \tiny (Linck et al. 2020, *J. Evol. Biol.*)
+
+# Course Logisitics
+
+- Syllabus and slides on course website (will change); grades and announcements on Canvas
+- Grading: 400 points total: 3 x 50-point lecture exams, 3 x 50-point lab exams, 6 x 10-point lab quizzes (lowest dropped), 25 points from partcipiation, 25-point eBird assignment 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/coursewp.png}
+\end{figure}  
+
+# Resources
+
+- *Ornithology*, Gill & Prum: on-demand at bookstore
+- Any field guide (*National Geographic Complete Birds* at bookstore)
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/texts.png}
+\end{figure}  
+
+# iClicker
+
+https://join.iclicker.com/SSVI
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/iclicker.png}
+\end{figure}  
+
+Where should you look for **course material** to study from?
+
+a) The course website
+b) Canvas
+c) The textbook
+d) The course website *and* the textbook
+
+
+# Resources
+
+- Slides posted after each class. Latin names are links!
+- Work cited and found in concluding references when possible
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/slides.png}
+\end{figure}  
+
+# Topics
+
+- Evolution
+- Anatomy
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/topics1.png}
+\end{figure}
+\hfill \tiny (Stiller et al. 2024; Proctor & Lynch 1993)
+
+# Topics
+
+- Physiology
+- Life-history Strategies
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/phys.png}
+\end{figure}
+\hfill \tiny (Mota-Rojas et al. 2023)
+
+# Topics
+- Ecology
+- Conservation
+- Scientific Method
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/niche.png}
+\end{figure}
+\hfill \tiny (Miller et al. 2025)
+
+# Tips for Success
+
+- Lectures follow the textbook!
+- You are responsible for all material in readings and lectures
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/shoe.png}
+\end{figure}  
+\hfill \tiny ([*Balaeniceps rex*](https://macaulaylibrary.org/asset/183455051))
+
+# Tips for Success
+
+- Tests will emphasize lectures
+- Occasional material from primary literature
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/copo.png}
+\end{figure}  
+\hfill \tiny ([*Nyctibius griseus*](https://macaulaylibrary.org/asset/240664471))
+
+# Facts
+
+- Terminology and Nomenclature    
+- Montana species identification  
+- Physics of flight  
+- Anatomy  
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/canv.png}
+\end{figure}  
+\hfill \tiny ([*Aythya valisineria*](https://macaulaylibrary.org/asset/136554591))
+
+# Concepts & Theory 
+
+- Evolution of birds (phylogenetics)  
+- Choice of mating system  
+- Level of parental investment  
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/clnu.png}
+\end{figure}  
+\hfill \tiny ([*Nucifraga columbiana*](https://macaulaylibrary.org/asset/51262821))
+
+# Why are birds awesome?
+
+- Bee Hummingbird: Cuban endemic; smallest bird in the world, 5 cm long, 1.8 g (a penny weighs 2.5 g)
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/behu.png}
+\end{figure}  
+\hfill \tiny ([*Mellisuga helenae*](https://macaulaylibrary.org/asset/89854171))
+
+
+# Why are birds awesome?
+
+- Common Ostrich: largest bird, 90 - 130kg, (~50,000 or 72,000X a Bee Hummingbird) 1.7 - 2.7m tall. Run at speeds of 43 mph for short bursts, sustained speeds of ~30 mph
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/coos.png}
+\end{figure}  
+\hfill \tiny ([*Struthio camelus*](https://macaulaylibrary.org/asset/204565301))
+
+# Why are birds awesome?
+
+- Peregrine Falcon: fastest flying bird, hits ~200 mph in "stoops", pulling out results in 27gs force (F-16 built to easily withstand 9gs)
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/pefa.png}
+\end{figure}  
+\hfill \tiny ([*Falco peregrinus*](https://macaulaylibrary.org/asset/288347741))
+
+
+# Why are birds awesome?
+
+- Bar-headed Goose: migrates over the Himalayans at >33,000 ft, ~4,000 ft higher than Mt. Everest.
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/bhgo.png}
+\end{figure}  
+\hfill \tiny ([*Anser indicus*](https://macaulaylibrary.org/asset/181031211))
+
+# Why are birds important? 
+
+1. **Scientific Importance**   
+  A. Evolution   
+  B. Ecology   
+  C. Physiology and Neurobiology  
+2. **Economic Importance**  
+  A. Ecosystem Services  
+  B. Recreation  
+3. **Cultural Importance**  
+  A. Mascots  
+  B. Mythology  
+  C. National Emblems  
+  
+# Importance to Evolutionary Biology
+
+- Evolution by natural selection
+- Allopatric speciation: Speciation in geographic isolation
+- Biological species concept: Species are reproductively isolated
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/evol.png}
+\end{figure}  
+\hfill \tiny (Mayr, Darwin, Peter & Rosemary Grant)
+
+# Importance to Ecology
+
+- Quantitative Ecology: Mathematical models for ecology
+- Island Biogeography: Secies composition comes from immigration and extinction
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/ecol1.png}
+\end{figure}  
+\hfill \tiny (Macarthur, Wilson) 
+
+# Importance to Ecology
+
+- Niche Theory: Sum of conditions a species needs to survive and reproduce
+- Community Assembly: What species are where and why?
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/ecol2.png}
+\end{figure}  
+\hfill \tiny (Grinnell, Diamond) 
+
+# Importance to Physiology and Neurobiology
+
+- Ethology: study of behavioral processes
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/ethol.jpg}
+\end{figure}  
+\hfill \tiny (Tinbergen, Lorenz) 
+
+# Importance to Physiology and Neurobiology
+
+- Polygyny threshold hypothesis: When is it favorable for a female to enter into a polygynous relationship?
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/orians_emlen.png}
+\end{figure}  
+\hfill \tiny (Orians, Emlen) 
+
+# Importance to Physiology and Neurobiology
+
+- Zebra finch model system
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/zefi.png}
+\end{figure}  
+\hfill \tiny ([*Taeniopygia guttata castanotis*](https://macaulaylibrary.org/asset/38358341)) 
+
+# Importance to Ecosystem Services
+
+- Nutrient cycling
+- Seed dispersal
+- Meat provision
+- Pest control 
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/serv1.png}
+\end{figure}  
+\hfill \tiny (Gaston 2020)
+
+# Importance to Ecosystem Services
+
+- Pollination 
+- Scavenging
+- Ecotourism
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/serv2.png}
+\end{figure}  
+\hfill \tiny (Gaston 2020)
+
+# Cultural Importance 
+
+- Birds are common emblems for teams and countries; fixtures in mythologies across the world
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/cult.png}
+\end{figure}  
+\hfill \tiny (Bozeman High School, The Crane Wife, Mexico, USA)
+
+# Assignments for Monday (9/31)
+
+- Read Chapter 1
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/gill.png}
+\end{figure}  
+
+# References
+
+- Title Slide Species: *Oreotrochilus estella*, *Spinus notatus*, *Diglossa cyanea*, *Turdus fuscater*
+
+- Linck, E., Freeman, B. G., & Dumbacher, J. P. (2020). Speciation and gene flow across an elevational gradient in New Guinea kingfishers. Journal of Evolutionary Biology, 33(11), 1643-1652.
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+- Dunn, J. L. 1., Alderfer, J. K., & Lehman, P. E. (2017). National Geographic field guide to the birds of North America (7th ed.). National Geographic.
+
+- Proctor, N. S., & Lynch, P. J. (1993). Manual of ornithology: Avian Structure & Function. Yale University Press.
+
+# References 
+
+- Stiller, J., Feng, S., Chowdhury, A. A., Rivas-González, I., Duchêne, D. A., Fang, Q., ... & Zhang, G. (2024). Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), 851-860.
+
+- Mota-Rojas, D., Marcet-Rius, M., Domínguez-Oliva, A., Buenhombre, J., Daza-Cardona, E. A., Lezama-García, K., ... & Bienboire-Frosini, C. (2023). Parental behavior and newborn attachment in birds: life history traits and endocrine responses. Frontiers in Psychology, 14, 1183554.
+
+- Miller, E. T., Wood, A. W., Baiz, M., Welch, A. J., Fleischer, R. C., Dale, A. S., & Toews, D. P. (2025). Reassessing niche partitioning in MacArthur’s warblers: foraging behaviour, morphology and diet differentiation in a phylogenetic context. Biology Letters, 21(4), 20250001.
+
+- Gaston, K. J. (2022). Birds and ecosystem services. Current Biology, 32(20), R1163-R1166.
+
+
+
+

@@ -1,0 +1,139 @@
+---
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# BIOO470: Ornithology
+
+**Course:** BIOO470 (3 Credits: 2 Lecture, 1 Lab)    
+**Prerequisite:** BIOO310    
+**Lecture Time & Place:** MW 10:00 - 10:50 AM, 1147 Wilson Hall.   
+**Lab Time & Place:** R 3:05 - 4:55 PM, 407 Lewis Hall.    
+**Instructor:** Dr. Ethan Linck (ethan.linck@montana.edu; 406-994-2024)      
+**Office Hours:** 1:00 PM - 2:30 M/W, Lewis 305     
+
+## Catalog Description
+
+Evolution, functional biology, distribution, and classification of birds. Montana species recognition is developed through laboratory use of a representative skin collection. 
+
+## Overview  
+
+Birds are among the most familiar groups of organisms. This course covers the evolution, functional biology, distribution, and classification of birds. Lecture topics will include an overview of avian diversity and taxonomy, characteristic adaptations, life history, and reproduction. Labs will focus on morphological features and visual and audial identification of common Montana species. 
+
+## Course Organization and Format 
+
+Monday and Wednesday class periods will consist of 50-minute lectures. Thursday labs will involve supervised but open-ended study of museum study skins and other reference material.
+
+## Textbook 
+- Gill, F. B., & R.O. Prum. 2019. Ornithology. 4th ed. W. H. Freeman and Co. 666 pp. Required. (2 copies will be at the MSU library on 2-hr reserve.)
+- A field guide to birds. No specific field guide is required but you will need to have 1 of the following: Peterson's guide to Western Birds; Robbins, Bruun, and Zim's Guide to Birds of North America; The Audubon Society's bird guide; Sibley Birds West or Sibley Birds; or National Geographic's guide to birds. The National Geographic guide is certainly one of the best and is in the bookstore. Required.
+- Lab manual: handouts provided on the course website for you to print or access digitally as needed. 
+
+## Learning Outcomes
+- Describe the key characteristics of birds and to summarize their evolutionary history; 
+- Explain the mechanisms and types of avian flight as well as the physiological adaptations that support avian flight; 
+- Summarize and describe the key features of the avian brain, sensory system, and communication systems; 
+- Explain to explain the daily and annual biorhythms of birds and to summarize their roles in avian migration and navigation; 
+- Describe and summarize avian mating systems as well as avian reproduction and the rearing of young; 
+- Identify birds of Montana by sight and sound.
+
+## Grading 
+
+Your grade will be based on lecture exams (3 non-cumulative exams, 50 points each), lab quizzes (your best 5 scores on 6 
+lab quizzes, 10 points each);  3 non-cumulative lab exams (50 points each), participation (25 points), and an independent 
+eBird activity (25 points). The schedule for all exams is below.   
+ 
+## Schedule
+
+This is a maximalist version of the course syllabus (also available as a [pdf](assignments/syllabus.pdf)). Expect material to be cut, not added. Slides and practice problems will be added throughout the semester. 
+
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| Week          | Topics                            | Assignments                                                                                       |
++===============+===================================+===================================================================================================+
+| 8/24 - 8/28   | - Introduction                    | - [Why do birds matter? *Audubon Magazine*](https://www.audubon.org/magazine/why-do-birds-matter) |
+|               |                                   | - No lab                                                                                          |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 8/31 - 9/4    | - Diversity                       | - Gill & Prum Ch. 1                                                                               |
+|               |                                   | - Lab 1: External Morphology                                                                      |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 9/7 - 9/11    | - Evolutionary Origins            | - Gill & Prum Ch. 2                                                                               |
+|               |                                   | - Lab Quiz 1                                                                                      |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 9/14 - 9/18   | - Phylogenetics & Speciation      | - Gill & Prum Ch. 3 & 19                                                                          |
+|               |                                   | - Lab 2: Skeletal & Internal anatomy                                                              |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 9/21 - 9/25   | - Feathers & Flight               | - Gill & Prum Ch. 4 & 5                                                                           |
+|               |                                   | - **Lecture Exam 1**                                                                              |
+|               |                                   | - Lab 3: Field skills / eBird; Lab Quiz 2                                                         |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 9/28 - 10/2   | - Physiology & Senses             | - Gill & Prum Ch. 6 & 7                                                                           |
+|               |                                   | - Lab 4: Snow Goose to Harlequin Duck                                                             |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 10/5 - 10/9   | - Vocalizations                   | - Gill & Prum Ch. 8                                                                               |
+|               |                                   | - Lab 5: Bufflehead to Western Grebe                                                              |
+|               |                                   | - **Lab Exam 1**                                                                                  |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 10/12 - 10/16 | - Annual Cycles                   | - Gill & Prum Ch. 9                                                                               |
+|               |                                   | - Lab 6: Rock Pigeon to Wilson's Phalarope; Lab Quiz 3                                            |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 10/19 - 10/23 | - Migration and Navigation        | - Gill & Prum Ch. 10                                                                              |
+|               |                                   | - **Lecture Exam 2**                                                                              |
+|               |                                   | - Lab 7: Franklin's Gull to American Goshawk                                                      |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 10/26 - 10/30 | - Reproduction & Sexual Selection | - Gill & Prum Ch. 12 & 13                                                                         |
+|               |                                   | - Lab 8: Swainson's Hawk to Pileated Woodpecker; Lab Quiz 4                                       |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 11/2 - 11/6   | - Breeding Systems                | - Gill & Prum Ch. 14                                                                              |
+|               |                                   | - Lab 9: American Kestrel to Warbling Vireo                                                       |
+|               |                                   | - **Lab Exam 2 (Visual & Audio)**                                                                 |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 11/9 - 11/13  | - Nests and Incubation            | - Gill & Prum Ch. 15                                                                              |
+|               |                                   | - Lab 10: Clark's Nutcracker to Marsh Wren                                                        |
+|               |                                   | - Lab Quiz 5                                                                                      |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 11/16 - 11/20 | - Parents & Offspring             | - Gill & Prum Ch. 13                                                                              |
+|               |                                   | - Lab 11: American Dipper to Snow Bunting                                                         |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 11/23 - 11/27 | - Fall Break                      |                                                                                                   |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 11/30 - 12/4  | - Communities                     | - Gill & Prum Ch. 20                                                                              |
+|               |                                   | - **Lecture Exam 3**                                                                              |
+|               |                                   | - Lab 12: Common Yellowthroat to Bullock's Oriole; Lab Quiz 6                                     |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 12/7 - 12/11  | - Conservation                    | - Gill & Prum Ch. 21                                                                              |
+|               |                                   | - **Lab Exam 3 (Visual & Audio)**                                                                 |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+| 12/14 - 12/18 | - Exam Week                       | - **Final Exam** (12/16, 1000-1150 hrs)                                                           |
++---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
+
+## Drop / Add Policy  
+
+MSU's registration processes can be found on the Registrar's website. January 27th is the last day to drop online; February 3rd is the last day to drop without a "W" on your transcript; April 15th is the last day to drop with a 'W' on your transcript.  
+
+## Generative AI  
+
+Generative AI tools are unlikely to be helpful for the class. If you find yourself drawn to use them to study for exams, I encourage you to exercise caution. Any work produced by AI cannot be submitted as your own. I will not spend extensive time policing this---the loss is primarily yours---but if detected, I will consider it academic misconduct. 
+
+## Collaboration    
+ 
+University policy states that, unless otherwise specified, students may not collaborate on graded material. Any exceptions to this policy will be stated explicitly for individual assignments. If you have any questions about the limits of collaboration, you are expected to ask for clarification. 
+ 
+## Plagiarism    
+
+Paraphrasing or quoting another's work without citing the source is a form of academic misconduct. Even inadvertent or unintentional misuse or appropriation of another's work (such as relying heavily on source material that is not expressly acknowledged) is considered plagiarism. If you have any questions about using and citing sources, you are expected to ask for clarification.  
+
+## Attendance Policy  
+
+Please do not come to campus if you are sick! I trust you will only miss class when absolutely necessary, and do not need extensive explanations for absences. However, please notify me as soon as practical, so that we can figure appropriate accommodations.  
+
+## Inclusivity Statement  
+
+I support an inclusive learning environment where diversity and individual differences are understood, respected, appreciated, and recognized as a source of strength. We expect that students, faculty, administrators and staff at MSU will respect differences and demonstrate diligence in understanding how other peoples' perspectives, behaviors, and worldviews may be different from their own. 
+
+## Syllabus Language for Students with Disabilities  
+
+If you are a student with a disability and wish to use your approved accommodations for this course, please contact me during my office hours to discuss. Please have your Accommodation Notification or Blue Card available for verification of accommodations. Accommodations are approved through the Office of Disability Services located in SUB 174. Please see Disability Services for more information.  
+

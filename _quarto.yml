@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!assignments/"
+    - "!data/"
+    - "!images/"
+    - "!old_materials/"
+
+website:
+  title: "BIOB470: Ornithology"
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+
+format:
+  html:
+    theme: default
+    css: styles.css
+
