@@ -43,8 +43,7 @@ eBird activity (25 points). The schedule for all exams is below.
  
 ## Schedule
 
-This is a maximalist version of the course syllabus (also available as a [pdf](assignments/syllabus.pdf)). Expect material to be cut, not added. Slides and practice problems will be added throughout the semester.
-
+This is a maximalist version of the course syllabus (also available as a [pdf](assignments/syllabus.pdf)). Expect material to be cut, not added. Slides and practice problems will be added throughout the semester. 
 
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | Week          | Topics                            | Assignments                                                                                       |
@@ -57,13 +56,14 @@ This is a maximalist version of the course syllabus (also available as a [pdf](a
 |               |                                   | - Lab 1: External Morphology                                                                      |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 9/7 - 9/11    | - Evolutionary Origins            | - Gill & Prum Ch. 2                                                                               |
-|               |                                   | - Lab Quiz 1                                                                                      |
+|               |                                   | - No lab                                                                                          |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 9/14 - 9/18   | - Phylogenetics & Speciation      | - Gill & Prum Ch. 3 & 19                                                                          |
 |               |                                   | - Lab 2: Skeletal & Internal anatomy                                                              |
+|               |                                   | - Lab Quiz 1                                                                                      |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 9/21 - 9/25   | - Feathers & Flight               | - Gill & Prum Ch. 4 & 5                                                                           |
-|               |                                   | - **Lecture Exam 1**                                                                              |
+|               |                                   | - **Lecture Exam 1 (W)**                                                                          |
 |               |                                   | - Lab 3: Field skills / eBird; Lab Quiz 2                                                         |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 9/28 - 10/2   | - Physiology & Senses             | - Gill & Prum Ch. 6 & 7                                                                           |
@@ -77,7 +77,7 @@ This is a maximalist version of the course syllabus (also available as a [pdf](a
 |               |                                   | - Lab 6: Rock Pigeon to Wilson's Phalarope; Lab Quiz 3                                            |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 10/19 - 10/23 | - Migration and Navigation        | - Gill & Prum Ch. 10                                                                              |
-|               |                                   | - **Lecture Exam 2**                                                                              |
+|               |                                   | - **Lecture Exam 2 (W)**                                                                          |
 |               |                                   | - Lab 7: Franklin's Gull to American Goshawk                                                      |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 10/26 - 10/30 | - Reproduction & Sexual Selection | - Gill & Prum Ch. 12 & 13                                                                         |
@@ -97,7 +97,7 @@ This is a maximalist version of the course syllabus (also available as a [pdf](a
 | 11/23 - 11/27 | - Fall Break                      |                                                                                                   |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 11/30 - 12/4  | - Communities                     | - Gill & Prum Ch. 20                                                                              |
-|               |                                   | - **Lecture Exam 3**                                                                              |
+|               |                                   | - **Lecture Exam 3 (W)**                                                                          |
 |               |                                   | - Lab 12: Common Yellowthroat to Bullock's Oriole; Lab Quiz 6                                     |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 12/7 - 12/11  | - Conservation                    | - Gill & Prum Ch. 21                                                                              |
