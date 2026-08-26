@@ -46,10 +46,17 @@ knitr::opts_chunk$set(echo = FALSE, dev = "png", dpi = 300)
 \end{figure}  
 \hfill \tiny (Linck et al. 2020, *J. Evol. Biol.*)
 
+# Introduction  
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/bronzewing.png}
+\end{figure}  
+\hfill \tiny ([*Henicophaps foersteri*](https://macaulaylibrary.org/asset/659947296))
+
 # Course Logisitics
 
 - Syllabus and slides on course website (will change); grades and announcements on Canvas
-- Grading: 400 points total: 3 x 50-point lecture exams, 3 x 50-point lab exams, 6 x 10-point lab quizzes (lowest dropped), 25 points from partcipiation, 25-point eBird assignment 
+- Grading: 400 points total: 3 x 50-point lecture exams, 3 x 50-point lab exams, 6 x 10-point lab quizzes (lowest dropped), 25 points from participation, 25-point eBird assignment 
 
 \begin{figure}
 \includegraphics[width = 0.8\linewidth]{images/coursewp.png}
