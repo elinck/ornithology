@@ -1,0 +1,326 @@
+---
+title: "Modern Bird Diversity"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# iClicker
+
+https://join.iclicker.com/SSVI
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/iclicker.png}
+\end{figure}  
+
+# An "ology": What is a bird?  
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/kagu.png}
+\end{figure}  
+\hfill \tiny ([*Rhynochetos jubatus*](https://macaulaylibrary.org/asset/194253301))
+
+# Taxonomy
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/taxonomy.png}
+\end{figure}  
+\hfill \tiny (Taxonomic rank figure from [Wikipedia](https://en.wikipedia.org/wiki/Taxonomy_(biology)))
+
+# Phylogenetic Position
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/chordata.png}
+\end{figure}  
+\hfill \tiny (Pascual-Anaya et al. 2022)
+
+# Phylogenetic Terminology
+
+- **Taxonomy**:  the study of naming and classifying things
+- **Taxon**: A taxonomic unit (e.g., a species, genus, family, order, class)
+- **Sister Taxa**: each other's closest relatives
+- **Systematics**: the study of the evolutionary relationships of organisms
+- **Phylogeny**: a hypothetical reconstruction of relationships
+- [Monophyletic] **Clade**: A group of taxa that are each others' closest relatives / share a common ancestor more recently than they do with any other taxa
+- **Apomorphy**: A trait that defines a clade
+
+# Phylogenetic Terminology: Clade
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/clades.png}
+\end{figure}  
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/))
+
+# Phylogenetic Terminology: Apomorphies
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/apomorphies.png}
+\end{figure}  
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns//))
+
+# Two post-orbital fenestrae define diapsids
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/fenestrae.png}
+\end{figure}  
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Temporal_fenestra))
+
+# What is the sister taxon to reptiles and birds?
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/chordata.png}
+\end{figure}  
+\hfill \tiny (Pascual-Anaya et al. 2022)
+
+
+# What is the sister taxon to reptiles and birds?
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/chordata.png}
+\end{figure}  
+\hfill \tiny (Pascual-Anaya et al. 2022)  
+\normalsize  
+a) Amphibians  
+b) Mammals  
+c) Lungfish  
+d) Impossible to say  
+
+# Avian Apomorphies: Feathers 
+
+- All birds (and some non-avian dinosaurs) have feathers
+- Feathers are dead structures and are constantly replaced (through *molt*)
+- Filamentous, soft, flexible, lightweight
+- Diverse structure and function
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/feathers.png}
+\end{figure}  
+\hfill \tiny ([Cornell Lab of Ornithology](https://academy.allaboutbirds.org/feathers-article/))
+
+# Avian Apomorphies: Beak
+
+- All birds have beaks (= bills)
+- Diverse in form and function, but always toothless and covered in a horny sheath
+- No other bills / beaks in animal kingdom (though the platypus bill comes close)
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/toco.png}
+\end{figure}  
+\hfill \tiny ([*Ramphastos toco*](https://macaulaylibrary.org/asset/71099091))
+
+# Avian Apomorphies: Gizzard
+
+- Posterior portion of stomach
+- Bird "chewing" organ
+- Thickness, muscluature, and quantity of grit / stones determined by diet. 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/gizzard.jpg}
+\end{figure}  
+\hfill \tiny ([*Wikipedia*](https://en.wikipedia.org/wiki/Proventriculus))
+
+# Avian Apomorphies: External Eggs
+
+- Most complex reproductive cells of any animal
+- Protected and provisioned with food
+- Only vertebrate clade where no species have live young 
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/eggs.jpg}
+\end{figure}  
+\hfill \tiny [*New York State Museum*](https://nysm.nysed.gov/research-collections/biology/ornithology/collections/bird-egg-collection)
+
+# Avian Apomorphies*: Syrinx
+
+- Vocal organ at the base of trachea 
+- C.f. mammalian *larynx*: no folds
+- Sounds from vibrating membranes and cartilage 
+- Can be used to mimic speech (parrots, crows, and mynas)  
+\* absent in New World Vultures
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/syrinx.jpg}
+\end{figure}  
+\hfill \tiny [*Hornbill syrinxes, Wikipedia*](https://en.wikipedia.org/wiki/Syrinx_(bird_anatomy))
+
+# Avian Apomorphies*: Lightweight Bones
+
+- Lightwight, strong, bones
+- Mostly hollow (air-filled spaces = "pneumatized")  
+\* divers like loons in particular have denser bones  
+
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/bone.png}
+\end{figure}  
+\hfill \tiny [*National Audubon Society Bird Guide Training Curriculum*](https://www.researchgate.net/publication/301801651_Bird_Guide_Training_Curriculum_Advanced_Level)
+
+
+# Skeletal Structures: Uncinate Processes 
+
+- Horizontal, backwards bone projections from ribs
+- Reinforce rib cage and provide attachment point for muscles
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/uncinate.png}
+\end{figure}  
+\hfill \tiny [*Wikipedia*](https://en.wikipedia.org/wiki/Uncinate_processes_of_ribs)
+
+
+# Which of the following is an apomorphy shared by birds, mammals, reptiles, and amphibians?
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/chordata.png}
+\end{figure}  
+\hfill \tiny (Pascual-Anaya et al. 2022)  
+\normalsize  
+
+a) Endothermy  
+b) Four limbs with digits  
+c) Feathers  
+d) Hair  
+e) Eggs with hard calcium-carbonate shells  
+
+# Skeletal Structures: Furcula  
+
+- a.k.a. Wishbone
+- Compresses and rebounds like a spring in flight
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/furcula.png}
+\end{figure}  
+\hfill \tiny [*Wikipedia*](https://en.wikipedia.org/wiki/Furcula) 
+
+# Skeletal Structures: Wings
+
+- Modified forelimbs
+- Carpometacarpus / metacarpus is a set of fused hand bones that support the primary flight feathers
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/wing.png}
+\end{figure}  
+\hfill \tiny [*Wikipedia*](https://en.wikipedia.org/wiki/Bird_wing)
+
+# Skeletal Structures: Specialized Legs
+
+- Birds are mostly digigrade (toe-walkers)
+- Fused leg bones: tibiotarsus (below femur) and tarsometatarsus; equal length in long-legged birds for balance
+- Opposable rear toe called hallux unique in vertebrates
+
+\begin{figure}
+\includegraphics[width = 0.39\linewidth]{images/leg.png}
+\end{figure}  
+\hfill \tiny [*Wikipedia*](https://en.wikipedia.org/wiki/Bird_wing)
+
+# Skeletal Structures: Perching Mechanism
+
+- Tendons lock toes around perch
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/perching.png}
+\end{figure}  
+\hfill \tiny [*Encyclopedia Brittanica*]
+
+# Adaptation
+
+- An adaptation is a phenotypic trait that increases fitness (survival and reproduction) in a specific environment
+- Adaptation is also a process of evolutionary change in a population that results in increased fitness
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/adaptive.jpg}
+\end{figure}  
+
+\hfill \tiny [Cornell Lab of Ornithology](https://www.allaboutbirds.org/news/why-evolution-goes-wild-on-islands-the-science-of-adaptive-radiation/)
+
+
+# Birds can be considered an adaptive radiation
+
+- Adaptive Radiation: An evolutionary process where an ancestral species rapidly diversifies into multiple new species specializing on diverse resources; also refers to the taxa resulting from this process
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/adaptive.jpg}
+\end{figure}  
+
+\hfill \tiny [Cornell Lab of Ornithology](https://www.allaboutbirds.org/news/why-evolution-goes-wild-on-islands-the-science-of-adaptive-radiation/)
+
+
+# Adaptive Radiation: Body Types
+
+- Diverse body types evolved in response to selection
+- Important identification clue
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/silhouettes.jpg}
+\end{figure}  
+\hfill \tiny (*Peterson Field Guide to Birds*)
+
+# Adaptive Radiation: Diet
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/diets.png}
+\end{figure}  
+\hfill \tiny [*Ensifera ensifera*](https://macaulaylibrary.org/asset/100407881), [*Sarcoramphus papa*](https://macaulaylibrary.org/asset/38038291), [*Psittrichas fulgidus*](https://macaulaylibrary.org/asset/219641731), [*Harpia harpyja*](https://macaulaylibrary.org/asset/241489321), [*Rynchops minor*](https://macaulaylibrary.org/asset/121748461), [*Myiagra cyanoleuca*](https://macaulaylibrary.org/asset/226975291)  
+
+# Adaptive Radiation: Diet
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/diets2.png}
+\end{figure}  
+\hfill \tiny [*Ensifera ensifera*](https://macaulaylibrary.org/asset/100407881), [*Sarcoramphus papa*](https://macaulaylibrary.org/asset/38038291), [*Psittrichas fulgidus*](https://macaulaylibrary.org/asset/219641731), [*Harpia harpyja*](https://macaulaylibrary.org/asset/241489321), [*Rynchops minor*](https://macaulaylibrary.org/asset/121748461), [*Myiagra cyanoleuca*](https://macaulaylibrary.org/asset/226975291)
+
+# Why are there so few herbivorous birds?
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/herbivores.png}
+\end{figure}  
+
+\hfill \tiny [*Opisthocomus hoazin*](https://macaulaylibrary.org/asset/140257991); [Moa](https://en.wikipedia.org/wiki/Moa)
+
+# Adaptive Radiation: Environment
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/environment.png}
+\end{figure}  
+
+\hfill \tiny [*Pterocles alchata*](https://macaulaylibrary.org/asset/34143601), [*Lagopus leucura*](https://macaulaylibrary.org/asset/181734101), [*Otidiphaps nobilis*](https://macaulaylibrary.org/asset/254397181), [*Jacana jacana*](https://macaulaylibrary.org/asset/218469381), [*Diomedea sanfordi*](https://macaulaylibrary.org/asset/262994551), [*Rhea americana*](https://macaulaylibrary.org/asset/88756811)
+
+# Adaptive Radiation: Bills 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/bills.png}
+\end{figure} 
+
+\hfill \tiny [*Wikipedia*](https://en.wikipedia.org/wiki/Beak) 
+
+# Adaptive Radiation: Feet  
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/feet.png}
+\end{figure} 
+
+\hfill \tiny (Gill & Prum)
+
+
+# References
+
+- Title Slide Species: *Melanodera xanthogramma*, *Emberiza aureola*, *Pterodrama feae*, *Cursorius rufus*
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+- Pascual-Anaya, J., D’Aniello, S., & Bertrand, S. (2022). new approaches in chordate and vertebrate evolution and development. Frontiers in Cell and Developmental Biology, 10, 917101.
+
+
+
+
+
+
