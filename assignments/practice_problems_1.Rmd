@@ -1,0 +1,39 @@
+---
+  output: pdf_document
+  header-includes:
+  - \usepackage{caption}
+  - \captionsetup[figure]{labelformat=empty}
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ornithology Week 1 Practice Problems: Diversity and Taxonomy  
+
+1) Endothermy is an apomorphy for modern birds (**T** or **F**)  
+
+2) Which of the following are avian apomorphies? You may select multiple answers
+   a) feathers
+   b) furcula
+   c) uncinate processes
+   d) the larynx
+   e) the gizzard
+
+3) Select the answer that correctly describes hierarchical taxonomic relationships (i.e., the taxon on the left encompasses the taxon immediately to its right, and so on).
+   a) Neognathae > Neoaves > Telluraves 
+   b) Neognathae > Neoaves > Telluraves 
+   c) Telluraves > Neoaves > Sphenisciformes
+   d) Paleognathae > Neognathae > Aequornithes
+
+4) Consider the evolutionary trees (*phylogenies*) below (from Gregory 2008, *Evolution: Education and Outreach*): 
+
+    - Do they show the same set of relationships? (Y / N)
+    - In tree **a**, is the frog more closely related to the fish or the lizard? (Fish / Lizard)
+    
+\begin{figure}
+\centering
+\includegraphics[width = 0.35\linewidth]{images/phylo.png}
+\end{figure}
+
+5) Describe why modern birds can be considered an adaptive radiation. 

@@ -1,0 +1,445 @@
+---
+title: "Modern Bird Diversity"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Classifying Modern Birds
+
+- Class: Aves
+- Order: Passeriformes
+- Family: Turdidae
+- Genus: *Ixoreus*
+- Species: *I. naevius*
+- Specific Epithet: *naevius*
+
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/vath.png}
+\end{figure}  
+\hfill \tiny ([ML28703721](https://macaulaylibrary.org/asset/28703721))
+
+# Classifying Modern Birds
+
+How do we quantify taxonomic diversity in birds?
+
+- 1 class
+- ~40 orders
+- ~247 families
+- ~2312 genera
+- ~10,699 species 
+
+*via Gill & Prum. Know these to an order of magnitude!
+
+# Why might species numbers change over time?
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE, fig.width=5, fig.height=3, out.width="95%"}
+library(ggplot2)
+birds <-c(18939, 8590, 9672, 10425, 11145)
+years <- c(1909, 1951, 1990, 2014, 2024)
+source <- c("Sharpe", "Mayr & Amadon", "Sibley & Monroe", "eBird 2014", "eBird 2025")
+df <- cbind.data.frame(birds, years, source)
+ggplot(df, aes(x = years, y = birds, shape = source)) +
+  geom_line(aes(group = 1), linetype = "dashed", size = 0.4, color = "black") +
+  geom_point(size = 3) +
+  theme_classic() +
+  theme(legend.position = c(1, 1),         # upper right inside plot
+        legend.justification = c(1, 1)) +
+  labs(x = "Year", y = "Number of species", shape = "Source")
+
+```
+
+# Higher-level Avian Taxonomy
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/birdtree.png}
+\end{figure}  
+\hfill \tiny (Stiller et al. 2024)
+
+# Paleognathae
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/coos.png}
+\end{figure}  
+
+Stuthioniformes (ostriches, 2 spp.)
+
+\hfill \tiny ([*Struthio camelus*](https://macaulaylibrary.org/asset/204565301))
+
+# Paleognathae  
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/rhea.png}
+\end{figure}  
+
+Rheiformes (Rheas, 2 spp.)
+
+\hfill \tiny ([*Rhea americana*](https://macaulaylibrary.org/asset/72353001))
+
+# Paleognathae  
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/kiwi.png}
+\end{figure}  
+
+Apterygiformes (Kiwis, 5 spp.) 
+
+\hfill \tiny ([*Apteryx maxima*](https://macaulaylibrary.org/asset/219724521))
+
+# Paleognathae  
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/cassowary.png}
+\end{figure}  
+
+Casuariformes (Emus and Cassowaries, 4 spp.)
+
+\hfill \tiny ([*Casuarius casuarius*](https://macaulaylibrary.org/asset/63994411))
+
+# Paleognathae  
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/tinamou.png}
+\end{figure}  
+
+Tinamiformes (Tinamous, 47 spp.)
+
+\hfill \tiny ([*Tinamus major*](https://ebird.org/checklist/S52561962))
+
+# Neognathae: Galloanseres
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/brushturkey.png}
+\end{figure}  
+
+Important orders: Galliformes ("landfowl", 300 spp.)
+
+\hfill \tiny ([*Alectura lathami*](https://macaulaylibrary.org/asset/81277181))
+
+# Neognathae: Galloanseres
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/magpiegoose.png}
+\end{figure}  
+
+Anseriformes ("waterfowl", 177 spp.)
+
+\hfill \tiny ([*Anseranas semipalmata*](https://macaulaylibrary.org/asset/70134081))
+
+# Neognathae: "Orphaned" Neoaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/nightjar.png}
+\end{figure}  
+
+Caprimulgiformes (swifts, nightjars, hummingbirds, etc., 602 spp.)
+
+\hfill \tiny ([*Uropsalis lyra*](https://macaulaylibrary.org/asset/51940921))
+
+# Neognathae: "Orphaned" Neoaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/cuckoo.png}
+\end{figure}  
+
+Cuculiformaces (cuckoos, 149 spp.)
+
+\hfill \tiny ([*Coccyzus longirostris*](https://macaulaylibrary.org/asset/80877841))
+
+# Neognathae: "Orphaned" Neoaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/ptilinopus.png}
+\end{figure}  
+
+Columbiformes (pigeons, 344 spp.)
+
+\hfill \tiny ([*Ptilinopus magnificus*](https://macaulaylibrary.org/asset/246127211))
+
+# Neognathae: "Orphaned" Neoaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/franklin.png}
+\end{figure}  
+
+Charadriiformes (shorebirds, gulls, terns, etc., 383 spp.)
+
+\hfill \tiny ([*Leucophaeus pipixcan*](https://macaulaylibrary.org/asset/55259551))
+
+# Neognathae: Neoaves: Aequornithes
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/penguin.png}
+\end{figure}  
+
+Sphenisciformes (penguins! 18 spp.)
+
+\hfill \tiny ([*Pygoscelis papua*](https://macaulaylibrary.org/asset/612758547))
+
+# Neognathae: Neoaves: Aequornithes
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/albatross.png}
+\end{figure}  
+
+Procelariiformes (tube-nosed seabirds, e.g. petrels and albatrosses, 147 spp.)
+
+\hfill \tiny ([*Diomedea sanfordi*](https://macaulaylibrary.org/asset/262994551))
+
+# Neognathae: Neoaves: Aequornithes
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/ibis.png}
+\end{figure}  
+
+Pelecaniformes (pelicans, ibises, Shoebill, etc., 118 spp.)
+
+\hfill \tiny ([*Theristicus caudatus*](https://macaulaylibrary.org/asset/44739891))
+
+# Neognathae: Neoaves: Telluraves: Afroaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/astur.png}
+\end{figure}  
+
+Accipitriformes (raptors, 266 spp.) 
+
+\hfill \tiny ([*Theristicus caudatus*](https://macaulaylibrary.org/asset/298044011))
+
+# Neognathae: Neoaves: Telluraves: Afroaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/owl.png}
+\end{figure}  
+
+Strigiformes (owls, 244 spp.)
+
+\hfill \tiny ([*Otus rutilus*](https://macaulaylibrary.org/asset/290921711))
+
+# Neognathae: Neoaves: Telluraves: Afroaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/motmot.png}
+\end{figure}  
+
+Coraciiformes (kingfishers and relatives, 177 spp.)
+
+\hfill \tiny ([*Baryphthengus martii*](https://macaulaylibrary.org/asset/115091291))
+
+# Neognathae: Neoaves: Telluraves: Afroaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/hemicircus.png}
+\end{figure}  
+
+Piciformes (woodpeckers and relatives, 445 spp.) 
+
+\hfill \tiny ([*Hemicircus concretus*](https://macaulaylibrary.org/asset/122514161))
+
+# Neognathae: Neoaves: Telluraves: Australaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/palm.png}
+\end{figure}  
+
+Psittaciformes (parrots, 398 spp.)
+
+\hfill \tiny ([*Probosciger aterrimus*](https://macaulaylibrary.org/asset/61124271)
+
+# Neognathae: Neoaves: Telluraves: Australaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/falcon.png}
+\end{figure}  
+
+Falconiformes (falcons / "murder parrots", 67 spp.)
+
+\hfill \tiny ([*Herpetotheres cachinnans*](https://macaulaylibrary.org/asset/84034321))
+
+# Neognathae: Neoaves: Telluraves: Australaves
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/townsend.png}
+\end{figure}  
+
+Passeriformes ("perching birds", 6,456 spp.) (!)
+
+\hfill \tiny ([*Setophaga townsendi*](https://macaulaylibrary.org/asset/45702491))
+
+# Which of the following is *not* a member of Neoaves?
+
+a) Canada Goose  
+b) Ring-necked Parakeet    
+c) Rufous Hummingbird  
+d) Ring-billed Gull  
+e) Burrowing Owl  
+
+# Biogeographic Realms
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/realms.png}
+\end{figure}  
+
+\hfill \tiny ([*Herpetotheres cachinnans*](Udvardy 1975))
+
+# Which phylogeny is more consistent with these regions?
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width=5, fig.height=3, out.width="95%"}
+library(ape)
+
+set.seed(917)
+
+# helper for colors
+get_colors <- function(labels) {
+  ifelse(grepl("Nearctic", labels), "steelblue", "firebrick")
+}
+
+# --- Case 1: Two monophyletic clades ---
+clade1 <- rtree(4)
+clade2 <- rtree(6)
+
+clade1$tip.label <- paste0("Nearctic_", seq_along(clade1$tip.label))
+clade2$tip.label <- paste0("Palearctic_", seq_along(clade2$tip.label))
+
+phy_mono <- bind.tree(clade1, clade2, where="root")
+cols_mono <- get_colors(phy_mono$tip.label)
+
+# --- Case 2: Random labeling ---
+phy_rand <- rtree(10)
+regions <- sample(c("Nearctic", "Palearctic"), size=10, replace=TRUE)
+phy_rand$tip.label <- paste0(regions, "_", seq_len(10))
+cols_rand <- get_colors(phy_rand$tip.label)
+
+# --- Plot side-by-side cladograms ---
+par(mfrow=c(1,2), mar=c(2,1,3,1))
+plot(phy_mono, tip.color=cols_mono, cex=1, type="cladogram")
+title("A")
+plot(phy_rand, tip.color=cols_rand, cex=1, type="cladogram")
+title("B")
+par(mfrow=c(1,1))
+
+```
+
+# Nearctic: 1 endemic Subfamily 
+
+Endemism / endemic: the state of a taxon being found only in a single defined geographic location
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/wrentit.png}
+\end{figure}  
+
+Timaliinae (Wrentit)
+
+\hfill \tiny ([*Chamaea fasciata*](https://macaulaylibrary.org/asset/99998731))
+
+# Palearctic: 1 endemic family
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/accentor.png}
+\end{figure}  
+
+Prunellidae (accentors)
+
+\hfill \tiny ([*Prunella collaris*](https://macaulaylibrary.org/asset/84441901))
+
+# "Holarctic": 4 endemic families or subfamilies
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/bowa.png}
+\end{figure}  
+
+Gaviidae (divers or loons), Tetraoninae (grouse), Alcidae (auks), and Bombycillidae (waxwings).
+
+\hfill \tiny ([*Bombycilla garrulus*](https://macaulaylibrary.org/asset/134340871))
+
+# Neotropical: 31 families
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/rhea.png}
+\end{figure}  
+
+Rheidae (Rheas), Ramphastidae (toucans), Jacamars (Galbulidae), many more
+
+\hfill \tiny ([*Rhea americana*](https://macaulaylibrary.org/asset/72353001))
+
+# Afrotropical: 6 families 
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/mousebird.png}
+\end{figure}  
+
+Coliidae (mousebirds), Stuthionidae (ostriches), Numididae (guinea fowl)
+
+\hfill \tiny ([*Colius striatus*](https://macaulaylibrary.org/asset/211674951))
+
+# Indomalayan: 1 endemic family 
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/bluebird.png}
+\end{figure}  
+
+Irenidae (fairy-bluebirds)
+
+\hfill \tiny ([*Irena tweeddalii*](https://macaulaylibrary.org/asset/574288261))
+
+# Australasian: 13 endemic families 
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/bop.png}
+\end{figure}  
+
+Meliphagidae (honeyeaters), Paradisaeidae (birds of paradise), Cacatuidae (cockatoos)
+
+\hfill \tiny ([*Pteridophora alberti*](https://macaulaylibrary.org/asset/106931681))
+
+# Speciation, extinction, and dispersal shape biogeography
+
+Where would you expect to find higher levels of endemism and why?
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/mtaus.png}
+\end{figure}  
+
+a) Montana: It is more centrally located in its continent  
+b) Australia: It experiences less extinction  
+c) Montana: It experiences more extinction  
+d) Australia: It is more isolated from other landmasses  
+
+# References
+
+- Title Slide Species: *Polioptila maior*, *Zentrygon carrikeri*, *Pica pica*, *Spizaetus melanoleucus*  
+
+- Sharpe, R. B. (1909). A hand-list of the genera and species of birds (Nomenclator Avium tum Fossilium tum Viventium) (Vol. V). London: Trustees of the British Museum (Natural History).
+
+- Mayr, E., & Amadon, D. (1951). A classification of recent birds. American Museum Novitates, 1496, 1–42.
+
+- Sibley, C. G., & Monroe, B. L., Jr. (1990). Distribution and taxonomy of birds of the world. New Haven, CT: Yale University Press.
+
+# References
+
+- Schulenberg, T. S., Iliff, M. J., & Clements, J. F. (Eds.). (2014). The eBird/Clements checklist of birds of the world: Version 6.9 [Data set]. Cornell Lab of Ornithology.
+
+- Clements, J. F., Rasmussen, P. C., Schulenberg, T. S., Iliff, M. J., Fredericks, T. A., Gerbracht, J. A., Lepage, D., Spencer, A., Billerman, S. M., Sullivan, B. L., Smith, M., & Wood, C. L. (2024). The eBird/Clements checklist of birds of the world: v2024 [Data set]. Cornell Lab of Ornithology.
+
+- Stiller, J., Feng, S., Chowdhury, A. A., Rivas-González, I., Duchêne, D. A., Fang, Q., ... & Zhang, G. (2024). Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), 851-860.
+
+- Udvardy, M. D. (1975). A classification of the biogeographical provinces of the world.
+
+
+
