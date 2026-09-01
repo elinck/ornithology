@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1) Endothermy is an apomorphy for modern birds (**T** or **F**)  
 
-2) Which of the following are avian apomorphies? You may select multiple answers
+2) Which of the following are avian apomorphies? (You may select multiple answers.)
    a) feathers
    b) furcula
    c) uncinate processes
