@@ -6,7 +6,7 @@ format: html
 **Course:** BIOO 470 (3 Credits: 2 Lecture, 1 Lab)    
 **Prerequisite:** BIOO310    
 **Lecture Time & Place:** MW 10:00 - 10:50 AM, 1147 Wilson Hall.   
-**Lab Time & Place:** R 3:05 - 4:55 PM, 012 Lewis Hall.    
+**Lab Time & Place:** R 3:05 - 4:55 PM, 407 Lewis Hall.    
 **Instructor:** Dr. Ethan Linck (ethan.linck@montana.edu; 406-994-2024)      
 **Office Hours:** 1:00 PM - 2:30 M/W, Lewis 305     
 
