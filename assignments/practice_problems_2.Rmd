@@ -1,0 +1,37 @@
+---
+  output: pdf_document
+  header-includes:
+  - \usepackage{caption}
+  - \captionsetup[figure]{labelformat=empty}
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ornithology Week 2 Practice Problems: Evolutionary Origins
+
+1) Aminotic eggs are a basal trait to all mammals and reptiles (including birds) (**T** or **F**)  
+
+2) Which is *not* shared by *Archaeopteryx lithographica* and modern birds? 
+
+   a) a toothless bill
+   b) asymmetric flight feathers
+   c) hollow bones
+   d) a furcula
+   e) flight
+    
+3) Contrast the cursorial and arboreal hypotheses for the origin of flight in Saurischians (1-2 sentences). 
+
+4) The Cretaceous Period occured more recently than the Jurassic Period  (**T** or **F**)   
+
+5) Which of the following statements is *incorrect*?  
+
+   a) birds belong to the clade Saurischia
+   b) birds are reptile-hipped dinosaurs
+   c) Dinosaurs (Clade: Dinosauria) are paraphyletic when birds are excluded
+   d) Archaeopteryx was a bird-hipped dinosaur
+   e) birds, non-avian dinosaurs, and other reptiles form a monophyletic group (clade)
+   
+
+
