@@ -1,0 +1,215 @@
+---
+title: "Evolutionary Origins"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Are reptiles a clade without birds?
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/reptiles.png}
+\end{figure}  
+
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/))
+
+
+# Are reptiles a clade without birds?
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/reptiles.png}
+\end{figure}  
+
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/))
+
+\normalsize  
+a) Yes
+b) No
+
+# Reptiles and dinosaurs would be *paraphyletic* without birds
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/reptiles2.png}
+\end{figure}  
+
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/))
+
+# Review: Paraphyletic groups exclude some descendants
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/clades.png}
+\end{figure}  
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/))
+
+# Review: Apomorphies define clades
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/apomorphies.png}
+\end{figure}  
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns//))
+
+# Trait polarity
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/apomorphies.png}
+\end{figure}  
+
+- Basal traits: evolved earlier; shared by all
+- Derived traits: evolved later; define subclades
+
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns//))
+
+# Derived traits in reptiles / birds: occipital condyle
+
+- 1 "ball & socket" vs 2 in mammals
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/occondyle.png}
+\end{figure}  
+
+\hfill \tiny (Choudhary et al. 2021)
+
+# Derived traits in reptiles / birds: stapes
+
+- 1 middle ear bone vs. 3 in mammals
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/stapes.png}
+\end{figure}  
+
+\hfill \tiny (Tucker 2017)
+
+# Derived traits in reptiles / birds: ankle position
+
+- within tarsal bones vs. between tibia and tarsi in mammals
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/ankle.png}
+\end{figure}  
+
+\hfill \tiny ([Rebecca Hawkins](https://x.com/RebeccasBones/status/1051139273225883649))
+
+# Which of the following are apomorphies for reptiles?
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/varanus.png}
+\end{figure}  
+
+\hfill \tiny ([*Varanus komodoensis*](https://www.inaturalist.org/taxa/39449-Varanus-komodoensis))
+\normalsize 
+
+a) amniotic egg  
+b) two post-orbital fenestrae  
+c) one middle ear bones  
+d) a, b, and c  
+e) b and c  
+
+# Birds are "reptile-hipped" theropod dinosaurs
+
+- Triassic, Jurassic, and Cretaceous **periods** belong to the Mesozoic **era**
+- Modern birds survived K-Pg boundary, continuted evolving in Tertiary and Quaternary **periods** in current Cenozoic **era**
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/dinos.png}
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Dinosaur_classification))
+
+# Evolution both makes new lineages and occurs within them 
+
+- **Cladogenesis**: lineage splitting through speciation; gives rise to new clades
+- **Anagenesis**: evolutionary change within a lineage without speciation
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/dinos.png}
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Dinosaur_classification))
+
+
+# *Archaeopteryx lithiographica*: A transitional form
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/berlin.jpg}
+\end{figure}  
+
+- Like modern birds, had hallux + asymmetrical flight feathers on wings + feathers on tail
+- Unlike modern birds, had teeth and long bony tail
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Archaeopteryx))
+
+# Jehol biota in china fills in Mesozoic gaps
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/jehol.png}
+\end{figure}  
+
+\hfill \tiny ([*Gansus zheni* by Stephanie Abramowicz in "Birds of Stone"](https://archive.org/details/birds-of-stone-chinese-avian-fossils-from-the-age-of-dinosaurs-pdfdrive))
+
+# Hollow bones and feathers evolved early
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/bird_evo.jpg}
+\end{figure}  
+
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/what-are-evograms/the-origin-of-birds/))
+
+# Most modern bird traits present by 145 mya
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/dino2bird.png}
+\end{figure}  
+
+\hfill \tiny (Rashid et al. 2014)
+
+# Cursorial versus arboreal hypotheses for flight
+
+- **Cursorial**: a running start (chukars do this)
+- **Arboreal**: climbing, then gliding, then flapping
+- Likely a mix!
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/flight.png}
+\end{figure}  
+
+\hfill \tiny (Rashid et al. 2014)
+
+# Which of the following places derived bird traits in the order they evolved?
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/jehol.png}
+\end{figure}  
+
+a) hollow bones, feathers, four digits in hand, toothless beak
+b) toothless beak, four digits in hand, feathers, toothless beak
+c) feathers, toothless beak, hollow bones, four digits in hand
+e) four digits in hand, hollow bones, feathers, toothless beak
+
+# References
+
+- Title Slide Paleoart: *Caihong juji* (Velizar Simeonovski), *Confuciusornis sanctus* (Franz Anthony) *Archaeopteryx lithiographica* (James Reece)
+
+- Choudhary, O. P., Kalita, P. C., Arya, R. S., Rajkhowa, T. K., Kalita, A., & Doley, P. J. (2021). Morphometric and radiographic characteristics of the skull in crested serpent eagle (Spilornis cheela) and brown wood owl (Strix leptogrammica). Indian Journal of Animal Research, 55(4), 426-432.
+
+- Tucker, A. S. (2017). Major evolutionary transitions and innovations: the tympanic middle ear. Philosophical Transactions of the Royal Society B: Biological Sciences, 372(1713), 20150483.
+
+# References
+
+- Rashid, D. J., Chapman, S. C., Larsson, H. C., Organ, C. L., Bebin, A. G., Merzdorf, C. S., ... & Horner, J. R. (2014). From dinosaurs to birds: a tail of evolution. EvoDevo, 5(1), 25.
+
+- Feduccia, A. (2016). Bird Flight Origins. Encylopedia of Evolutionary Biology. 

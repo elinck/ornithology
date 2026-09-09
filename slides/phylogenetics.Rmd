@@ -1,0 +1,325 @@
+---
+title: "Avian Phylogenetics"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Taxonomic groups are (usually) monophyletic
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/clades.png}
+\end{figure}  
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/))
+
+# Taxonomic groups are (usually) monophyletic
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/reptiles2.png}
+\end{figure}  
+
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/))
+
+# "Lower" (narrowly defined) taxa share derived traitss
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/apomorphies.png}
+\end{figure}  
+
+- Basal traits: evolved earlier; shared by all
+- Derived traits: evolved later; define subclades
+
+\hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns//))
+
+# Morphological phylogenetic systematics 
+
+- Do named taxa share derived traits?
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/passeriformes1.png}
+\end{figure}  
+
+\hfill \tiny (Raikow 1982)
+
+# Morphological phylogenetic systematics 
+
+- Do named taxa share derived traits?
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/passeriformes2.png}
+\end{figure}  
+
+\hfill \tiny (Raikow 1982)
+
+# Morphological phylogenetic systematics 
+
+- Do named taxa share derived traits?
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/passeriformes3.png}
+\end{figure}  
+
+\hfill \tiny (Raikow 1982)  
+
+# Morphological phylogenetic systematics 
+
+- Morphological methods established many groups!
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/cracraft.png}
+\end{figure}  
+
+\hfill \tiny (Cracraft 1982)  
+
+# When does morphology fail?  
+
+- Plumage can converge because of biotic interactions like mimicry
+- E.g., Hairy Woodpecker (*Leuconotopicus villosus*) and Downy Woodpecker (*Dryobates pubescens*)
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/hairydowny1.png}
+\end{figure}  
+
+\hfill \tiny (Weibel & Moore 2005) 
+
+# When does morphology fail?  
+
+- Genetic data confirms analysis of traits other than plumage in Hairy / Downy pair 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/hairydowny2.png}
+\end{figure}  
+
+\hfill \tiny (Miller et al. 2019) 
+
+# Molecular phylogenetics 
+
+- DNA sequences provide millions of independent "traits"
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/molphy.jpg}
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Substitution_model)) 
+
+# Phylogenetics helps evaluate cryptic diversity 
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/flycatchersguide.png}
+\end{figure}  
+
+\hfill \tiny (Lee & Birch 2023)  
+
+# Case Study: Pacific Slope / Cordilleran Flycatcher  
+
+- Highly similar Western US flycatchers 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/flycatchers.png}
+\end{figure}  
+
+\hfill \tiny ([*Empidonax difficilis*](https://macaulaylibrary.org/asset/236799211) / [*Empidonax occidentalis*](https://macaulaylibrary.org/asset/108268701))  
+
+# Johnson split "Western" flycatcher  
+
+- Early genetic data + variation in vocalization
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/johnson.png}
+\end{figure}  
+
+\hfill \tiny (Johnson & Marten 1988) 
+
+# But Pacific Slope and Cordilleran Flycatcher hybridize! 
+
+- Contact zone in NW Montana / BC
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/rush.png}
+\end{figure}  
+
+\hfill \tiny (Rush et al. 2009) 
+
+# Is Cordilleran Flycatcher *E. occidentalis* monophyletic?
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/flycatchers2.png}
+\end{figure}  
+
+\hfill \tiny (Linck et al. 2019)  
+
+# Proposal to American Ornithological Society to "lump"
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/proposal1}
+\end{figure}  
+
+\hfill \tiny (Chesser et al. 2023)  
+
+# Western Flycatcher lives again...for now
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/weflebird}
+\end{figure}  
+
+# Avian phylo\underline{genomics}: Hacket et al. 2008
+
+- Passerines sister to parrots
+- Flamingos sister to grebes
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/hackett.png}
+\end{figure}  
+
+\hfill \tiny (169 species, 32 kilobases, Hacket et al. 2008)  
+
+# Avian phylo\underline{genomics}: Jarvis et al. 2014
+
+- Ancestor of core land birds a bird of prey
+- Neoaves diversifies at K-Pg Boundary
+
+\begin{figure}
+\includegraphics[width = 0.45\linewidth]{images/jarvis.png}
+\end{figure}  
+
+\hfill \tiny (48 species, whole genomes, Jarvis et al. 2014)  
+
+# Avian phylo\underline{genomics}: Jarvis et al. 2014
+
+- Ancestor of core land birds a bird of prey
+- Neoaves diversifies at K-Pg Boundary
+
+\begin{figure}
+\includegraphics[width = 0.45\linewidth]{images/jarvis.png}
+\end{figure}  
+
+\hfill \tiny (48 species, whole genomes, Jarvis et al. 2014)  
+
+# Avian phylo\underline{genomics}: Prum et al. 2015
+
+- No support for Columbea and Passerea
+- Hoatzin sister to clade of landbirds within Neoaves
+
+\begin{figure}
+\includegraphics[width = 0.45\linewidth]{images/prum2.png}
+\end{figure}  
+
+\hfill \tiny (198 species, 259 loci, Prum et al. 2015)  
+
+# Avian phylo\underline{genomics}: Prum et al. 2015
+
+- No support for Columbea and Passerea
+- Hoatzin sister to clade of landbirds within Neoaves
+
+\begin{figure}
+\includegraphics[width = 0.45\linewidth]{images/prum1.png}
+\end{figure}  
+
+\hfill \tiny (198 species, 259 loci, Prum et al. 2015)  
+
+# Avian phylo\underline{genomics}: Kuhl et al. 2020
+
+- Ancestor of core land birds a bird of prey
+- Neoaves diversifies at K-Pg Boundary
+
+\begin{figure}
+\includegraphics[width = 0.45\linewidth]{images/kuhl.jpeg}
+\end{figure}  
+
+\hfill \tiny (221 species, "untranslated regions", Kuhl et al. 2020)  
+
+# Avian phylo\underline{genomics}: Stiller et al. 2024
+
+- 363 bird species & 63,430 intergenic loci
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/birdtree.png}
+\end{figure}  
+
+\hfill \tiny (Stiller et al. 2024)  
+
+# A hard polytomy at the base of Neoaves?
+
+- Unresolvable because of 9 near-instantaneous speciation events
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/polytomy.jpg}
+\end{figure}  
+
+\hfill \tiny (Suh 2016)  
+
+# In conclusion...
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/meme.png}
+\end{figure}  
+
+# Things to know
+
+Name representative taxa from the following groups: 
+
+- Paleognathae and Neoaves
+- Galliformes and Anseriformes
+- Aequiornithes 
+- "Basal" Neoaves (Camprimulgiformes, Columbiformes, Gruiformes, Hoatzin)
+
+Remember:
+
+- How taxonomy and phylogenetics are related
+- Relationships in basal Neoaves are hard to determine due to rapid radiation at K-Pg boundary
+- Australaves contains parrots, falcons, passerines
+
+# References
+
+- Title Slide Species: *Cnemophilus macgregorii*, *Dicaeum keiense*, *Cyornis ocularis*, *Calidris pygmaea* 
+
+- Raikow, R. J. (1982). Monophyly of the Passeriformes: test of a phylogenetic hypothesis. The Auk, 99(3), 431-445. 
+
+- Cracraft, J. (1981). Toward a phylogenetic classification of the recent birds of the world (Class Aves). The Auk, 681-714.
+
+- Weibel, A. C., & Moore, W. S. (2005). Plumage convergence in Picoides woodpeckers based on a molecular phylogeny, with emphasis on convergence in downy and hairy woodpeckers. The Condor, 107(4), 797-809.
+
+- Miller, E. T., Leighton, G. M., Freeman, B. G., Lees, A. C., & Ligon, R. A. (2019). Ecological and geographical overlap drive plumage evolution and mimicry in woodpeckers. Nature communications, 10(1), 1602.
+
+# References
+
+- Lee, C. T., & Birch, A. (2023). Field Guide to North American Flycatchers: Empidonax and Pewees. In Field Guide to North American Flycatchers. Princeton University Press.
+
+- Johnson, N. K., & Marten, J. A. (1988). Evolutionary genetics of flycatchers. II. Differentiation in the Empidonax difficilis complex. The Auk, 177-191.
+
+- Rush, A. C., Cannings, R. J., & Irwin, D. E. (2009). Analysis of multilocus DNA reveals hybridization in a contact zone between Empidonax flycatchers. Journal of Avian Biology, 40(6), 614-624.
+
+- Chesser, R. T., Billerman, S. M., Burns, K. J., Cicero, C., Dunn, J. L., Hernández-Baños, B. E., ... & Winker, K. (2023). Sixty-fourth supplement to the American Ornithological Society’s check-list of North American birds. Ornithology, 140(3).
+
+# References
+
+- Hackett, S. J., Kimball, R. T., Reddy, S., Bowie, R. C., Braun, E. L., Braun, M. J., ... & Yuri, T. (2008). A phylogenomic study of birds reveals their evolutionary history. Science, 320(5884), 1763-1768.
+
+- Jarvis, E. D., Mirarab, S., Aberer, A. J., Li, B., Houde, P., Li, C., ... & Zhang, G. (2014). Whole-genome analyses resolve early branches in the tree of life of modern birds. Science, 346(6215), 1320-1331.
+
+- Prum, R. O., Berv, J. S., Dornburg, A., Field, D. J., Townsend, J. P., Lemmon, E. M., & Lemmon, A. R. (2015). A comprehensive phylogeny of birds (Aves) using targeted next-generation DNA sequencing. Nature, 526(7574), 569-573.
+
+
+# References
+
+- Kuhl, H., Frankl-Vilches, C., Bakker, A., Mayr, G., Nikolaus, G., Boerno, S. T., ... & Gahr, M. (2021). An unbiased molecular approach using 3'-UTRs resolves the avian family-level tree of life. Molecular biology and evolution, 38(1), 108-127.
+
+- Stiller, J., Feng, S., Chowdhury, A. A., Rivas-González, I., Duchêne, D. A., Fang, Q., ... & Zhang, G. (2024). Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), 851-860.
+
+- Suh, A. (2016). The phylogenomic forest of bird trees contains a hard polytomy at the root of Neoaves. Zoologica Scripta, 45, 50-62.
+
