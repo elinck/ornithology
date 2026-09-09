@@ -145,9 +145,10 @@ e) b and c
 # *Archaeopteryx lithiographica*: A transitional form
 
 \begin{figure}
-\includegraphics[width = 0.4\linewidth]{images/berlin.jpg}
+\includegraphics[width = 0.35\linewidth]{images/berlin.jpg}
 \end{figure}  
 
+- Lived ca. 150 mya (late Jurassic); discovered 1861 in Germany and ended up at London NHM
 - Like modern birds, had hallux + asymmetrical flight feathers on wings + feathers on tail
 - Unlike modern birds, had teeth and long bony tail
 
@@ -156,10 +157,14 @@ e) b and c
 # Jehol biota in china fills in Mesozoic gaps
 
 \begin{figure}
-\includegraphics[width = \linewidth]{images/jehol.png}
+\includegraphics[width = 0.8\linewidth]{images/jehol.png}
 \end{figure}  
 
 \hfill \tiny ([*Gansus zheni* by Stephanie Abramowicz in "Birds of Stone"](https://archive.org/details/birds-of-stone-chinese-avian-fossils-from-the-age-of-dinosaurs-pdfdrive))
+\normalsize  
+
+- Transitional fossils from ca. 135 - 121 mya (early Cretaceous); discovered 1861 in Germany and ended up at London NHM  
+- Diverse taxa and traits including structural color  
 
 # Hollow bones and feathers evolved early
 
