@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 \hfill \tiny ([Berkeley: Understanding Evolution](https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/))
 
-# "Lower" (narrowly defined) taxa share derived traitss
+# "Lower" (narrowly defined) taxa share derived traits
 
 \begin{figure}
 \includegraphics[width = 0.9\linewidth]{images/apomorphies.png}
@@ -48,7 +48,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Morphological phylogenetic systematics 
 
-- Do named taxa share derived traits?
+- Do named taxa share derived traits that reflect *ancestry* (not convergent natural selection)?
 
 \begin{figure}
 \includegraphics[width = 0.7\linewidth]{images/passeriformes1.png}
@@ -177,6 +177,18 @@ knitr::opts_chunk$set(echo = FALSE)
 \includegraphics[width = \linewidth]{images/weflebird}
 \end{figure}  
 
+# What could resurrect PSFL and COFL?
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/weflebird}
+\end{figure}  
+
+a) more genomic data
+b) samples from a new part of COFL's range 
+c) evidence genetic markers in Linck et al. were influenced by selection 
+d) a new species concept 
+e) all of the above
+
 # Avian phylo\underline{genomics}: Hacket et al. 2008
 
 - Passerines sister to parrots
@@ -269,19 +281,32 @@ knitr::opts_chunk$set(echo = FALSE)
 \includegraphics[width = \linewidth]{images/meme.png}
 \end{figure}  
 
+# What can we conclude about the avian tree of life?
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/birdtree.png}
+\end{figure}  
+
+a) many lineages in Neoaves are only distantly related
+b) extinction of non-avian dinosaurs permitted rapid diversification of birds
+c) many familiar groups (e.g., Passerines) are monophyletic
+d) the Hoatzin is weird  
+e) all of the above
+
 # Things to know
 
 Name representative taxa from the following groups: 
 
-- Paleognathae and Neoaves
-- Galliformes and Anseriformes
+- Paleognathae, Neognathae, Galloanseres, and Neoaves
 - Aequiornithes 
-- "Basal" Neoaves (Camprimulgiformes, Columbiformes, Gruiformes, Hoatzin)
+- 'Orphaned' Neoaves (Camprimulgiformes, Columbiformes, Gruiformes, Hoatzin, others)
+- Telluraves (Afroaves + Australaves)
 
 Remember:
 
 - How taxonomy and phylogenetics are related
-- Relationships in basal Neoaves are hard to determine due to rapid radiation at K-Pg boundary
+- Relationships in the 'orphaned' Neoaves are hard to determine due to rapid radiation at K-Pg boundary
+- Afroaves contains woodpeckers, kingfishers, owls, accipiters
 - Australaves contains parrots, falcons, passerines
 
 # References
