@@ -66,6 +66,7 @@ This is a maximalist version of the course syllabus (also available as a [pdf](a
 | 9/14 - 9/18   | - Phylogenetics & Speciation      | - Gill & Prum Ch. 3 & 19                                                                          |
 |               |                                   | - [Slides (M)](slides/phylogenetics.pdf)                                                          |
 |               |                                   | - [Slides (W)](slides/speciation.pdf)                                                             |
+|               |                                   | - [Practice Problems](assignments/practice_problems_3.pdf)                                        |  
 |               |                                   | - Lab 2: Skeletal & Internal anatomy                                                              |
 |               |                                   | - Lab Quiz 1                                                                                      |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+

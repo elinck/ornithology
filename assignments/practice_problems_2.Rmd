@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Ornithology Week 2 Practice Problems: Evolutionary Origins
 
-1) Aminotic eggs are a basal trait to all mammals and reptiles (including birds) (**T** or **F**)  
+1) Aminotic eggs are a basal trait to all mammals and reptiles (including birds). (**T** or **F**)  
 
 2) Which is *not* shared by *Archaeopteryx lithographica* and modern birds? 
 
@@ -21,9 +21,9 @@ knitr::opts_chunk$set(echo = TRUE)
    d) a furcula
    e) flight
     
-3) Contrast the cursorial and arboreal hypotheses for the origin of flight in Saurischians (1-2 sentences). 
+3) Contrast the cursorial and arboreal hypotheses for the origin of flight in Saurischians. (1-2 sentences) 
 
-4) The Cretaceous Period occured more recently than the Jurassic Period  (**T** or **F**)   
+4) The Cretaceous Period occured more recently than the Jurassic Period. (**T** or **F**)   
 
 5) Which of the following statements is *incorrect*?  
 

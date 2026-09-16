@@ -1,0 +1,33 @@
+---
+  output: pdf_document
+  header-includes:
+  - \usepackage{caption}
+  - \captionsetup[figure]{labelformat=empty}
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ornithology Week 3 Practice Problems: Phylogenetics and Speciation
+
+1) Passeriformes is a "higher" taxon than Psittacidae. (**T**, **F**, or **It Depends**)  
+
+2) Which statement is most accurate?
+
+   a) Morphological data are better for phylogenetics because they reflect selection
+   b) DNA sequence data are better for phylogenetics because they reflect selection
+   c) Morphological data are better for phylogenetics because they never reflect selection
+   d) DNA sequence data better for phylogenetics because they never reflect selection
+   e) DNA sequence data better for phylogenetics because they provide lots of information  
+    
+3) List reasons why a single species might be "split" into two new species. (1-2 sentences) 
+
+4) How are the K-Pg boundary and scientific debate about the Hoatzin's closest relatives related? (1-2 sentences) 
+
+5) Contrast sympatric, parapatric, and allopatric speciation. Which is most common in birds? (1-2 sentences)  
+
+6) Having infertile offspring is evidence of prezygotic isolation. (**T**, **F**, or **It Depends**)  
+
+7) Assessing whether an individual bird has a patch of feathers of a specific color is an example of a species delimitation criterion. (**T**, **F**, or **It Depends**)  
+
