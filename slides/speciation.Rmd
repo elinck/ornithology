@@ -1,0 +1,334 @@
+---
+title: "Avian Speciation"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# What is a species?
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/flycatchers.png}
+\end{figure}  
+
+\hfill \tiny ([*Empidonax difficilis*](https://macaulaylibrary.org/asset/236799211) / [*Empidonax occidentalis*](https://macaulaylibrary.org/asset/108268701))  
+
+# Species concepts
+
+- 24 species concepts and counting (Mayden 1997)
+- Widespread confusion between conceptual basis and operational criteria (*definitions* versus *delimitation*)
+- Conflict from alternate definitions, insufficient data...
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/phylloscopus.png}
+\end{figure}  
+
+# Species concepts
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/dequeiroz.png}
+\end{figure}  
+(De Queiroz 2007)
+
+# Species concepts  
+
+- *Phylogenetic species concept*: A species is a group of individuals that conform to one or more phylogenetic criteria (reciprocal monophyly, coalescence of all gene trees)
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/phylogeny.png}
+\end{figure}  
+
+# Species concepts  
+
+- *Ecological species concept*: A species is a group of individuals that share the same ecological niche or adaptive zone
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/nicheconcept.png}
+\end{figure}  
+
+# Species concepts  
+
+- *Evolutionary species concept*: A species is a group of individuals with the same evolutionary role, tendencies, and historical fate
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/evolutionary.png}
+\end{figure}  
+
+# Species concepts  
+
+- *Phenetic cluster species concept*: A species is a group of individuals that form a cluster in morphological space separated from other such groups (similar trait values for multiple features)
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/phenetic.png}
+\end{figure}  
+
+# Species concepts 
+
+- *Genotypic cluster species concept*: A species is a group of individuals that form a cluster in genoptypic space separated from other such groups (similar allele frequencies at multiple loci)
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/genotypic.png}
+\end{figure}  
+
+
+# Species concepts
+
+- *Biological species concept*: A species is a group of actively or potentially interbeeding individuals separated from other such groups by intrinsic or extrinsic reproductive isolation (not only geography)  
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/biological.png}
+\end{figure}  
+
+# Speciation is a spectrum
+
+- Another source of conflict: some taxa caught in middle of the process!
+
+\begin{figure}
+\includegraphics[width = 0.45\linewidth]{images/dequeiroz2.png}
+\end{figure}  
+\hfill \tiny  (De Queiroz 2007)
+
+# Which of the following is a *criterion* for delimiting species? 
+
+a) species have genomes that are greater than 5% different than their closest relative
+b) species are groups of individuals that share an ecological niche
+c) species are members of a lineage with a shared evolutionary trajectory
+e) none of the above
+f) all of the above
+
+# Prezygotic Isolation
+
+- Divergence *before* mating: ecology, behavior, appearance, song
+- Can be measured with field experiments to test for intraspecific aggression against potential competitors for mates
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/freemansong.png}
+\end{figure}  
+
+\hfill \tiny (Freeman et al. 2022)  
+
+# Prezygotic Isolation
+
+- Freeman et al. 2020: birds that do *not* respond aggressively to songs from close relatives ("song discrimination") in allopatry (isolation) are less likely to interbreed in parapatry (i.e., contact)   
+- Birds with the same level of genetic divergence but greater song discrimintation are less likely to interbreed in parapatry  
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/freemansong.png}
+\end{figure}  
+
+\hfill \tiny (Freeman et al. 2022)  
+
+# Postzygotic Isolation 
+
+- Divergence *after* mating: genetic incompatabilities, selection against hybrids
+- Can be measured by fitness or prevalance of hybrids, experiments, assessment of genetic architecture 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/postzygotic.png}
+\end{figure}  
+
+\hfill \tiny (Price et al. 2002)  
+
+# Allopatric speciation
+
+- Speciation in geographic isolation ("allo"=different, "patry"=homeland)
+- Predicts allopatric populations are monophyletic groups
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/juncos.png}
+\end{figure}  
+
+\hfill \tiny (Freis et al. 2016)  
+
+# Allopatric speciation
+
+- "Easiest" and by far most common mode
+- Allopatric ranges can be generated by geologic processes, climatic changes, dispersal 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/allopatric.png}
+\end{figure}  
+
+\hfill \tiny (Kearns et al. 2014)  
+
+# Is sympatric speciation possible?
+
+- Speciation *without* geographic barriers to gene flow
+- Requires strong natural selection 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/sympatric1.png}
+\end{figure}  
+
+\hfill \tiny (Ryan et al. 2016)  
+
+# Which prediction is consistent with sympatric speciation?
+
+- Tips with the same number are on the same island
+- Tips with the same letter have the same ecological adaptation
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height=3.25, fig.width=5}
+library(ape)
+
+# Hypothesis 1: Parallel sympatric speciation
+tree_sympatric <- read.tree(text = "((A1:1,B1:1):1,(A2:1,B2:1):1);")
+
+# Hypothesis 2: Allopatric speciation
+tree_allopatric <- read.tree(text = "((A1:1,A2:1):1,(B1:1,B2:1):1);")
+
+# Plot side-by-side
+par(mfrow = c(1, 2))
+plot(tree_sympatric, main = "a)", cex = 1.2)
+plot(tree_allopatric, main = "b)", cex = 1.2)
+```
+
+(in **a**, birds on the same island have different niches; in **b**, birds on different islands have the same niche)  
+
+# Sympatric speciation in South Atlantic Finches
+
+- Bill size matches seeds in habitat 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/sympatric2.png}
+\end{figure}  
+
+\hfill \tiny (Ryan et al. 2016)  
+
+# Sympatric speciation in South Atlantic Finches
+
+- Different ecological forms within each island are most closely related
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/sympatric3.png}
+\end{figure}  
+
+\hfill \tiny (Ryan et al. 2016)  
+
+# Parapatric speciation
+
+- Intermediate to allopatric and sympatric speciation
+- Adjacent but nonoverlapping ranges
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/syma.png}
+\end{figure}  
+\hfill \tiny (Linck et al. 2020, *J. Evol. Biol.*)
+
+\normalsize
+(in Linck et al., Mountain Kingfisher diverged from Yellow-billed Kingfisher once, not repeatedly across elevational gradients, making paraptric speciation hard to prove, though they do hybridize)  
+
+# Ring species
+
+- Adjacent populations similar but subtly different
+- Reproductive isolation increases with distance, complete at ends of horseshoe
+- Example: Greenish Warbler wrapping around the Tibetan Plateau; morphologically and ecologically similar. 
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/ringspecies.png}
+\end{figure}  
+
+\hfill \tiny (Irwin et al. 2001; [*Phylloscopus trochiloides*](https://macaulaylibrary.org/asset/44704121))  
+
+# Would the Biological Species Concept split Greenish Warbler?
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/ringspecies.png}
+\end{figure}  
+
+\hfill \tiny (Irwin et al. 2001; [*Phylloscopus trochiloides*](https://macaulaylibrary.org/asset/44704121))  
+
+\normalsize
+
+a) Yes
+b) No
+c) It depends on geographic sampling 
+
+
+# Lecture Exam Review
+
+- Wednesday, September 17th
+- 50 points on avian diversity, taxonomy, biogeography, phylogenetics, and speciation
+- No lab content that wasn't also covered in lecture (e.g., what a hallux is )
+- Question types: multiple choice, multiple select, true / false, fill-in-the-blanks, short answer
+- Format: Canvas quiz, closed book. Bring a laptop or tablet. 
+- **Anything covered in lecture is fair game**
+
+# Diversity
+
+- Know what an apomorphy is
+- Know what traits define birds
+- Be able to qualitatively describe how the number of described species has changed through time, and why
+- Know what an adaptive radiation is
+- Know how bird bodies, feet, bills, habitat use reflects the process of adaptive radiation 
+
+# Taxonomy & Biogeography
+
+- What taxonomic class do birds belong to?
+- Know how many avian classes, orders, families, genera, and species there are to an order of magnitude
+- Be able to qualitatively describe how the number of described species has changed through time, and why
+- What latin suffix does each avian order have? Each family?
+- Know at least one taxon (order, family, genus, or species) from each higher level group in the `03_taxonomy_biogeography.pdf` lecture
+- Know at least one taxon associated with each biogeographic realm
+- Know what "endemism" means, and what causes it
+
+# Evolutionary origins
+
+- Why are birds considered reptiles in a phylogenetic sense?
+- What traits do birds share with reptiles?
+- Did hollow bones and feathers follow the evolution of flight, or vice versa?
+- Modern bird traits present and absent in *Archaeopteryx*
+- Bird-hipped versus reptile-hipped dinosaurs
+- Cursorial versus arboreal hypotheses for the origin of flight
+- K-Pg boundary, Mesozoic versus Cenozoic 
+- Cladogenesis versus anagenesis 
+
+# Phylogenetics and Systematics
+
+- Terminology: monophyly, paraphyly, apomorphy, polytomy
+- Skills: Reading trees, identifying monophyletic groups
+- Knowledge: describe / name members of Australaves, Paleognathae, Neoaves, Galliformes, Anseriformes, Aequiornithes, "Basal" Neoaves
+- Remember: how taxonomy and phylogenetics are related, why relationships basal Neoaves are controversial
+- What are the limitations of morphological data, and what are the advantages of DNA? 
+- Why do recent higher-level avian phylogenies conflict with each other? 
+- Why might two species be "lumped"?
+
+# Species concepts and speciation
+
+- Be able to define / identify major species concept categories (e.g., phylogenetic versus biological versus ecological)
+- Prezygotic versus postzygotic isolation (description and examples)
+- Allopatric versus sympatric verys and parapatric speciation
+- Which mode is most common, and how do we know? 
+- What is a ring species? 
+
+# References:
+
+- Title Slide Species: *Trogon citreolus*, *Pitta sordida*, *Icterus icterus*, *Pachycephala macrorhyncha*
+
+- Kearns, A. M., Joseph, L., Toon, A., & Cook, L. G. (2014). Australia’s arid-adapted butcherbirds experienced range expansions during Pleistocene glacial maxima. Nature communications, 5(1), 3994.
+
+- Freeman, B. G., Rolland, J., Montgomery, G. A., & Schluter, D. (2022). Faster evolution of a premating reproductive barrier is not associated with faster speciation rates in New World passerine birds. Proceedings of the Royal Society B, 289(1966), 20211514.
+
+- Price, T. D., & Bouvier, M. M. (2002). The evolution of F1 postzygotic incompatibilities in birds. Evolution, 56(10), 2083-2089.
+
+- Irwin, D. E., Bensch, S., & Price, T. D. (2001). Speciation in a ring. Nature, 409(6818), 333-337.
+
+# References:
+
+- Linck, E., Freeman, B. G., & Dumbacher, J. P. (2020). Speciation and gene flow across an elevational gradient in New Guinea kingfishers. Journal of Evolutionary Biology, 33(11), 1643-1652.
+
+- Ryan, P. G., Bloomer, P., Moloney, C. L., Grant, T. J., & Delport, W. (2007). Ecological speciation in South Atlantic island finches. Science, 315(5817), 1420-1423.
