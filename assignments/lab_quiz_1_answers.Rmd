@@ -1,0 +1,43 @@
+---
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Lab Quiz 1
+
+Name:_______________
+
+&nbsp;  
+&nbsp;  
+1) _______________
+&nbsp;  
+&nbsp;     
+2) _______________
+&nbsp;  
+&nbsp;     
+3) _______________
+&nbsp;  
+&nbsp;     
+4) _______________
+&nbsp;  
+&nbsp;     
+5) _______________
+&nbsp;  
+&nbsp;     
+6) _______________
+&nbsp;  
+&nbsp;     
+7) _______________
+&nbsp;  
+&nbsp;     
+8) _______________
+&nbsp;  
+&nbsp;     
+9) _______________
+&nbsp;  
+&nbsp;     
+10) _______________
+

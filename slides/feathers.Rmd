@@ -1,0 +1,376 @@
+---
+title: "Feathers"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Feathers!
+
+- An extant avian apomorphy (shared with some theropods)
+- Mostly made from beta-keratin---strong protein polymer unique to birds and reptiles  
+
+\begin{figure}
+\includegraphics[width = 0.15\linewidth]{images/amazon_feather.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://academy.allaboutbirds.org/feathers-article/))
+
+# Feather anatomy
+
+- An extant avian apomorphy (shared with some theropods)
+- Mostly made from beta-keratin---strong protein polymer unique to birds and reptiles  
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/feather_anatomy.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://academy.allaboutbirds.org/feathers-article/))
+
+# Feather types
+
+- Wing (remige) and tail (retrix) help with flight, mobility, displays
+- Contours cover body
+- Down and semiplumes insulate, lack hooks on barbules; differ by presence of rachis in latter
+- Bristles and filoplumes have sensory purposes
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/feather_types.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://academy.allaboutbirds.org/feathers-article/))
+
+# Powder down
+
+- Found in herons, pigeons, doves, tinamous, bustards and some parrots
+- Down feathers that never molt, grow continuously, and break down into a talcum-powder like substance at the tip
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/powderdown.png}
+\end{figure}  
+
+\hfill \tiny ([BirdNote](https://www.birdnote.org/))
+
+# Remiges
+
+- Asymmetrical for flight
+- Barbs have hooked barbules of central rami (ramus)
+- Planar surface on either side of rachis called "vanes"
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/amazon_wing.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://academy.allaboutbirds.org/feathers-article/))
+
+# Remiges
+
+- 9-12 primaries (attach to carpometacarupus)
+- 6-40 secondaries (attach to ulna)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/molt2.png}
+\end{figure}  
+
+\hfill \tiny (Pyle 1997)
+
+# Remiges
+
+- 6 secondaries in hummingbirds
+- 40 secondaries in albatross
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/wings_ups.png}
+\end{figure}  
+
+\hfill \tiny ([UPS Wing and Tail Image Collection](https://www.jstor.org/site/pugetsound/wing-and-tail-image-collection/))
+
+# Modified remiges
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/manakin.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=tSHjhCN6NC0
+
+\hfill \tiny ([*Caprimulgus longipennis*](https://macaulaylibrary.org/asset/84169141)
+
+# Modified remiges
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/standard_nightjar.png}
+\end{figure}  
+
+https://macaulaylibrary.org/asset/253493131
+
+\hfill \tiny ([*Machaeropterus deliciosus*](https://macaulaylibrary.org/asset/114689001); [Cornell](https://academy.allaboutbirds.org/singing-wings-feathers/)
+
+# Retrices
+
+- Usually 12 (24 in snipe)
+- attach to pygostyle
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/skel_tail.png}
+\end{figure}  
+
+https://macaulaylibrary.org/asset/94350
+
+\hfill \tiny ([UPS Wing and Tail Image Collection](https://www.jstor.org/site/pugetsound/wing-and-tail-image-collection/))
+
+# Modified retrices
+
+- Sexual selection can modify retrices for display (birds of paradise)
+- Natural selection can modify retrices for foraging niche (woodpeckers)
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/astrapia.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=fHDHJE15NKk
+
+\hfill \tiny ([*Astrapia mayeri*](https://macaulaylibrary.org/asset/204247081)
+
+
+# Feather development: Stages
+
+- Epidermis thickens to **placaode**, elongates into **feather germ**, invaginates to form **follice**, develops barbs and rachis inside **sheath** that sheds when growth is complete
+- Complete feathers are dead stuctures!
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/feather_growth.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://academy.allaboutbirds.org/feathers-article/))
+
+# Feather tracts
+
+- Feather tracts are called pterylae 
+- Regions between tracts called apteria 
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/nutcracker_tracts.jpg}
+\end{figure}  
+
+\hfill \tiny (Mewaldt 1958)
+
+# Evo-devo feather development hypothesis
+
+- Feather morphology evolution inferred by order of dependency of features during development (e.g., rachis is formed by fusion of barbs)
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/prum_figs.png}
+\end{figure}  
+
+\hfill \tiny (Prum 1999)  
+
+
+# Feather evolution summarized
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/feather_evolution.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://academy.allaboutbirds.org/feathers-article/))
+
+# Feather coloration: pigments
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/pigments.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://academy.allaboutbirds.org/how-birds-make-colorful-feathers/))
+
+# Melanins
+
+- Pigments responsible for browns and blacks
+- Produced by melanosome organelles; transferred to feathers and retained in beta-keratin
+- Makes feathers more durable and resistant to bacteria
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/ghow.png}
+\end{figure}  
+
+\hfill \tiny ([*Bubo virginianus*](https://macaulaylibrary.org/asset/55215981))
+
+# Carotenoids
+
+- Pigments responsible for reds, yellows, and oranges
+- Obtained from dietary sources
+- Can interact with melanins to create olive-green 
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/blackburnian.png}
+\end{figure}  
+
+\hfill \tiny ([*Setophaga fusca*](https://macaulaylibrary.org/asset/168328191))
+
+# Porphyrins 
+
+- Chemically similar to chlorophyll and heme (in hemoglobin)
+- Browns and reds; degrade easily under light
+- Creates short-lived color that may signal virginity in bustards!
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/galvan.png}
+\end{figure}  
+
+\hfill \tiny (Galván et al. 2016)
+
+# Psittacofulvins
+
+- Pigments responsible for orange, yellow, and bright red in parrots
+- Synthesized in feather cells; color variation from mutation impacting oxidation state
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/psittacofulvins.png}
+\end{figure}  
+
+\hfill \tiny (Arbore et al. 2024)
+
+# Feather coloration: structural color
+
+- Blues; can combine with carotenoids to produce greens (except in Turacos; "turacoverdin")
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/structural.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://academy.allaboutbirds.org/how-birds-make-colorful-feathers/))
+
+# Feather coloration: iridescence
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/iridescence.png} 
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://academy.allaboutbirds.org/how-birds-make-colorful-feathers/))
+
+# What pigments are likely responsible for the *remiges* of this Golden parakeet?
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/gopa.png} 
+\end{figure}  
+
+\hfill \tiny ([*Guaruba guarouba*](https://macaulaylibrary.org/asset/173009821)  
+
+\normalsize
+
+a) psittacofulvins
+b) carotenoids
+c) structural color
+d) structural color + carotenoids
+e) none of the above
+
+# Feather care
+
+- Preening with bill and feet: arrange barbs, remove parasites
+- Waterproof with secretions from uropygial gland
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/uropygial.png} 
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Uropygial_gland))
+
+# Feather replacement: molt
+
+- Birds replace old feather 2-3x during their first year; 1-2x / year after
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/molt_kurt.png} 
+\end{figure}  
+
+\hfill \tiny ([IBP](https://www.birdpop.org/pages/blogPost.php?id=27))
+
+# Classic molt patterns
+
+- One molt per year: chickadees, hawks, hummingbirds, jays, etc
+- One complete / one partial molt per year: tanagers, warblers, buntings
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/molt_cycles.png} 
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019; Dunn et al. 2017)
+
+# This Orange-crowned Warbler bred in Glacier NP and is about to migrate to Mexico. What molt did it last undergo?
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/ocwa.png} 
+\end{figure}  
+
+\hfill \tiny ([*Leiothlypis celata*](https://macaulaylibrary.org/asset/264994961)  
+
+\normalsize
+
+a) prealternate molt
+b) prebasic molt
+c) prejuvenal molt
+d) first prebasic molt
+
+# Centrifugal molt
+
+- Many species (esp. passerines) begin with first primary and molt outwards towards p10
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/molt_gill.png} 
+\end{figure}  
+\hfill \tiny (Gill et al. 2019)
+
+
+# Synchronous molt
+
+- Waterfowl molt all primaries simultaneously, lose ability to fly for several weeks
+- Males in basic plumage during this stage
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/mallard_molt.png} 
+\end{figure}  
+
+\hfill \tiny ([Marlin Harms](https://www.flickr.com/photos/marlinharms/28936254066))
+
+# "Molt" by wear
+
+- Plumage can also change by wear and abrasion, e.g. Snow Buntings
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/bunting_wear.png} 
+\end{figure}  
+
+\hfill \tiny ([Birds of the World](https://birdsoftheworld.org/bow/species/snobun/cur/appearance#molts))
+
+# References
+
+- Title Slide Species: *Pelecanus eryhtrorhynchos*, *Sheppardia sharpei*, *Gyps fulvus*, *Oriolus chlorocephalus*
+
+- Pyle, P. (1997). Identification guide to North American birds: a compendium of information on identifying, ageing, and sexing" near-passerines" and passerines in the hand. Slate Creek Press.
+
+- Mewaldt, L. R. (1958). Pterylography and natural and experimentally induced molt in Clark's Nutcracker. The Condor, 60(3), 165-187.
+
+- Prum, R. O. (1999). Development and evolutionary origin of feathers. Journal of Experimental Zoology, 285(4), 291-306.
+
+# References
+
+- Galván, I., Camarero, P. R., Mateo, R., & Negro, J. J. (2016). Porphyrins produce uniquely ephemeral animal colouration: a possible signal of virginity. Sci Rep 6: 39210.
+
+- Arbore, R., Barbosa, S., Brejcha, J., Ogawa, Y., Liu, Y., Nicolaï, M. P., ... & Carneiro, M. (2024). A molecular mechanism for bright color variation in parrots. Science, 386(6721), eadp7710.
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+- Dunn, J. L. 1., Alderfer, J. K., & Lehman, P. E. (2017). National Geographic field guide to the birds of North America (7th ed.). National Geographic.
