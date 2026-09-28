@@ -1,0 +1,235 @@
+---
+title: "Flight"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Flight!
+
+- Energetically expensive per unit time (= burn lots of calories each minute)
+- Energetically efficient per unit distance (= go farther for each calorie)
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/gull_flight.jpg}
+\end{figure}  
+
+https://www.youtube.com/watch?v=ogeEY2q3_OU
+
+\hfill \tiny ([Cornell](https://web.mit.edu/16.00/www/aec/flight.html))
+
+# Flight aerodynamics
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/bird_aero.png}
+\end{figure}  
+
+\hfill \tiny ([MIT](https://web.mit.edu/16.00/www/aec/flight.html))
+
+# Flight aerodynamics: Bernoulli lift
+
+$$
+P_{static} + P_{dynamic} = P_{total}
+$$
+$$
+\rho * A * V = C
+$$
+
+(where $P$ is pressure, $\rho$ is density, $A$ is area, $V$ is velocity, and $C$ is a constant---increase the area above a wing with constant air density, and velocity must increase, reducing static pressure and generating **lift**)
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/airfoil.png}
+\end{figure}  
+
+\hfill \tiny ([MIT](https://web.mit.edu/16.00/www/aec/flight.html))
+
+# Flight aerodynamics: Bernoulli lift
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/bernoulli.png}
+\end{figure}  
+
+\hfill \tiny (Bajec & Heppner 2009)  
+
+# Which combination will increase Bernoulli lift?
+
+$$
+P_{static} + P_{dynamic} = P_{total}
+$$
+$$
+\rho * A * V = C
+$$
+
+a) larger wings and constant speed
+b) smaller wings and constant speed
+c) greater speed and larger wings
+d) a & c
+e) impossible to say
+
+
+# Flight aerodynamics: Newtonian lift
+
+("equal and opposite reaction": air is deflected downward when there is a positive angle of attack)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/newton.png}
+\end{figure}  
+
+\hfill \tiny (Bajec & Heppner 2009)  
+
+# Flight aerodynamics: lift from vortices
+
+(spirals of air off a leading bird's wing can provide lift to a follower)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/vortices.png}
+\end{figure}  
+
+\hfill \tiny (Bajec & Heppner 2009)  
+
+# Ibises exploit lift from vortices!
+
+(most flaps occur in theoretically optimal position)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/ibis_flight.png}
+\end{figure}  
+
+\hfill \tiny (Portugal et al. 2014)  
+
+# Drag
+
+- **induced drag**: drag from air streams deflecting from wing---reduced by alula!
+- **parasitic drag**: friction between bird and air 
+- **profile drag**: related to form of wing
+
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/alula.png}
+\end{figure}  
+
+\hfill \tiny (Portugal et al. 2014)  
+
+# Flght energetics
+
+- Upper left: high power needed to overcome weight
+- Upper right: high power needed to overcome drag
+- $V_{MP}$: speed with minimum energy use per unit time
+- $V_{MR}$: speed for maximum distance per unit energy
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/energetics.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)  
+
+# Flapping generates lift and thrust
+
+- **Flight stroke** consists of **upstoke** and **downstoke**
+- rotating wing forward generates forward thrust, rotating back minimizes drag ("flap, fold, and twist")
+- from 2x / second (Gray Heron) to $\sim$ 80x / second (hummingbirds) 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/flapping}
+\end{figure}  
+
+\hfill \tiny (Shyy et al. 2013)
+
+# Thermal soaring
+
+- Thermal soarers exploit rising hot air columns, gliding from one to another
+- Examples: vultures, frigatebirds
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/thermal.png}
+\end{figure}  
+
+\hfill \tiny (Goto et al. 2022)
+
+# Dynamic soaring
+
+- Dynamic soarers exploit deflected wind, turning into currents to rise and and away to glide forward
+- Examples: pelagic seabirds, hawks along mountains
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/dynamic.png}
+\end{figure}  
+
+\hfill \tiny (Goto et al. 2022)
+
+# Hummingbird hovering
+
+- Figure-8 motion
+- Up to 78 cyles (upstrokes + downstrokes) per second!
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/hummers.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=gJ_T_Y1rxHw
+
+\hfill \tiny (Gill et al. 2019)
+
+# Flight ecomorphology
+
+- Wing aspect ratio=$\frac{\text{Wingspan}}{\text{Wing area}}$
+- Wing loading=$\frac{\text{Body mass}}{\text{Wing area}}$
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/aspect.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019) 
+
+# Which species would you expect to have the lowest wing aspect ratio?  
+
+a) a frugivorous parrot
+b) a pelagic seabird
+c) a hummingbird
+d) a grouse 
+e) a migratory songbird
+
+# Major wing muscles and furcula
+
+- **pectoralis** powers the downstroke
+- **supracoracoideus** operates as pulley through triosseal canal (gap between scapular, coracoid, furcula) to power upstroke
+- **furcula**: expands and contracts with wing beats; may enhance respiratory performance
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/supracoracoideus.png}
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Bird_anatomy))
+
+# References
+
+- Title slide species: *Odontophorus melanotus*, *Pyriglena leuconota* *Xiphorhynchus flavigaster*,  *Pteroptochos tarnii*
+
+- Bajec, I. L., & Heppner, F. H. (2009). Organized flight in birds. Animal Behaviour, 78(4), 777-789.
+
+- Portugal, S. J., Hubel, T. Y., Fritz, J., Heese, S., Trobe, D., Voelkl, B., ... & Usherwood, J. R. (2014). Upwash exploitation and downwash avoidance by flap phasing in ibis formation flight. Nature, 505(7483), 399-402.
+
+- Linehan, T., & Mohseni, K. (2020). Scaling trends of bird’s alular feathers in connection to leading-edge vortex flow over hand-wing. Scientific reports, 10(1), 7905.
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+# References
+
+- Shyy, W., Aono, H., Kang, C. K., & Liu, H. (2013). An introduction to flapping wing aerodynamics (Vol. 37). Cambridge University Press.
+
+- Goto, Y., Yoda, K., Weimerskirch, H., & Sato, K. (2022). How did extinct giant birds and pterosaurs fly? A comprehensive modeling approach to evaluate soaring performance. PNAS nexus, 1(1), pgac023.
