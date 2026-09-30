@@ -1,0 +1,297 @@
+---
+title: "Physiology"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# High bird body temperatures aided adaptive radiation
+
+- Birds maintain body temperature of 40° C through *endothermy*---metabolic production of heat
+- Higher than all other reptiles, mammals, and amphibians 
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/body_temp.png}
+\end{figure}  
+
+\hfill \tiny (Moreira et al. 2021)
+
+# Air sacs facilitate respiration 
+
+- Thin-walled, non-vascular compartments throughout body cavity and cervical vertebrae 
+- 6 (in weavers) to 12 (shorebirds and storks)
+- Connected to lungs by **secondary bronchi** 
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/airsac.png}
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Bird_anatomy#Respiratory_system))
+
+# Air sacs facilitate respiration 
+
+- Air sacs expand and contract with entire abdominal cavity
+- Forces air through rigid lungs
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/respiration.png}
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Bird_anatomy#Respiratory_system))
+
+# Unidrectional airflow in bird lungs maximizes $O_2$ transfer 
+
+- No residual air left in lungs during ventilation 
+- More efficient gas exchange 
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/cross_exchange.png}
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Bird_anatomy#Respiratory_system))
+
+# Birds have a four-chambered heart
+
+- 2-4% of body mass (verus <1% in small mammals)
+- Typically 150-350 bpm (1200 bpm in hummingbirds)
+- Lower resting heart rate than similarly sized mammals
+- High blood pressure!
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/heart.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)
+
+# Thermoregulation
+
+- Endotherms must cope with metabolic heat in hot environments and heat loss in cold environments
+- Can make physical adjustments, phsyiological changes, and behavior
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/pterocles.png}
+\end{figure}  
+
+\hfill \tiny [*Pterocles alchata*](https://macaulaylibrary.org/asset/34143601)
+
+# Metabolism 
+
+- **Basal metabolic rate** / BMR: energy expenditure when resting
+- **Active metabolic rate**: energy expenditure when active 
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/bmr.png}
+\end{figure}  
+
+\hfill \tiny ([Tommy Norin](https://www.sebiology.org/events/animal-satellite-2022.html))
+
+# Birds have high basal metabolic rate
+
+- High relative to most vertebrates
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/scaling.png}
+\end{figure}  
+
+\hfill \tiny ([Tommy Norin](https://www.sebiology.org/events/animal-satellite-2022.html))
+
+# Birds have high metabolic scope
+
+- **Metabolic scope** = active metabolism / resting metabolism
+- Especially high in running birds
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/metabolic_scope.png}
+\end{figure}  
+
+\hfill \tiny (Bundle et al. 1999)
+
+# Low energy expenditure for temperature regulation in thermoneutral zone
+
+- $T_{LC}$: Lower critical temperature
+- $T_{UC}$: Upper critical temperature
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/tnz.png}
+\end{figure}  
+
+\hfill \tiny (Bozinovic et al. 2014)
+
+# Which statement is most correct?
+
+a) BMR can be measured in a resting bird below $T_{LC}$
+b) BMR can be measured in an active bird above $T_{LC}$ and below $T_{UC}$
+c) BMR can be measured in a resting bird above $T_{LC}$ and below $T_{UC}$
+d) BMR can be measured in a resting bird above $T_{UC}$
+d) BMR can be measured in an active bird below $T_{LC}$
+
+# Plumage impacts metabolic temperature regulation
+
+- Summer plumage less insulative than winter plumage in Willow Ptarmigan, requires higher BMR for a given temperature
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/willow_ptarmigan.png}
+\end{figure}  
+
+\hfill \tiny ([ML93964071](https://macaulaylibrary.org/asset/93964071); Speakman et al. 2010)
+
+# Hypothermia
+
+- **Nocturnal hypothermia**:  $T_{body}$ drops 8-10° C to conserve energy (doves, pigeons, vultures, some passerines)
+- **Torpor**: $T_{body}$ drops >10° C, reduce respiratory rate (1-2x per minute versus 300-400 in hummingbirds), reduce heart rate (30 bpm versus 500), reduce energy consumption 10-60%
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/anhu_snow.png}
+\end{figure}  
+
+\hfill \tiny ([C.J. Battey](http://cjbattey.com/))
+
+# Torpor helps Andean hummingbirds cope with altitude 
+
+- Blue and purple lines individual $T_{body}$ measurements
+- Dashed blue line ambient temperature
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/torpor.png}
+\end{figure}  
+
+\hfill \tiny (Wolf et al. 2020)
+
+# Why is the duration of torpor bout inversely correlated with body mass loss?
+
+a) birds in torpor burn fewer calories
+b) birds in torpor lose less water to the atmosphere through respiration
+c) birds in torpor have greater metabolic scope
+d) a & b
+e) a, b, & c
+
+# Hibernation
+
+- Common Poorwills drop temperature from 106° F to 65° F for 2-3 months
+- "Discovered" in 1946, but Hopi Indian name (*Hölchko*) means "The Sleeping One“!
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/poorwill.png}
+\end{figure}  
+
+\hfill \tiny [*Phalaenoptilus nuttallii*](https://macaulaylibrary.org/asset/164513671)
+
+# Meriwether Lewis on poorwills (1806)
+
+> It appeared to be passing into the dormant state.…the bird could scarcely move. I run [sic] my penknife into its body under the wing and completely destroyed its lungs and heart yet it lived upwards of two hours. This fanominon [sic] I could not account for unless it proceeded from want of circulation of the blood 
+
+\begin{figure}
+\includegraphics[width = 0.2\linewidth]{images/lewis.jpg}
+\end{figure}  
+
+\hfill \tiny [Wikipedia](https://en.wikipedia.org/wiki/Meriwether_Lewis)
+
+# Hyperthermia
+
+- Birds can reduce $T_{body}$ by respiration: **panting** (evaporative cooling of nasal, buccal, pharynx regions) and **gular flutter** (special pant via vibrating hyoid muscles / bones in throat; targets mouth and upper respiratory tract)
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/gular.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=3_Ft32uEuaA
+
+\hfill \tiny (Bartholomew et al. 1968) 
+
+# Physiology informs climate change predictions
+
+- Snow Buntings have high cold tolerance at cost of reduced heat tolerance 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/bunting_climate.png}
+\end{figure}  
+
+\hfill \tiny ([ML63891021](https://macaulaylibrary.org/asset/63891021); O'Connor et al. 2021) 
+
+# Avian digestion
+
+- **Proventriculus** secrets mucus, HCl + pepsinogen (converted to protein-digesting **pepsin**) to chemically digest food 
+- **Gizzard** (ventriculus): muscular avian equivalent of molars, with keratinized lining + sometimes grit
+- **Crop**: expanded esophagus chamber that stores and softens food + regulates flow
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/gizzard_2.jpg}
+\end{figure}  
+
+\hfill \tiny ([Colorado State](https://vivo.colostate.edu/hbooks/pathphys/digestion/otherspp/birds.html))
+
+# Water balance
+
+- Evaporative water loss high per unit mass in small birds
+- Partially offset by **metabolic water** production (enhanced by high avian metabolisms)
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/water_loss.png}
+\end{figure}  
+
+\hfill \tiny (Bartholomew & Cade 1963) 
+
+# Excretion
+
+- Kidneys concentrate nitrogenous wastes as **uric acid** (0.5-1 mL $H_2O$ to excrete 370 mL N versus 20 mL in mammals) 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/poop.png}
+\end{figure}  
+
+\hfill \tiny ([Natural History Museum](https://www.nhm.ac.uk/discover/do-birds-pee.html))
+
+# Avian osmoregulation
+
+- Birds lack loops of Henle used by mammalian kidneys for salt excretion 
+- Seabirds drink seawater (3% salt versus 1% salt in body fluids), must excrete through **nasal salt glands**
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/salt_glands.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://www.allaboutbirds.org/news/why-can-some-birds-drink-salty-seawater/))
+
+# References
+
+- Title slide species: *Pipreola frontalis*, *Nothoprocta curvirostris*, *Dryobates striclandi*, *Ptilinopus jambu* 
+
+- Moreira, M. O., Qu, Y. F., & Wiens, J. J. (2021). Large-scale evolution of body temperatures in land vertebrates. Evolution Letters, 5(5), 484-494.
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+- Mckechnie, A. E., & Swanson, D. L. (2010). Sources and significance of variation in basal, summit and maximal metabolic rates in birds. Current Zoology, 56(6), 741-758.
+
+- Bundle, M. W., Hoppeler, H., Vock, R., Tester, J. M., & Weyand, P. G. (1999). High metabolic rates in running birds. Nature, 397(6714), 31-32.
+
+# References 
+
+- Bozinovic, F., Ferri-Yáñez, F., Naya, H., Araújo, M. B., & Naya, D. E. (2014). Thermal tolerances in rodents: species that evolved in cold climates exhibit a wider thermoneutral zone. Evolutionary Ecology Research, 16(2), 143-152.
+
+- Speakman, J. R., & Król, E. (2010). Maximal heat dissipation capacity and hyperthermia risk: neglected key factors in the ecology of endotherms. Journal of Animal Ecology, 79(4), 726-746.
+
+- Wolf, B. O., McKechnie, A. E., Schmitt, C. J., Czenze, Z. J., Johnson, A. B., & Witt, C. C. (2020). Extreme and variable torpor among high-elevation Andean hummingbird species. Biology Letters, 16(9), 20200428.
+
+- Bartholomew, G. A., Lasiewski, R. C., & Crawford, E. C. (1968). Patterns of panting and gular flutter in cormorants, pelicans, owls, and doves. The Condor, 70(1), 31-34.
+
+# References 
+
+- O'Connor, R. S., Le Pogam, A., Young, K. G., Robitaille, F., Choy, E. S., Love, O. P., ... & Vézina, F. (2021). Limited heat tolerance in an Arctic passerine: Thermoregulatory implications for cold‐specialized birds in a rapidly warming world. Ecology and evolution, 11(4), 1609-1619.
+
+- Bartholomew, G. A., & Cade, T. J. (1963). The water economy of land birds. The Auk, 80(4), 504-539.
+
