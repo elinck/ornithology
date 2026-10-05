@@ -1,0 +1,17 @@
+Define thermoneutral zone, and describe avian adaptations to cope with temperatures below both the LCT (lower critical temperature) and above the UCT (upper critical temperature).  
+
+5 points: correct description of the relationships represented by the line labeled "Total", explaination of tradeoffs between power needed for lift and drag at high speeds, definition of VMP and VMR
+3-4 points: 2/3 of the above (depending on level of detail)
+1-2 points: 1 of the above (depending on level of detail)
+
+Choose one: 1) Describe and contrast the two leading hypotheses for the evolution of seasonal migration, or 2) Describe and contrast three methods for studying the migratory connectivity of seasonal populations. 
+
+5 points: correct identification of hypotheses for evolution of seasonal migration OR correct description of tradeoffs for three migration tracking technology
+3 points: 1 of 2 hypotheses / 1-2 methods out of three OR minor errors
+1-2 points: good effort, but errors in description of hypotheses or technology 
+
+Interpret the line labeled "Total" in the figure below, describe the factors that explain its relationship with flight power, and define VMP and VMR. 
+
+5 points: correct description of both TNZ and adaptations to temperatures below and above limits
+3-4 points: mostly correct content but missing responses or minor errors
+1-2 points: good effort with errors 

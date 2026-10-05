@@ -81,6 +81,7 @@ This is a maximalist version of the course syllabus (also available as a [pdf](a
 |               |                                   | - Lab 4: Snow Goose to Harlequin Duck                                                             |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 10/5 - 10/9   | - Vocalizations                   | - Gill & Prum Ch. 8                                                                               |
+|               |                                   | - [Slides (M)](slides/vocalizations.pdf)                                                          |
 |               |                                   | - Lab 5: Bufflehead to Western Grebe                                                              |
 |               |                                   | - **Lab Exam 1**                                                                                  |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+

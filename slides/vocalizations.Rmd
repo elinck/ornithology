@@ -1,0 +1,282 @@
+---
+title: "Vocalizations"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner13.png}}{}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# The avian syrinx
+
+- Located at junction of bronchi and trachea (c.f. **larynx** at top of neck)
+- Sounds produced by forcing air through syrinx, reducing static pressure on syringeal membranes flanking interclavicular air sac (Bernoulli effect!)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/syrinx.png}
+\end{figure}  
+
+\hfill \tiny [*Cornell*](https://www.macaulaylibrary.org/2021/09/27/body-size-and-bill-size-and-shape-affect-tanager-song-characteristics/)
+
+# Syrinx anatomy varies with vocal ability
+
+- L: typical oscine songbird syrinx with both **tracheal** and **bronchial** elements
+- R: suboscine song syrinx with only tracheal elements
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/syrinx_comp.png}
+\end{figure}  
+
+\hfill \tiny (Goller 2022)
+
+# Syrinx evolution
+
+- ancestor of birds lost ability to makes sounds with **larynx**, re-evolved ability with **syrinx** (an **evolutionary novelty**)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/syrinx_evol.png}
+\end{figure}  
+
+\hfill \tiny (Kinglsey et al. 2018)
+
+# Bird song physics
+
+- **amplitude**: height of soundwaves = "loudness"
+- **frequency**: distance between peaks of soundwaves = pitch
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/spectrograms.png}
+\end{figure}  
+
+\hfill \tiny [*Cornell*](https://academy.allaboutbirds.org/birdsong/)
+
+# Spectrograms
+
+- **Spectrograms** visualize both amplitude and frequency
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/spectro_info.png}
+\end{figure}  
+
+https://macaulaylibrary.org/asset/61838; https://macaulaylibrary.org/asset/27193
+
+\hfill \tiny [*Cornell*](https://academy.allaboutbirds.org/birdsong/)
+
+# Which feature of this song is *loudest*?
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/spectro_example.png}
+\end{figure}  
+
+https://xeno-canto.org/1183619
+
+a) 1
+b) 2
+c) 3
+d) 4
+
+# Data from spectrograms and waveforms used in Merlin
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/wave_spectro.png}
+\end{figure}  
+
+\hfill \tiny [*Towards Data Science*](https://towardsdatascience.com/how-to-identify-bird-species-by-their-songs-1a13b2b606ec/)
+
+# Harmonics
+
+- Multiple sound producing areas in syrinx = multiple simultaneous notes
+- Harmonics are multiples of a "fundamental frequency"
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/canyon.jpg}
+\end{figure}  
+
+https://macaulaylibrary.org/asset/224190551
+
+\hfill \tiny (Bilger et al. 2021)  
+
+# Self-duetting 
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/veery_song.png}
+\end{figure}  
+
+https://earbirding.com/blog/archives/3711
+
+\hfill \tiny [ML476610461](https://macaulaylibrary.org/asset/476610461); [ML3093086](https://macaulaylibrary.org/asset/30930861);
+
+# Post-source modulation
+
+- **filtering** eliminates or enhances certain vocal frequencies by interference with features in vocal cavity (e.g., bill)
+-  **post-source modulation** refers to altering sounds from syrinx via changes in length, shape, size of vocal cavity
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/crane_trachea.png}
+\end{figure}  
+
+\hfill \tiny (Cous 1882)  
+
+# Feeding ecology constrains song
+
+- Bill size reflects adaptations to seed size 
+- High rate, pure-tone trills are physically impossible for birds with large bills
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/billsize.png}
+\end{figure}  
+
+\hfill \tiny (Podos 2001)
+
+# Chickadees encode information on predator size in song
+
+- Number of harmonic "dees" negatively correlates to predator body size (smaller = bigger threat)
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/chickadee.png}
+\end{figure}  
+
+\hfill \tiny (Podos 2001)
+
+# Binaural comparison to locate predators
+
+- **aerial predators** (top): limited amplitude, long waves scatter, difficult to source
+- **ground predators** (bottom): large amplitude, short, lots of location information
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/chicken_call.png}
+\end{figure}  
+
+\hfill \tiny ([*Gallus gallus* calls, Aves Biology / Gary Ritchison](https://avesbiology.com/vocalcommunication.html))
+
+# Acoustic adaptation hypothesis
+
+- $H_1$: Birds in denser habitats will have lower calls
+- Methods: Meta-analysis of frequencies paired with habitat cover 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/acoustic_1.png}
+\end{figure}  
+
+# Is the acoustic adaptation hypothesis supported?
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/acoustic_2.png}
+\end{figure}  
+
+a) yes
+b) no
+c) impossible to say
+d) it depends
+
+(But see: https://www.youtube.com/watch?v=iy-9Z2KrjsY)
+
+\hfill \tiny (Mikula et al. 2021)
+
+# Vocal learning is rare but has evolved multiple times
+
+- Found in parrots, songbirds, hummingbirds, humans, bats, and whales
+
+\begin{figure}
+\includegraphics[width = 0.45\linewidth]{images/vocal_learning.png}
+\end{figure}  
+
+\hfill \tiny (Petkov & Jarvis 2012) 
+
+
+# Phases of song learning
+
+- **sensory acquisition phase**: innate "template" modified by auditory environment 
+- **sensorimotor phase**: practices **subsong** to develop **plastic** (flexible but compelete) song
+- **crystalized phase**: stable adult song
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/learning.png}
+\end{figure}  
+
+\hfill \tiny (Brainard & Doupe 2002) 
+
+# Phases of song learning
+
+- White-crowned Sparrows only use phrases from "tutors"
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/wcsp.png}
+\end{figure}  
+
+\hfill \tiny (Rose et al. 2004)
+
+# Learned song variation
+
+- **dialects**: geographically constrained song variants 
+- **repertoire**: the set of songs an individual knows
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/dialects.png}
+\end{figure}  
+
+\hfill \tiny (Nelson et al. 2004)  
+
+# Which of the following will influence calls in tinamous?
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/patatin.png}
+\end{figure} 
+
+a) Bill size
+b) Habitat
+c) Parental repertoire 
+d) Syrinx anatomy
+
+\hfill \tiny [*Tinamotis ingoufi*](https://macaulaylibrary.org/asset/81598571)
+
+# Mimicry
+
+- ~20% of passerine songbirds practice mimicry
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/menura.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=mSB71jNq-yQ  
+
+\hfill \tiny [*Menura novaehollandiae*](https://macaulaylibrary.org/asset/39449771)
+
+# References
+
+- Title slide species: *Anthreptes anchietae*, *Rhipidura versicolor*, *Mimus thenca*, *Ortalis wagleri*
+
+- Goller, F. (2022). The syrinx. Current Biology, 32(20), R1095-R1100.
+
+- Kingsley, E. P., Eliason, C. M., Riede, T., Li, Z., Hiscock, T. W., Farnsworth, M., ... & Clarke, J. A. (2018). Identity and novelty in the avian syrinx. Proceedings of the National Academy of Sciences, 115(41), 10209-10217.
+
+- Bilger, H. T., Vertosick, E., Vickers, A., Kaczmarek, K., & Prum, R. O. (2021). Higher-order musical temporal structure in bird song. Frontiers in Psychology, 12, 629456.
+
+- Coues, E. (1882). The Coues check list of North American birds. Estes and Lauriat.
+
+
+# References
+
+- Podos, J. (2001). Correlated evolution of morphology and vocal signal structure in Darwin's finches. Nature, 409(6817), 185-188.
+
+- Templeton, C. N., Greene, E., & Davis, K. (2005). Allometry of alarm calls: black-capped chickadees encode information about predator size. Science, 308(5730), 1934-1937.
+
+- Mikula, P., Valcu, M., Brumm, H., Bulla, M., Forstmeier, W., Petrusková, T., ... & Albrecht, T. (2021). A global analysis of song frequency in passerines provides no support for the acoustic adaptation hypothesis but suggests a role for sexual selection. Ecology Letters, 24(3), 477-486.
+
+- Petkov, C. I., & Jarvis, E. D. (2012). Birds, primates, and spoken language origins: behavioral phenotypes and neurobiological substrates. Frontiers in evolutionary neuroscience, 4, 12.
+
+# References
+
+- Brainard, M. S., & Doupe, A. J. (2002). What songbirds teach us about learning. Nature, 417(6886), 351-358.
+
+- Rose, G. J., Goller, F., Gritton, H. J., Plamondon, S. L., Baugh, A. T., & Cooper, B. G. (2004). Species-typical songs in white-crowned sparrows tutored with only phrase pairs. Nature, 432(7018), 753-758.
+
+- Nelson, D. A., Hallberg, K. I., & Soha, J. A. (2004). Cultural evolution of Puget sound white‐crowned sparrow song dialects. Ethology, 110(11), 879-908.

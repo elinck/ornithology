@@ -1,0 +1,40 @@
+---
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Anseriformes: Anatidae: Diving Ducks
+
+- *Bucephala*
+- look at shape and extent of white on head
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/bucephala.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://www.allaboutbirds.org/guide/Ring-necked_Duck/species-compare/))
+
+# Galliformes: Phasianidae: Fowl
+
+- *Bonasa*, *Dendrapagus*, *Canachites*, *Tympanuchus*, *Centrocercus*, *Meleagris*, *Alectoris*, *Phasianus*, *Perdix*
+- look at pattern on bill, size and shape, habitat
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/grouse.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://www.allaboutbirds.org/guide/Dusky_Grouse/species-compare/)
+
+# Podicipediformes: Podicipedidae: Grebes
+
+- *Podilymbus*, *Aechmophorus*, *Podiceps*
+- look at plumage pattern on head and near bill, size and shape of head and neck
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/grebes.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://www.allaboutbirds.org/guide/Clarks_Grebe/species-compare/) 

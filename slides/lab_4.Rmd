@@ -1,0 +1,97 @@
+---
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# The Four Keys to Bird ID
+
+- **Size and Shape**
+- **Color pattern**
+- Habitat
+- Behavior
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/bird_id.png}
+\end{figure}  
+
+\hfill \tiny [*Cornell*](https://www.allaboutbirds.org/news/four-keys-to-bird-identification/)
+
+# Labs 4-11
+
+- Learn **Order** ("-formes"), **Family** ("-dae"), **Common Name** ("snow goose")
+- parentheses indicates plumage morph you must recognize
+- page numbers correspond to National Geographic 7th Ed. field guide
+- you most also learn vocalizations for **bolded** species names 
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/lab_manual.png}
+\end{figure}  
+
+# An additional visual ID resource
+
+- "Similar Species" tab on All About Birds: https://www.allaboutbirds.org/news/
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/similar.png}
+\end{figure}  
+
+# Audial ID resources
+
+- MacAulay Library (https://www.macaulaylibrary.org/)
+- xeno-canto (https://xeno-canto.org/)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/xeno.png}
+\end{figure}  
+
+# Anseriformes: Anatidae: Geese
+
+- White / gray (*Anser*) or black (*Branta*)
+- Similar species distinguished by bill size
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/geese.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://www.allaboutbirds.org/guide/Rosss_Goose/species-compare/))
+
+# Anseriformes: Anatidae: Swans
+
+- *Cygnus*
+- look at color and shape of bill against feathers
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/swans.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://www.allaboutbirds.org/guide/Trumpeter_Swan/species-compare/59956021))
+
+# Anseriformes: Anatidae: Dabbling Ducks 
+
+- *Anas*, *Mareca*, *Saptula*
+- look at size and shape of body and bill, color of tail / vent and head
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/dabblers.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://www.allaboutbirds.org/guide/Green-winged_Teal/species-compare/))
+
+# Anseriformes: Anatidae: Diving Ducks
+
+- *Aythya*
+- look at pattern on bill, plumage on wings and flanks
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/divers.png}
+\end{figure}  
+
+\hfill \tiny ([Cornell](https://www.allaboutbirds.org/guide/Ring-necked_Duck/species-compare/))
+
+
+
+
+
