@@ -1,0 +1,199 @@
+---
+title: "Annual Cycles"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---  
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Resident life cycles
+
+- Three tasks: breed, molt, survive
+- Feral pigeons cycle between breeding and molting (the nonbreeding stage) based on presence of mate, presence of food, and development of young
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/life_stage_dove.png}
+\end{figure}  
+
+\hfill \tiny (Jacobs & Wingfield 2000)
+
+# Migratory life cycles
+
+- Four tasks: breed, molt, migrate, survive
+- Mediated by **photoperiod** (day length)
+
+\begin{figure}  
+\includegraphics[width = 0.6\linewidth]{images/mallard_annual.png}  
+\end{figure}  
+
+\hfill \tiny (Bluhm 1988)
+
+# Molt and migration are energetically costly
+
+- Migratory European Robins molt earlier, have two body mass peaks (during molt and **zugunruhe** migratory restlessness period)
+- Residents molt later (= one body mass peak)
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/zugunruhe.png}
+\end{figure}  
+
+\hfill \tiny (Biebach 1983)
+
+# Breeding and molting coincide with period greatest food availability
+
+- Tropical environments: driven by seasonal variation in rainfall
+- Temperate environments: driven seasonal variation in temperature 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/borneo.png}
+\end{figure}  
+
+\hfill \tiny (Fogden 1972)
+
+
+# When would we expect body mass peaks in tropical birds?
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/borneo.png}
+\end{figure}  
+
+a) molting
+b) breeding
+c) dispersal
+d) "the lean season"
+e) a, b, or c
+
+\hfill \tiny (Fogden 1972)
+
+# Life cycle stages depend on physiological state and environmental cues
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/wcsp_annual.png}
+\end{figure}  
+
+\hfill \tiny (Jacobs & Wingfield 2000)
+
+# Biological clocks are controlled by pineal gland
+
+- Located on top of brain
+- **Circadian rhythms** (24 hour cycles) influenced by **pineal gland** (releases **melatonin** into blood), **suprachiasmatic nuclei** in hypothalmus (regulates metabolism), and eye (light recievers) 
+- **Circannual rhythms** (1 year cycles) influenced by photoperiod
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/pineal.png}
+\end{figure}  
+
+\hfill \tiny (Cassone 2014)
+
+# Instrinsic circadian rhythms are imperfect
+
+- 24 hour clock maintained by **zeitgebers** (environmental cues)
+- Daily activity cycles (measured by metabolism) drift in chaffinches 
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/cycle_drift.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)
+
+# Instrinsic circannual rhythms are, too 
+
+- Summer molt (blue) and winter molt (orange) drift earlier in Garden Warblers (L) and Eurasian Blackcaps (R) kept in captivity for eight years
+- Consistent with intrinsic 10 month cycle
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/circannual.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)  
+
+# Photoperiod measured by overlap of day length and peak activity
+
+- Known as the **external coincidence model**
+- "Response" measurement gonad size—why?
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/coincidence.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)  
+
+# Phenological mismatch and climate change
+
+- **Phenological mismatches** occur when the timing of life cycle events of interacting species no longer aligns
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/mismatch.png}
+\end{figure}  
+
+\hfill \tiny [N. Kristensen](https://nadiah.org/2015/05/23/migratory-bird-phenology)  
+
+# Arrival dates moving for some species 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/departure_arrival.png}
+\end{figure}  
+
+\hfill \tiny (Cotton 2003)  
+
+# What can you conclude about populations of Dutch Pied Flycatchers?
+
+\begin{figure}
+\includegraphics[width = 0.55\linewidth]{images/mismatch_declines.png}
+\end{figure}  
+
+a) earlier peak caterpillar abundance leads to population growth
+b) populations that lay eggs much earlier when it is hot decline more strongly
+c) populations that do not lay eggs much earlier when it is hot decline more strongly
+d) a and b
+e) none of the above
+
+\hfill \tiny (Both et al. 2019)  
+
+# Population declines when arrival date fails to track food resources
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/mismatch_declines.png}
+\end{figure}  
+
+\hfill \tiny (Both et al. 2019)  
+
+
+# References
+
+- Title slide species: *Sibirionetta formosa*, *Sylviorthorhynchus desmursii*, *Picumnus varzeae*, *Ficedula subrubra*
+
+- Bluhm, C. K. (1988). Temporal patterns of pair formation and reproduction in annual cycles and associated endocrinology in waterfowl. Current ornithology, 123-185.
+
+- Jacobs, J. D., & Wingfield, J. C. (2000). Endocrine control of life-cycle stages: a constraint on response to the environment?. The Condor: Ornithological Applications, 102(1), 35-51.
+
+- Biebach, H. (1983). Genetic determination of partial migration in the European robin (Erithacus rubecula). The Auk, 100(3), 601-606.
+
+- Fogden, M. P. L. (1972). The seasonality and population dynamics of equatorial forest birds in Sarawak. Ibis, 114(3), 307-343.
+
+# References
+
+- Cassone, V. M. (2014). Avian circadian organization: a chorus of clocks. Frontiers in neuroendocrinology, 35(1), 76-88.
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+- Cotton, P. A. (2003). Avian migration phenology and global climate change. Proceedings of the National Academy of Sciences, 100(21), 12219-12222.
+
+- Both, C., Bouwhuis, S., Lessells, C. M., & Visser, M. E. (2006). Climate change and population declines in a long-distance migratory bird. Nature, 441(7089), 81-83.
+
+

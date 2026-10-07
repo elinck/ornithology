@@ -8,8 +8,13 @@ output: beamer_presentation
 fontsize: 11pt
 theme: boxes
 header-includes:
-  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner13.png}}{}
----
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---  
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -225,7 +230,7 @@ d) it depends
 
 \hfill \tiny (Nelson et al. 2004)  
 
-# Which of the following will influence calls in tinamous?
+# Which of the following will NOT influence calls in tinamous?
 
 \begin{figure}
 \includegraphics[width = 0.6\linewidth]{images/patatin.png}
