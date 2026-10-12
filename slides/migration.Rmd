@@ -1,0 +1,307 @@
+---
+title: "Migration"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner2.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Migration 
+
+- 1817 bird species are migratory (~18%)
+- Repeated evolution of migratory behavior: predictable seasonal movement across latitude, longitude, elevation
+- c.f. **irruptive** movements (unpredictable search for resources)
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/migration.png}
+\end{figure}  
+
+\hfill \tiny (Rolland et al. 2014)
+
+# Migration 
+
+- $H_1$: Migration is adaptation to reduced competition for breeding sites
+- $H_2$: Migration is adaptation to seasonality
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/migration_adaptation.png}
+\end{figure}  
+
+\hfill \tiny (Rolland et al. 2014)
+
+# Which hypothesis is supported in neotropical migrants?
+
+- blue: winter range shift
+- orange: breeding range shit
+- pink: neotropical migrant
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/migration_evolution.png}
+\end{figure}  
+
+\hfill \tiny (Winger et al. 2014)
+
+
+# Partial Migration
+
+- Common: Found in (e.g.) 32-44% of Australian species
+- Tradeoffs: Energetic costs of overwintering versus migrating vary across space
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/partial_migration.png}
+\end{figure}  
+
+\hfill \tiny ([eBird](https://science.ebird.org/en/status-and-trends/species/whcspa/range-map))
+
+# Flyways
+
+- **Flyways** are corridors where many species migrate
+- can include **stopover sites** (think freezeout lake)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/flyways.png}
+\end{figure}  
+
+\hfill \tiny ([eBird](https://datazone.birdlife.org/about-our-science/flyways#what-are-flyways))
+
+# Radar ornithology 
+
+- radar can detect birds as well as weather events
+- confused WWII era operators, who called them "angels"
+- filtering out weather and other signals leaves us with migration forecasts!
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/birdcast.png}
+\end{figure}  
+
+\hfill \tiny ([Birdcast](https://birdcast.info/about/weather-surveillance-radar-and-bird-migration-primer/))
+
+# Direct tracking technology
+
+- **geolocators** track daylight to log precise location of birds
+- **radio telemetry** tracks birds from ground-based towers / hand-held devices 
+- **satellite tags** use GPS satellites
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/godwits.png}
+\end{figure}  
+
+\hfill \tiny Conklin 2010; Battley et al. 2012
+
+# Migratory distances
+
+- up to 96,000 km (59,000 mi) round trips for Arctic Terns
+- up to 13,559 km (8425 mi) *nonstop* for Bar-tailed Godwits
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/tern_migration.png}
+\end{figure}  
+
+\hfill \tiny (Egevang et al. 2010)
+
+# Studying connectivity: bird banding
+
+- Metal rings with unique codes attached to netted birds
+- Long-term program by USGS (soon to be cut?)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/woodcock.png}
+\end{figure}  
+
+\hfill \tiny ([USGS](https://www.usgs.gov/media/images/banding-american-woodcock); Moore & Krementz 2017)  
+
+# Stable isotopes
+
+- deuterium ($^2H$) is a variant ("isotope") of hydrogen with same number of protons but different number of neutrons
+- ratio of deuterium to hydrogen varies in precipitation---and thus feathers---across latitude and altitude
+- can link breeding and wintering ranges
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/bicknells.png}
+\end{figure}  
+
+\hfill \tiny ([*Catharus bicknelli*](https://macaulaylibrary.org/asset/60872651); Hobson et al. 2004)
+
+# Population genetics
+
+- connectivity can also be detected by similar DNA sequences / allele frequencies in wintering and breeding populations 
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/bunting.png}
+\end{figure}  
+
+\hfill \tiny (Battey et al. 2018)  
+
+# Migration is costly
+
+- Birds bird fat, carbohydrates, protein
+- Ovenbirds lose 0.2g body weight / hour while migrating (16-20g total weight)
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/weight_loss.png}
+\end{figure}  
+
+\hfill \tiny (Hussell 1969)  
+
+# Navigation cues: sun
+
+- Starlings change orientation during zugunruhe if sunlight is manipulated experiementally 
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/sun.png}
+\end{figure}  
+
+\hfill \tiny (Emlen 1975)  
+
+# Migration cues: magnetic field
+
+- Reversing the direction of an artificial magnetic field around a pigeon's head causes them to reverse their orientation on overcast days
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/magnetic.png}
+\end{figure}  
+
+\hfill \tiny (Walcott & Green 1974)  
+
+# Migration cues: stars  
+
+- Advancing the position of planetarium stars leads to orientation changes in nocturnal migrants
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/blackcap.png}
+\end{figure}  
+
+\hfill \tiny (*Sylvia atricapilla*; Emlen 1975)  
+
+# Lecture Exam Review
+
+- Wednesday, October 15th
+- 50 points on feathers and flight, physiology, senses, vocalizations, annual cycles, and migration
+- No lab content that wasn't also covered in lecture
+- Question types: multiple choice, multiple select, true / false, fill-in-the-blanks, short answer
+- Format: Canvas quiz, closed book. Bring a laptop or tablet. 
+- **Anything covered in lecture is fair game**
+
+# Feathers
+
+- Identify feather types, tracts / apteria, major structures
+- Name feather macromolecule
+- Order feather developmental stages
+- Describe the major hypothesis for feather evolution 
+- Match colors with pigment type or structural color / iridescence
+- Describe fitness consequences of molt
+- Contrast resident versus migrant molt patterns
+
+# Flight
+
+- Explain how birds generate Bernoulli and Newtonian lift 
+- Define different types of drag
+- Explain relationship between flight power, airspeed, and energetic cost
+- Contrast thermal and dynamic soaring
+- Identify major flight muscles and bones
+- Predict ecology from wing aspect ration and wing loading
+
+# Physiology
+
+- Relate bird body temperature to other vertebrates
+- Describe respiratory system adaptations for flight
+- Contrast basal metabolic rate, active metabolic rate, and metabolic scope
+- Define thermoneutral zone
+- Predict impact of summer plumage on BMR in winter
+- Contrast nocturnal hypothermia, torpor and hibernation
+- Describe adaptations to cope with hyperthermia
+- Contrast mammalian and avian treatment of nitrogenous waste
+- Explain importance of nasal salt glands
+
+# Senses
+
+- Describe avian eye anatomy
+- Contrast avian and human vision
+- Explain cause and consequences of tetrahedral color space
+- Explain how eye position, field of vision, and ecology relate
+- Contrast avian and mammal ear anatomy
+- Name organs responsible for tactile sensation
+- Contrast avian and mammalian taste
+- Describe basis and origin for carbohydrate taste in hummingbirds
+- Link avian brain anatomy with intelligence
+- Describe evidence for avian intelligence
+
+# Vocalizations
+
+- Contrast avian larynx and syrinx
+- Describe link between syrinx anatomy and vocal ability
+- Explain the aspects of songs captured by amplitude and frequency
+- Interpret spectrograms (e.g., which labeled section is louder / higher?)
+- Name anatomical features responsible for harmonics, self-duetting, post-source modulation
+- Explain impact of ecology on post-source modulation
+- Evaluate evidence for acoustic adaptation hypothesis
+- Name taxa that are vocal learners
+- Recall phases of song learning and apply to mimicry / learning from "tutors"
+
+# Annual Cycles  
+
+- Contrast resident and migratory life cycles
+- Explain link between food availability, molt, and migration
+- Name environmental cues that mediate annnual cycles
+- Define circadian and circannual rhythms
+- Define zeitgebers and explain why they are necessary
+- Explain the phenomenon of phenological mismatches
+
+# Migration
+
+- Contrast hypotheses for evolution of seasonal migration
+- Explain factors leading to partial migration
+- Define flyways and stopover sites
+- Evaluate pros and cons of different migration tracking methods
+- Explain genetic and stable isotope evidence for migratory connectivity 
+- Describe energy sources for migration
+- Describe evidence for nagivation by the sun, magnetic fields, and stars
+
+
+# References
+
+- Title slide species: *Acrocephalus taiti*, *Heteroxolmis dominicana*, *Momotus bahamensis*, *Poecile montanus*
+
+- Rolland, J., Jiguet, F., Jønsson, K. A., Condamine, F. L., & Morlon, H. (2014). Settling down of seasonal migrants promotes bird diversification. Proceedings of the Royal Society B: Biological Sciences, 281(1784), 20140473.
+
+- Winger, B. M., Auteri, G. G., Pegan, T. M., & Weeks, B. C. (2019). A long winter for the Red Queen: rethinking the evolution of seasonal migration. Biological Reviews, 94(3), 737-752.
+
+- Winger, B. M., Barker, F. K., & Ree, R. H. (2014). Temperate origins of long-distance seasonal migration in New World songbirds. Proceedings of the National Academy of Sciences, 111(33), 12115-12120.
+
+# References
+
+- Egevang, C., Stenhouse, I. J., Phillips, R. A., Petersen, A., Fox, J. W., & Silk, J. R. (2010). Tracking of Arctic terns Sterna paradisaea reveals longest animal migration. Proceedings of the National Academy of Sciences, 107(5), 2078-2081.
+
+- Conklin, J. R., & Battley, P. F. (2010). Attachment of geolocators to bar-tailed godwits: a tibia-mounted method with no survival effects or loss of units. Wader Study Group Bull, 117(1), 56-58.
+
+- Battley, P. F., Warnock, N., Tibbitts, T. L., Gill Jr, R. E., Piersma, T., Hassell, C. J., ... & Riegen, A. C. (2012). Contrasting extreme long‐distance migration patterns in bar‐tailed godwits Limosa lapponica. Journal of Avian Biology, 43(1), 21-32.
+
+- Moore, J. D., & Krementz, D. G. (2017). Migratory connectivity of American Woodcock using band return data. The Journal of Wildlife Management, 81(6), 1063-1072.
+
+
+# References
+
+- Hobson, K. A., Aubry, Y., & Wassenaar, L. I. (2004). Migratory connectivity in Bicknell's Thrush: Locating missing populations with hydrogen isotopes. The Condor, 106(4), 905-909.
+
+- Battey, C. J., Linck, E. B., Epperly, K. L., French, C., Slager, D. L., Sykes Jr, P. W., & Klicka, J. (2018). A migratory divide in the Painted Bunting (Passerina ciris). The American Naturalist, 191(2), 259-268.
+
+- Hussell, D. J. T. (1969). Weight loss of birds during nocturnal migration. The Auk, 75-83.
+
+- Emlen, S. T., Farner, D. S., & King, J. R. (1975). Migration: orientation and navigation. Avian biology, 5, 129-219.
+
+- Walcott, C., & Green, R. P. (1974). Orientation of homing pigeons altered by a change in the direction of an applied magnetic field. Science, 184(4133), 180-182.

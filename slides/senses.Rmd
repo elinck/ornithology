@@ -1,0 +1,381 @@
+---
+title: "Senses & Cognition"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner12.png}}{}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Birds are visual organisms
+
+- Vision deeply important to feeding, reproduction, avoiding predators 
+- Bird eyes are large (human-sized in some eagles and owls) and sophisticated
+- Songbirds and raptors can resolve details 2-3x farther than us
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/bluebop.png}
+\end{figure}  
+
+\hfill \tiny [*Paradisornis rudolphi*](https://macaulaylibrary.org/asset/608319877) 
+
+# Bird eye anatomy
+
+- both **lens** and **cornea** change shape to focus
+- focus via **Campton's** & **Brucke's** muscles on **sclerotic ring**
+- **pecten** structure enhances blood supply without constraining receptor density
+- **fovea** a pit of high cone density for sharp central vision 
+
+\begin{figure}
+\includegraphics[width = 0.55\linewidth]{images/bird_eye_anatomy.jpg}
+\end{figure}  
+
+\hfill \tiny [Wikipedia](https://en.wikipedia.org/wiki/Pecten_oculi)
+
+# External eye features
+
+- **nictating membrane** (L): shared with other reptiles; transparent membrane that moves front to back to moisten and protext eyes (particularly diving birds)
+- **tapetum lucidum** (R): "eyeshine" of night birds caused by lipid spheres in retina that scatter light to improve vision; physiological, not permanent
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/eye_stuff.png}
+\end{figure}  
+
+\hfill \tiny [Audubon](https://www.audubon.org/news/birds-have-built-goggles); [Maryland Biodiversity Project](https://news.maryland.gov/dnr/2024/10/01/native-animal-profile-eastern-whip-poor-will/)
+
+# Eye position impacts field of vision
+
+- **binocular vision**: better depth perceptinon
+- **monocular vision**: can enhance field of view; head bobbing or switching angles to compensate for reduced depth perception  
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/vision.png}
+\end{figure}  
+
+\hfill \tiny [*Columba livia*](https://macaulaylibrary.org/asset/61674401); [*Bubo virginianus*](https://macaulaylibrary.org/asset/63942211); [Wikipedia](https://en.wikipedia.org/wiki/Bird_vision) 
+
+# Eye position impacts field of vision
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/field_of_vision.jpg}
+\end{figure}  
+
+\hfill \tiny (Martin 2022)
+
+# Light sensors
+
+- **rods** are highly sensitive receptors for low light
+- **cones** are coiled proteins containing carotenoid pigment; sensitive to different portions of the visible spectrum
+- **oil droples** reduce light but enhance color discrimination  
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/cones2.png}
+\end{figure}  
+
+\hfill \tiny (Toomey et al. 2016)
+
+# Birds perceive ultraviolet light
+
+- Birds can see light from 325 to 700 nanometers (versus 400 to 700 in humans)
+- Cone types for red, green, blue, and ultraviolet light (versus just RGB in humans) 
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/bird_vision_spectra.png}
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](Bird_vision))
+
+
+# What explains this Mountain Bluebird's coloration?
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/bluebird2.png}
+\end{figure}  
+
+\hfill \tiny [*Sialia currucoides*](https://macaulaylibrary.org/asset/228676221)
+
+\normalsize
+
+a) light from approximately 400 to 500nm is being absorbed by structural features 
+b) light from approximately 400 to 500nm is being absorbed by pigment 
+c) light from approximately 400 to 500nm is being reflected by structural features 
+a) light from approximately 400 to 500nm is being reflected by pigment 
+
+# Tetrahedral color space
+
+- Combinations of cones create 2D color space in humans (b), 3D color space in birds (a)
+- Color comprised of **hue** (angle from center of color vector) and saturation (distance from center)
+- Vertical axis of avian color tetrahedron defines colors that are unperceivable and unimaginable to humans
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/tetra.jpg}
+\end{figure}  
+
+\hfill \tiny (Janas et al. 2019)
+
+# UV colors impact reproduction
+
+- Male Bluethroats (*Luscinia svecica*) were left untreated (top), rubbed with baby oil (middle), or rubbed with sunblock (bottom)
+- Birds treated with sunblock had lower mating success
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/bluethroat.png}
+\end{figure}  
+
+\hfill \tiny ([ML182455611](https://macaulaylibrary.org/asset/182455611); Johnsen et al. 1998)
+
+# Bird hearing is not extraordinary
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/hearing.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)
+
+# Bird ear anatomy
+
+- no external ear (**pinnae** of mammals); instead, an **ear funnel** covered with feathers
+- the **stapes** (**columella**) transmits sound vibrations to the **tympanum**
+- the **semicircular canals** control balance
+- the **cochlea** is the inner ear
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/stapes2.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)
+
+# Asymmetrical ears aid prey location 
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/owl_asymmetry.jpg}
+\end{figure}  
+
+\hfill \tiny (*Aegolius funereus*, [International Owl Center](https://www.internationalowlcenter.org/))
+
+# Echolocation
+
+- known in swiftlets (*Aerodromus* and *Collocalia*) and oilbirds (*Steatornis*)
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/steatornis.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=lKEYMJ1vjj8
+
+\hfill \tiny [*Steatornis caripensis*](https://macaulaylibrary.org/asset/608319877) 
+
+# Tactile sensation
+
+- **Hebst corpuscles**: largest and most common touch receptors
+- Merkel corpuscles: skin, bill, tongue
+- Gandry corpuscles: in duck bills only 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/hebst.png}
+\end{figure}  
+
+\hfill \tiny (Crole & Soley 2014)
+
+# Birds have a poorly developed sense of taste
+
+- 2 (chicken) to 62 (Japanese Quail) taste buds on rear of tongue and back of throat versys 10,000+ on tongue in humans
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/tastebuds.jpg}
+\end{figure}  
+
+\hfill \tiny (Crole & Soley 2014)
+
+# Birds are not sensitive to capsaicin
+
+- **directed deterrence hypothesis**: secondary metabolites in ripe fruit function to deter fruit consumption by vertebrates that do not disperse seeds, while not impacting consumption by those that do
+- Levey et al.: NO chili consumption by rodents in AZ / Bolivia, even though shown in lab; entirely by birds
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/chilis.png}
+\end{figure}  
+
+\hfill \tiny (Levey et al. 2006)
+
+# Hummingbirds can taste sugar
+
+- strong feeding preference for sucrose and erythritol, which activate T1R1-T1R3 sensors
+- limited time feeding on water or aspartame, which fail to activate T1R1-T1R3 sensors
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/sweet_hummer.png}
+\end{figure}  
+
+\hfill \tiny (Baldwin et al. 2014)
+
+# Sweet receptor a novel modification of umami T1R3 protein
+
+- Most birds lack T1R2 sweet receptor
+- Hummingbirds have modified TR13 protein that responds to carbohydrates
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/t1r.png}
+\end{figure}  
+
+\hfill \tiny (Baldwin et al. 2014)
+
+# Enhanced olfactory bulb in Kiwi
+
+- Olfactory bulb large in scent-dependent species: kiwis, vultures, petrels
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/olfactory.png}
+\end{figure}  
+
+\hfill \tiny (Baldwin et al. 2014)
+
+# Which of the following features is related to hearing?
+
+\begin{figure}
+\includegraphics[width = 0.3\linewidth]{images/hearing.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)
+
+\normalsize
+
+a) nictating membrane
+b) Hebst corpuscule
+c) Gandry corpuscule
+d) stapes
+e) olfactory bulb
+f) fovea
+
+# Birds can be very intelligent
+
+- Brain large relative to body size, particularly in songbirds and parrots
+- The smartest species show object permanence, can delay gratification, remember past episodes and plan ahead, reason to solve puzzles, recognize themselves in the mirror, infer mental states of others, show awareness of own learning (metacognition), learn complex songs
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/brain_scaling.png}
+\end{figure}  
+
+\hfill \tiny (Olkowicz et al. 2016)
+
+# Bird brain anatomy
+
+- **forebrain**: instinctual behaviors, learning, sensory integration
+- **midbrain**: vision, coordination, physiology, hormones
+- **hindbrain / medulla**: links to spinal cord and peripheral nervous system
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/brain_anatomy.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)  
+
+# An evolving view of the avian forebrain 
+
+- Majority of avian forebrain long thought to be homologous with mammalian **striatum** (involved in instinctive behavior)
+- More recently discovered to consist of **pallial** elements associated with learning and intelligence
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/brain_evol_theory.png}
+\end{figure}  
+
+\hfill \tiny (Emery 2007)  
+
+# Birds have high neuronal density 
+
+- Corvids and parrots have more pallial neurons in forebrains than primates 3x as large!
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/neuron_density.png}
+\end{figure}  
+
+\hfill \tiny (Olkowicz et al. 2016)
+
+# Seed caching in Clark's Nutcrackers
+
+- Seed caching behavior requires impressive cognitive ability (especially spatial memory)
+- Experiments show Clark's Nutcrackers recover stashed seeds at a higher rate than random expectations (but this decays over time)
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/memory.png}
+\end{figure}  
+
+\hfill \tiny [*Nucifraga columbiana*](https://macaulaylibrary.org/asset/51262821); Balda & Kamil 1992 
+
+# New Caledonian crow tool use
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/crows.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=EryZPmOxwC0&t=15s
+
+\hfill \tiny (Bayern et al. 2018; [Minerva](https://www.minervateam.hu/contactl/crow-slot/crows-make-complex-tools-6882266/))
+
+# Keas understand probability
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/kea.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=Yj718A7_s4A
+
+\hfill \tiny [*Nestor notabilis*](https://macaulaylibrary.org/asset/57710841)
+
+# Alex the Parrot
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/alex.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=ldYkFdu5FJk
+
+# References
+
+- Title slide species: *Aviceda subcristata*, *Cacatua moluccensis*, *Ardena creatopus*, *Phyllastrephus debilis*   
+
+- Martin, G. R. (2022). Avian vision. Current Biology, 32(20), R1079-R1085.
+
+- Toomey, M. B., Lind, O., Frederiksen, R., Curley Jr, R. W., Riedl, K. M., Wilby, D., ... & Corbo, J. C. (2016). Complementary shifts in photoreceptor spectral tuning unlock the full adaptive potential of ultraviolet vision in birds. Elife, 5, e15675.
+
+- Janas, K., Podmokła, E., Lutyk, D., Dubiec, A., Gustafsson, L., Cichoń, M., & Drobniak, S. (2018). Influence of haemosporidian infection status on structural and carotenoid‐based colouration in the blue tit Cyanistes caeruleus. Journal of Avian Biology, 49(10), e01840.
+
+# References
+
+- Johnsen, A., Andersson, S., Örnborg, J., & Lifjeld, J. T. (1998). Ultraviolet plumage ornamentation affects social mate choice and sperm competition in bluethroats (Aves: Luscinia s. svecica): a field experiment. Proceedings of the Royal Society of London. Series B: Biological Sciences, 265(1403), 1313-1318.
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+- Tucker, A. S. (2017). Major evolutionary transitions and innovations: the tympanic middle ear. Philosophical Transactions of the Royal Society B: Biological Sciences, 372(1713), 20150483.
+
+- Crole, M. R., & Soley, J. T. (2014). Comparative distribution and arrangement of Herbst corpuscles in the oropharynx of the ostrich (Struthio camelus) and emu (Dromaius novaehollandiae). The Anatomical Record, 297(7), 1338-1348.
+
+- Niknafs, S., Navarro, M., Schneider, E. R., & Roura, E. (2023). The avian taste system. Frontiers in Physiology, 14, 1235377.
+
+# References
+
+- Levey, D. J., Tewksbury, J. J., Cipollini, M. L., & Carlo, T. A. (2006). A field test of the directed deterrence hypothesis in two species of wild chili. Oecologia, 150(1), 61-68.
+
+- Baldwin, M. W., Toda, Y., Nakagita, T., O'Connell, M. J., Klasing, K. C., Misaka, T., ... & Liberles, S. D. (2014). Evolution of sweet taste perception in hummingbirds by transformation of the ancestral umami receptor. Science, 345(6199), 929-933.
+
+- Corfield, J. R., Eisthen, H. L., Iwaniuk, A. N., & Parsons, S. (2014). Anatomical specializations for enhanced olfactory sensitivity in kiwi, Apteryx mantelli. Brain Behavior and Evolution, 84(3), 214-226.
+
+- Olkowicz, S., Kocourek, M., Lučan, R. K., Porteš, M., Fitch, W. T., Herculano-Houzel, S., & Němec, P. (2016). Birds have primate-like numbers of neurons in the forebrain. Proceedings of the National Academy of Sciences, 113(26), 7255-7260.
+
+# References
+
+- Emery, N. J. (2007). Evolution of the avian brain and intelligence. Current Biology, 15, 46.
+
+- Balda, R. P., & Kamil, A. C. (1992). Long-term spatial memory in Clark's nutcracker, Nucifraga columbiana. Animal Behaviour, 44(4), 761-769.
+
+- Bayern, A. V., Danel, S., Auersperg, A. M. I., Mioduszewska, B., & Kacelnik, A. (2018). Compound tool construction by New Caledonian crows. Scientific reports, 8(1), 15676.
+
+
