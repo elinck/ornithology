@@ -1,0 +1,75 @@
+---
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Lab Exam 1
+
+Name:_______________ 
+\newline
+
+1) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+2) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+3) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+4) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+5) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+6) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+7) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+8) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+9) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+10) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+11) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+12) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+13) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+14) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+15) Order______________Family_______________Common Name_________________  
+&nbsp;  
+
+16) Family______________  
+&nbsp;   
+
+17) Common Name______________  
+&nbsp;   
+
+18) Order______________  
+&nbsp;   
+
+19) Family______________  
+&nbsp;   
+
+20) Common Name______________  
+
+
+
+

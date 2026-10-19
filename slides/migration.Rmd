@@ -45,17 +45,19 @@ knitr::opts_chunk$set(echo = FALSE)
 \hfill \tiny (Rolland et al. 2014)
 
 # Which hypothesis is supported in neotropical migrants?
-
-- blue: winter range shift
-- orange: breeding range shit
-- pink: neotropical migrant
-
+\small
+*blue means a lineage with a winter range shift; orange means a lineage with a breeding range shit; pink are lineages that are current neotropical migrants*
+\normalsize
 \begin{figure}
-\includegraphics[width = \linewidth]{images/migration_evolution.png}
+\includegraphics[width = 0.9\linewidth]{images/migration_evolution.png}
 \end{figure}  
 
 \hfill \tiny (Winger et al. 2014)
 
+\normalsize
+
+a) $H_1$: adaptation to reduced competition for breeding sites
+b) $H_2$: adaptation to seasonality
 
 # Partial Migration
 
