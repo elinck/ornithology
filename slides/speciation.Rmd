@@ -261,7 +261,7 @@ c) It depends on geographic sampling
 
 # Lecture Exam Review
 
-- Wednesday, September 17th
+- Wednesday, September 3rd
 - 50 points on avian diversity, taxonomy, biogeography, phylogenetics, and speciation
 - No lab content that wasn't also covered in lecture (e.g., what a hallux is )
 - Question types: multiple choice, multiple select, true / false, fill-in-the-blanks, short answer

@@ -1,0 +1,43 @@
+---
+  output: pdf_document
+  header-includes:
+  - \usepackage{caption}
+  - \captionsetup[figure]{labelformat=empty}
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ornithology Week 4 Practice Problems: Feathers
+
+1) Which of the following taxa produce beta-keratin?
+
+   a) Reptiles (excluding birds)
+   b) Reptiles (including birds)
+   c) Reptiles and amphibians (excluding birds)
+   d) None of the above
+   
+2) Retrices have asymmetrical vanes to generate Bernoulli lift. (**T**, **F**, or **It Depends**)  
+
+3) How are remiges numbered?
+
+   a) primaries are counted from inside to outside, secondaries are counted from outside in
+   b) primaries are counted from outside in, secondaries are counted from outside in
+   c) each remige is labeled counting inward from the outermost feather
+   d) primaries are counted from outside in, secondaries are counted from inside out
+   e) none of the above
+
+4) Provide a hypothesis for why plumage elaboration (e.g., the evolution of sexual ornaments) more commonly occurs in the retrices than remiges. 
+
+5) During feather development, the follice invaginates to form a placode. (**T**, **F**, or **It Depends**)  
+
+6) Which of the following plumage colors are producted by **pigments**? Circle all that apply.
+
+   a) yellow in parrots
+   b) olive-green in warblers
+   c) brown in great-horned owls
+   d) orange in warblers
+   e) black in hummingbirds
+   
+7) Migratory species commonly have one complete and one partial molt per year (**T**, **F**, or **It Depends**) 

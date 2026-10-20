@@ -1,0 +1,31 @@
+---
+  output: pdf_document
+  header-includes:
+  - \usepackage{caption}
+  - \captionsetup[figure]{labelformat=empty}
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ornithology Week 7 Practice Problems: Senses
+
+1) What is the functional role of the pecten in the avian eye?
+
+2) Which of the following statements about avian vision are correct? (You may circle more than one.)
+
+    a) birds can see ultraviolet light
+    b) birds can see light with wavelengths greater than 700 nm
+    c) birds have three cone types versus four in humans 
+    d) birds have primarily monocular vision
+    
+3) Birds have larger forebrains than primates (**T**, **F**, or **It Depends**)  
+
+4) The avian forebrain is mostly pallial elements (**T**, **F**, or **It Depends**)  
+
+5) What does the Gandry corpsucle do, and which taxon is it restricted to?
+
+6) Describe at least three lines of evidence for high avian intelligence in birds, focusing on parrots and corvids.
+
+7) Birds are deterred by capsaicin (**T**, **F**, or **It Depends**) 

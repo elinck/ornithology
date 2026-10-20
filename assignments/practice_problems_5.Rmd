@@ -1,0 +1,37 @@
+---
+  output: pdf_document
+  header-includes:
+  - \usepackage{caption}
+  - \captionsetup[figure]{labelformat=empty}
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ornithology Week 5 Practice Problems: Flight & Physiology
+
+1) Contrast Bernoulli Lift and Newtonian Lift. 
+
+2) Why is $V_{MR}$ (speed for maximum distance per unit energy) different than $V_{MP}$ (speed with minimum energy use per unit time) for flying birds?
+    
+    a) $V_{MP}$ minimizes the power necessary to stay aloft but results in a lower speed and less distance covered per unit time
+    b) $V_{MR}$ increases both profile power and parasitic drag relative to $V_{MP}$ 
+    c) $V_{MR}$ maximizes distance per unit energy
+    d) all of the above
+   
+3) How is metabolic scope related to basal metabolic rate and active metabolic rate?
+
+4) Contrast torpor, hypothermia, and hibernation, with avian examples of each. 
+
+5) Define thermoneutral zone.
+
+6) Birds share two-directional airflow with other vertebrates (**T**, **F**, or **It Depends**)  
+
+7) Wing aspect ratio is maximized when body weight is low relative to wing area (**T**, **F**, or **It Depends**)
+
+8) How are the pectoralis, supracoracoideus, and triosseal canal functionally related? 
+
+9) Nitrogenous waste in birds is more concentrated (in terms of mL per unit $H_20$) than in humans (**T**, **F**, or **It Depends**)
+
+10) Describe an experiment to test whether a sand grouse's plumage is an adaptation to hyperthermia.  

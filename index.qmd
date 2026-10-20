@@ -72,26 +72,31 @@ This is a maximalist version of the course syllabus (also available as a [pdf](a
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 9/21 - 9/25   | - Feathers                        | - Gill & Prum Ch. 4 & 5                                                                           |
 |               |                                   | - [Slides (M)](slides/feathers.pdf)                                                               |
+|               |                                   | - [Practice Problems](assignments/practice_problems_4.pdf)                                        |  
 |               |                                   | - **Lecture Exam 1 (W)**                                                                          |
 |               |                                   | - Lab 3: Field skills / eBird; Lab Quiz 2                                                         |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 9/28 - 10/2   | - Flight, Physiology              | - Gill & Prum Ch. 6 & 7                                                                           |
 |               |                                   | - [Slides (M)](slides/flight.pdf)                                                                 |
 |               |                                   | - [Slides (W)](slides/physiology.pdf)                                                             |  
+|               |                                   | - [Practice Problems](assignments/practice_problems_5.pdf)                                        |  
 |               |                                   | - Lab 4: Snow Goose to Harlequin Duck                                                             |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 10/5 - 10/9   | - Vocalizations & Annual Cycles   | - Gill & Prum Ch. 8 & 9                                                                           |
 |               |                                   | - [Slides (M)](slides/vocalizations.pdf)                                                          |
 |               |                                   | - [Slides (W)](slides/annual_cycles.pdf)                                                          |  
+|               |                                   | - [Practice Problems](assignments/practice_problems_6.pdf)                                        |  
 |               |                                   | - Lab 5: Bufflehead to Western Grebe                                                              |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 10/12 - 10/16 | - Senses                          | - Gill & Prum Ch. 7                                                                               |  
-|               |                                   | - [Slides (M)](slides/senses.pdf)                                                                 |  
+|               |                                   | - [Slides (M)](slides/senses.pdf)                                                                 |
+|               |                                   | - [Practice Problems](assignments/practice_problems_7.pdf)                                        |  
 |               |                                   | - **Lab Exam 1**                                                                                  |
 |               |                                   | - Lab 6: Rock Pigeon to Wilson's Phalarope                                                        |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 10/19 - 10/23 | - Migration and Navigation        | - Gill & Prum Ch. 10                                                                              |
 |               |                                   | - [Slides (M)](slides/migration.pdf)                                                              |  
+|               |                                   | - [Practice Problems](assignments/practice_problems_8.pdf)                                        |  
 |               |                                   | - **Lecture Exam 2 (W)**                                                                          |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 10/26 - 10/30 | - Reproduction & Sexual Selection | - Gill & Prum Ch. 12 & 13                                                                         |

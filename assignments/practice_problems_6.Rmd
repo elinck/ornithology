@@ -1,0 +1,46 @@
+---
+  output: pdf_document
+  header-includes:
+  - \usepackage{caption}
+  - \captionsetup[figure]{labelformat=empty}
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ornithology Week 6 Practice Problems: Vocalizations and the Annual Cycle
+
+1) Describe how amplitude, frequency, and time are portrayed on a sonogram. 
+
+2) Harmonics are the result of multiple sound-producing regions in the syrnix operating simultaneously (**T**, **F**, or **It Depends**)  
+
+3) Natural selection on foraging traits such as bill size can influence the frequency of a call through post-source modulation (**T**, **F**, or **It Depends**)  
+
+4) Which of the following correctly describes the acoustic adaptation hypothesis?
+
+    a) selection for communication efficacy leads to birds that live in denser habitats having higher-pitched calls
+    b) selection for communication efficacy leads to birds that live in more open habitats having higher-pitched calls
+    c) birds with larger body sizes have higher-pitched calls
+    d) birds with smaller body sizes have higher-pitched calls
+
+5) Which of the following taxa are vocal learners? (You may circle more than one answer)
+
+    a) passerines
+    b) whales
+    c) bats
+    d) humans
+
+6) What are the four major life cycle events (or "tasks") for migratory birds?
+
+7) Define zeitgeber.
+
+8) Describe experimental evidence (real or hypothetical) for why intrinsic circadian rhythms are imperfect. 
+
+9) Which of the following influence the life cycle stage of a migratory bird?
+
+    a) photoperiod
+    b) pineal gland
+    c) nesting success or failure
+    d) weather 
+
