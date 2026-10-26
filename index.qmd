@@ -100,10 +100,11 @@ This is a maximalist version of the course syllabus (also available as a [pdf](a
 |               |                                   | - **Lecture Exam 2 (W)**                                                                          |
 |               |                                   | - Lab 7: Franklin's Gull to American Goshawk                                                      |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
-| 10/26 - 10/30 | - Reproduction & Sexual Selection | - Gill & Prum Ch. 12 & 13                                                                         |
+| 10/26 - 10/30 | - Sociality & Sex                 | - Gill & Prum Ch. 12 & 13                                                                         |
 |               |                                   | - Lab 8: Swainson's Hawk to Pileated Woodpecker; Lab Quiz 3                                       |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
-| 11/2 - 11/6   | - Breeding Systems                | - Gill & Prum Ch. 14                                                                              |
+| 11/2 - 11/6   | - Breeding  & Sexual Selection    | - Gill & Prum Ch. 14                                                                              |
+|               |                                   | - [Slides (M)](slides/sociality.pdf)                                                              |  
 |               |                                   | - Lab 9: American Kestrel to Warbling Vireo                                                       |
 |               |                                   | - **Lab Exam 2 (Visual & Audio)**                                                                 |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
