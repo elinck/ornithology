@@ -1,0 +1,420 @@
+---
+title: "Bird Sex"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner17.png}}{}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Bird sexes
+
+- Two sexes: M/F (c.f. hermaphrodites, clonal reproduction, animals with 4-7 mating types)
+- Sex is determined at fertilization, permanent (c.f. some fish, frogs, reptiles)
+- Roles and phenotypes determined by gene activity, hormones, **chromosomes**
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/bop_sexes.png}
+\end{figure}  
+
+\hfill \tiny ([*Paradisaea apoda*](https://macaulaylibrary.org/asset/225439061))
+
+# ZW sex determination
+
+- Females are the **heterogametic** sex
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/bird_sex_chrom.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)  
+
+# Bird reproductive organs
+
+- Most female birds only have one ovary, on the left side (excluding kiwis, raptors)
+- More germ cells on left side in male birds leads to large L testis
+- Produce **testosterone** and **estrogen** (both sexes have both; ratio matters)
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/bird_genitals.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)  
+
+# Sexual dimorphism is not ubiquitous 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/empid_sex.png}
+\end{figure}  
+
+\hfill \tiny ([*Empidonax difficilis*](https://macaulaylibrary.org/asset/642411374))  
+
+# Sexual differences are not absolute
+
+- Failure during first mitotic division of fertilized ovum leads to **bilateral gynandromorphs** with one testis / one ovum, M/F halves
+
+\begin{figure}
+\includegraphics[width = 0.4\linewidth]{images/gynandromorph.png}
+\end{figure}  
+
+\hfill \tiny (Agate et al. 2003)  
+
+# Bilateral gynandromorphs are not uncommon
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/gynandromorph2.png}
+\end{figure}  
+
+https://www.discoverwildlife.com/news/bilateral-gynandromorphy-in-green-honeycreeper
+
+# Copulation via cloacal contact
+
+- accumulating sperm produces **cloacal protrubrence** in some passerines; can indicate reproductive status  
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/cp.png}
+\end{figure}  
+
+\hfill \tiny (Pyle 1997; Schut et al. 2012)  
+
+# Ratites and waterfowl retain a penis
+
+- Universal in reptiles and mammals, lost in all other birds
+- Erections from lymphatic fluids, not blood pressure
+- Retained within body until explosive activation 
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/ruddy_duck_dick.png}
+\end{figure}  
+
+\hfill \tiny (McCracken et al. 2003)  
+
+# Sperm production
+
+- Sperm produced at night during cooler temperatures
+- Stored at distal end of vas deferens (4 degrees C cooler than body)
+- Sperm morphology and size vary widely across birds---even within passerines
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/sperm.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019; [NHM U. Oslo](https://www.nhm.uio.no/english/research/projects/sperm-evolution-in-birds/))  
+
+# Ova maturation
+
+- Oocytes present at hatching
+- Ova by two months of age
+- Add yolk in week prior to ovulation 
+- **L**: dissected female House Sparrow that had previously laid 4 eggs; a fifth is visible in the oviduct, plus two more forming yolk 
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/ova.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019; photo courtesy Jay Rotella)
+
+# Which of the following is false?
+
+\begin{figure}
+\includegraphics[width = 0.3\linewidth]{images/gynandromorph.png}
+\end{figure}  
+
+\hfill \tiny (Agate et al. 2003)  
+
+\normalsize
+
+a) males have ZZ chromosomes
+b) kiwis have paired ovaries
+c) females have a cloaca
+d) not all birds are sexually dimorphic
+e) the right male testis is largest
+
+# Ovulation
+
+- Egg moves through oviduct in ~24 hours (albumen, 3-4 hours; egg membranes, 1 hour; shell, 20 hours)
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/ovulation.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)  
+
+# Egg anatomy 
+
+- yellow yolk deposited at night, white during the day
+- **carotenoids** determine yolk color
+- yolk for food (21-36% lipids, 16-22% proteins)
+- albumen for $H_20$ (90%), protein (10%), shock absorption
+- shell for protection ($CaCO_3$), gas exchange
+ 
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/egg.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)  
+
+# Yolk investment varies with maturity at birth 
+
+- **precocial**: capable of moving and feeding itself soon after hatching  
+- **altricial**: hatched helpless; requiring significant parental care  
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/yolk_pr_al.png}
+\end{figure}  
+
+\hfill \tiny (Sotherland & Rahn 1987)
+
+# Egg production
+
+- Usually 1 egg per day max
+- **Determinate layers**: lay a fixed total of eggs per nesting attempt
+- **Indeterminate layers**: try for a set number of eggs in nest
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height=2.5, fig.width=6}
+
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# Data from Table 2B
+data <- tribble(
+  ~Development, ~Laying_type, ~Count,
+  "Precocial", "Determinate", 9,
+  "Precocial", "Removal", 10,
+  "Precocial", "Addition", 2,
+  "Precocial", "Removal + Addition", 2,
+  "Altricial", "Determinate", 15,
+  "Altricial", "Removal", 4,
+  "Altricial", "Addition", 2,
+  "Altricial", "Removal + Addition", 2
+)
+
+# Convert to proportions within each developmental category
+data_prop <- data %>%
+  group_by(Development) %>%
+  mutate(Proportion = Count / sum(Count))
+
+# Factor order for consistent display
+data_prop$Laying_type <- factor(data_prop$Laying_type,
+                                levels = c("Determinate", "Removal", "Addition", "Removal + Addition"))
+
+# Plot proportions
+ggplot(data_prop, aes(x = Laying_type, y = Proportion, fill = Development)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 0.8)) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(
+    x = "Laying type",
+    y = "Proportion of species"
+  ) +
+  scale_fill_manual(values = c("#4575b4", "#d73027")) +
+  theme_bw(base_size = 10) +
+  theme(
+    legend.position = "right",
+    axis.text.x = element_text(angle = 20, hjust = 1)
+  )
+
+```
+
+\hfill \tiny ("addition" and "removal" indicate eggs were added or taken away to show indeterminancy; data from Kennedy 1991)
+
+# Why might more precocial species be indeterminate layers?
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height=2.5, fig.width=6}
+
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# Data from Table 2B
+data <- tribble(
+  ~Development, ~Laying_type, ~Count,
+  "Precocial", "Determinate", 9,
+  "Precocial", "Removal", 10,
+  "Precocial", "Addition", 2,
+  "Precocial", "Removal + Addition", 2,
+  "Altricial", "Determinate", 15,
+  "Altricial", "Removal", 4,
+  "Altricial", "Addition", 2,
+  "Altricial", "Removal + Addition", 2
+)
+
+# Convert to proportions within each developmental category
+data_prop <- data %>%
+  group_by(Development) %>%
+  mutate(Proportion = Count / sum(Count))
+
+# Factor order for consistent display
+data_prop$Laying_type <- factor(data_prop$Laying_type,
+                                levels = c("Determinate", "Removal", "Addition", "Removal + Addition"))
+
+# Plot proportions
+ggplot(data_prop, aes(x = Laying_type, y = Proportion, fill = Development)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 0.8)) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(
+    x = "Laying type",
+    y = "Proportion of species"
+  ) +
+  scale_fill_manual(values = c("#4575b4", "#d73027")) +
+  theme_bw(base_size = 10) +
+  theme(
+    legend.position = "right",
+    axis.text.x = element_text(angle = 20, hjust = 1)
+  )
+
+```
+
+\hfill \tiny ("addition" and "removal" indicate eggs were added or taken away to show indeterminancy; data from Kennedy 1991)
+
+\normalsize
+
+a) because they maximize fitness through care for each offspring
+b) because they mazimize fitness through total investment in eggs
+c) because they are largely flightless
+d) i'm still asleep
+
+# Egg pigmentation
+
+- Egg color and pattern varies widely
+- $H$: Trade-off between protection from **transmittance** (T) of UV radiation and **absorption** (A) and overheating. (Dashed line total fitness)
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/egg_color.png}
+\end{figure}  
+
+\hfill \tiny (Lahti & Ardia 2016)  
+
+# Sex ratio adjustment in birds
+
+- Female birds can adjust which sex chromosome the eggs receive in response to the social and/or environmental conditions!
+- Theory predicts females will produce more males to maximize their own fitness in species with high variance in male reproductive success---evidence from kakapo below:
+
+```{r, echo=FALSE, message=FALSE, fig.height=2.5, fig.width=6}
+
+# Load libraries
+library(ggplot2)
+library(dplyr)
+library(patchwork)  # to arrange plots side by side
+
+# Data extracted from the table
+kakapo <- data.frame(
+  Feeding = c(rep("Supplementary fed", 10),
+              rep("Not supplementary fed", 8)),
+  Proportion_males = c(
+    1, 1, 0.67, 1, 0.5, 0, 0, 1, 1, 0.5,     # Supplementary fed
+    0.33, 0, 0, 0.5, 0, 1, 0, 0.5            # Not supplementary fed
+  ),
+  Clutch_size = c(
+    3, 2, 3, 1, 2, 1, 1, 1, 2, 2,             # Supplementary fed
+    3, 3, 1, 2, 2, 1, 1, 2                     # Not supplementary fed
+  )
+)
+
+# Summarize means and SEs
+summary_data <- kakapo %>%
+  group_by(Feeding) %>%
+  summarise(
+    mean_prop = mean(Proportion_males),
+    se_prop = sd(Proportion_males) / sqrt(n()),
+    mean_clutch = mean(Clutch_size),
+    se_clutch = sd(Clutch_size) / sqrt(n())
+  )
+
+# Plot 1: Proportion males
+p1 <- ggplot(summary_data, aes(x = Feeding, y = mean_prop, fill = Feeding)) +
+  geom_col(width = 0.6, alpha = 0.8) +
+  geom_errorbar(aes(ymin = mean_prop - se_prop, ymax = mean_prop + se_prop),
+                width = 0.2) +
+  labs(y = "Mean proportion males", x = NULL,
+       title = "Sex ratio by feeding treatment") +
+  theme_bw(base_size = 10) +
+  theme(legend.position = "none")
+
+# Plot 2: Clutch size
+p2 <- ggplot(summary_data, aes(x = Feeding, y = mean_clutch, fill = Feeding)) +
+  geom_col(width = 0.6, alpha = 0.8) +
+  geom_errorbar(aes(ymin = mean_clutch - se_clutch, ymax = mean_clutch + se_clutch),
+                width = 0.2) +
+  labs(y = "Mean clutch size", x = NULL,
+       title = "Clutch size by feeding treatment") +
+  theme_bw(base_size = 10) +
+  theme(legend.position = "none")
+
+# Combine side-by-side
+p1 + p2
+
+```
+
+https://www.youtube.com/watch?v=QzqGuFWE2Gs
+
+\hfill \tiny(data from Clout et al. 2002)
+
+# Adjusting hatching order reduces mortality
+
+- House Finches in Montana (**A**) and Alabama (**B**) are diverging in tarsus length; hatching order has impacts on growth rate
+- By sex-biasing hatching order, females can reduce mortality in offspring (**D**) by matching tarsus length to local environment
+
+\begin{figure}
+\includegraphics[width =  0.5\linewidth]{images/hatching_order.png}
+\end{figure}  
+
+\hfill \tiny (Badyaev et al. 2002)  
+
+# Is $H_1$ supported?
+
+- **Clutch size** is number of eggs per nesting attempt
+- $H_1$: Clutch size determined by available resources in breeding season (or morality via seasonality leading to greater investment, or lower population density...)
+- Prediction: larger clutch sizes at high latitudes
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/clutch_size.png}
+\end{figure}  
+
+\hfill \tiny (Jetz et al. 2008)  
+
+\normalsize
+
+a) yes
+b) no
+c) it depends
+
+# References
+
+- Title slide species: *Hydropsalis forcipata*, *Grus carunculatus*, *Bucorvus leadbeateri*, *Leuconotopicus albolavartus*
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+- Agate, R. J., Grisham, W., Wade, J., Mann, S., Wingfield, J., Schanen, C., ... & Arnold, A. P. (2003). Neural, not gonadal, origin of brain sex differences in a gynandromorphic finch. Proceedings of the National Academy of Sciences, 100(8), 4873-4878.
+
+- Pyle, P. (1997). Identification guide to North American birds: a compendium of information on identifying, ageing, and sexing" near-passerines" and passerines in the hand. Slate Creek Press.
+
+
+# References
+
+- Schut, E., Magrath, M. J., van Oers, K., & Komdeur, J. (2012). Volume of the cloacal protuberance as an indication of reproductive state in male Blue Tits Cyanistes caeruleus. Ardea, 100(2), 202-205.
+
+- McCracken, K. G. (2000). The 20-cm spiny penis of the Argentine Lake Duck (Oxyura vittata). The Auk, 117(3), 820-825.
+
+- Sotherland, P. R., & Rahn, H. (1987). On the composition of bird eggs. The Condor, 89(1), 48-65.
+
+- Kennedy, E. D. (1991). Determinate and indeterminate egg-laying patterns: a review. The Condor, 93(1), 106-124.
+
+- Lahti, D. C., & Ardia, D. R. (2016). Shedding light on bird egg color: pigment as parasol and the dark car effect. The American Naturalist, 187(5), 547-563.
+
+# References
+
+- Clout, M. N., Elliott, G. P., & Robertson, B. C. (2002). Effects of supplementary feeding on the offspring sex ratio of kakapo: a dilemma for the conservation of a polygynous parrot. Biological Conservation, 107(1), 13-18.
+
+- Badyaev, A. V., Hill, G. E., Beck, M. L., Dervan, A. A., Duckworth, R. A., McGraw, K. J., ... & Whittingham, L. A. (2002). Sex-biased hatching order and adaptive population divergence in a passerine bird. Science, 295(5553), 316-318.
+
+- Jetz, W., Sekercioglu, C. H., & Böhning-Gaese, K. (2008). The worldwide variation in avian clutch size across species and space. PLoS Biology, 6(12), e303.
+

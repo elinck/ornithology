@@ -105,6 +105,7 @@ This is a maximalist version of the course syllabus (also available as a [pdf](a
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 11/2 - 11/6   | - Breeding  & Sexual Selection    | - Gill & Prum Ch. 14                                                                              |
 |               |                                   | - [Slides (M)](slides/sociality.pdf)                                                              |  
+|               |                                   | - [Slides (W)](slides/bird_sex.pdf)                                                               |  
 |               |                                   | - Lab 9: American Kestrel to Warbling Vireo                                                       |
 |               |                                   | - **Lab Exam 2 (Visual & Audio)**                                                                 |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
