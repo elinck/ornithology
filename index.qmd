@@ -101,11 +101,12 @@ This is a maximalist version of the course syllabus (also available as a [pdf](a
 |               |                                   | - Lab 7: Franklin's Gull to American Goshawk                                                      |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 10/26 - 10/30 | - Sociality & Sex                 | - Gill & Prum Ch. 12 & 13                                                                         |
+|               |                                   | - [Slides (M)](slides/sociality.pdf)                                                              |  
+|               |                                   | - [Slides (W)](slides/bird_sex.pdf)                                                               |  
+|               |                                   | - [Practice Problems](assignments/practice_problems_9.pdf)                                        |  
 |               |                                   | - Lab 8: Swainson's Hawk to Pileated Woodpecker; Lab Quiz 3                                       |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
 | 11/2 - 11/6   | - Breeding  & Sexual Selection    | - Gill & Prum Ch. 14                                                                              |
-|               |                                   | - [Slides (M)](slides/sociality.pdf)                                                              |  
-|               |                                   | - [Slides (W)](slides/bird_sex.pdf)                                                               |  
 |               |                                   | - Lab 9: American Kestrel to Warbling Vireo                                                       |
 |               |                                   | - **Lab Exam 2 (Visual & Audio)**                                                                 |
 +---------------+-----------------------------------+---------------------------------------------------------------------------------------------------+
