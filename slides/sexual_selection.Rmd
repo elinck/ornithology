@@ -1,0 +1,294 @@
+---
+title: "Sexual Selection"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner18.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Hypotheses for sexual selection
+
+\begin{figure}
+\includegraphics[width = 0.25\linewidth]{images/spl_ast.png}
+\end{figure}  
+
+**Sexual selection**: Differential success in mating or fertilization as a result of preferences in one sex for traits in the other sex
+
+1) **Good genes hypothesis**: Plumage & courtship give honest signals of genetic quality
+
+2) **Direct benefits hypothesis**: Ornaments communicate ability to provide resources &/or protection 
+
+3) **Arbitrary choice hypothesis**: If females prefer a trait, they might select males with the trait to increase chances of sons with the trait  
+
+\hfill \tiny ([*Astrapia splendidissima*](https://birdsoftheworld-org.proxy.birdsoftheworld.org/bow/species/splast1/cur/introduction))
+
+# Experimental evidence for mate choice: tail length
+
+- *E. progne* are **polygynous**: each male has multiple female mates)
+- Female widowbirds prefer elongated tails (a type of **ornament**, i.e. a physical trait used to attract mates)
+
+\begin{figure}
+\includegraphics[width = 0.75\linewidth]{images/widowbird.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=OPI-9oi19gQ
+
+\hfill \tiny ([*Euplectes progne*](https://macaulaylibrary.org/asset/199096141); Andersson 1982)
+
+# Experimental evidence for mate choice: UV color
+
+- Male Bluethroats (*Luscinia svecica*) were left untreated (top), rubbed with baby oil (middle), or rubbed with sunblock (bottom)
+- Birds treated with sunblock had lower mating success
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/bluethroat.png}
+\end{figure}  
+
+\hfill \tiny ([ML182455611](https://macaulaylibrary.org/asset/182455611); Johnsen et al. 1998)
+
+# Male mate choice matters, too
+
+- Male Rock Sparrows (*Petronia petronia*) prefer females with larger breast patches
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/rocksp.png}
+\end{figure}  
+
+\hfill \tiny ([ML43010621](https://macaulaylibrary.org/asset/43010621); Griggio et al. 2005)
+
+# What hypothesis is best supported in Bobolinks?
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/bob2.png}
+\end{figure}  
+
+\hfill \tiny (Mather & Robertson 1992)
+
+\normalsize
+
+a) good genes
+b) indirect benefits
+c) arbitrary choice
+d) none of the above
+
+# What hypothesis is best supported in Barn Swallows?
+
+- Additional Info: Tail length negatively correlated with male provisioning; no association with provisioning across both sexes
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/barn_sw.png}
+\end{figure}  
+
+\hfill \tiny ([*Hirundo rustica*](https://macaulaylibrary.org/asset/204456581; Møller 1994))
+
+\normalsize
+a) good genes
+b) indirect benefits
+c) arbitrary choice
+d) none of the above
+
+
+# Birds of Paradise
+
+- Few tradeoffs between complexity of signals
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/bop_complex.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=nWfyw51DQfU
+
+\hfill \tiny (Ligon et al. 2018)
+
+# Bowerbird bowers are constructed ornaments that reflect evolutionary history
+
+- "extended phenotype" (like beaver dam)
+
+\begin{figure}
+\includegraphics[width = 0.45\linewidth]{images/bowers.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=1XkPeN3AWIE
+
+\hfill \tiny (Madden 2001)
+
+# Does building bowers requires advanced cognitive abilities?
+
+- Prediction: Bowerbirds have bigger brains than close relatives, and brain size increases with bower complexity within clade
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/bower_complexity.png}
+\end{figure}  
+
+\hfill \tiny (Madden 2001)
+
+\normalsize
+a) yes
+b) no
+c) i'm falling back asleep
+
+# Both male and female ornaments are informative
+
+- Evidence for good genes and direct benefits hypotheses in both sexes
+
+\begin{figure}
+\includegraphics[width = 0.55\linewidth]{images/female_informative.png}
+\end{figure}  
+
+\hfill \tiny (Nolazco et al. 2022) 
+
+# Extra-pair paternity is unexpectedly common
+
+- Predictors: adult mortality (+); male contribution to care (-)
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/epp.png}
+\end{figure}  
+
+\hfill \tiny (Griffith et al. 2002)
+
+# Sexual selection leads to sexual dimorphism
+
+- Types of dimorphism: **sexual dichromatism** and **sexual size dimorphism**
+- Has evolved repeatedly (outer two circles below)
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/ssd_phylo.jpg}
+\end{figure}  
+
+\hfill \tiny (Gonzalez-Voyer et al. 2022)
+
+# Sexual dimorphism has different causes
+
+- Sexual size dimorphism predicted by mating system and parental care
+- Sexual dichromatism predicted by parental care and extra-pair paternity
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/dimorphism.png}
+\end{figure}  
+
+\hfill \tiny (Owens & Hartley 1998)
+
+# Sexual dimorphism is present in fossil birds
+
+- *Confuciusornis sanctus* fossils indicate paired, elongated retrices were a male sexual ornament
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/confusciornis.jpg}
+\end{figure}  
+
+\hfill \tiny (Zhou et al. 2024)
+
+# Natrual selection can constrain dimorphism
+
+- Wing dimorphism in hummingbirds reduced at high altitude (but dimorphism in other traits increases)
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/constraint.png}
+\end{figure}  
+
+\hfill \tiny (Beltrán et al. 2022)
+
+# Lekking behavior
+
+**Leks**: Communal display grounds for promiscuous birds with no resources other than the opportunity to mate
+
+\begin{figure}
+\includegraphics[width = 0.55\linewidth]{images/lek_evol.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=cLnbiTkj1TQ
+
+\hfill \tiny (Taylor et al. 2025)
+
+# Hypotheses for lekking
+
+\begin{figure}
+\includegraphics[width = 0.25\linewidth]{images/sage_grouse.png}
+\end{figure}  
+
+
+1) **Hot spot model**: Males gather where they’re most likely to encounter roaming females
+
+2) **Hot shot model**: Males gather around top males to increase their chances w/in large aggregations
+
+3) **Female preference model**: Females prefer visiting large clusters of males
+
+\hfill \tiny (Beehler et al. 1988; [*Centrocercus urophasianus*](https://birdsoftheworld-org.proxy.birdsoftheworld.org/bow/species/saggro/cur/introduction))
+
+# Is the hot spot model supported in manakins?
+
+- Prediction: males encounter more females at leks than randomly selected sites
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/hotspot_eval.png}
+\end{figure}  
+
+\hfill \tiny (Duraes et al. 2007; https://www.youtube.com/watch?v=1zxJPQlFFTI&t=1s)
+
+\normalsize
+a) yes
+b) no
+c) maybe
+
+# References
+
+- Title slide species: *Logapous scotica*, *Turdus ardosiaceus*, *Myiarchus flavidior*, *Vireo gilvus*
+
+- Andersson, M. (1982). Female choice selects for extreme tail length in a widowbird. Nature, 299(5886), 818-820.
+
+- Johnsen, A., Andersson, S., Örnborg, J., & Lifjeld, J. T. (1998). Ultraviolet plumage ornamentation affects social mate choice and sperm competition in bluethroats (Aves: Luscinia s. svecica): a field experiment. Proceedings of the Royal Society of London. Series B: Biological Sciences, 265(1403), 1313-1318.
+
+- Griggio, M., Valera, F., Casas, A., & Pilastro, A. (2005). Males prefer ornamented females: a field experiment of male choice in the rock sparrow. Animal Behaviour, 69(6), 1243-1250.
+
+
+# References
+
+- Mather, M. H., & Robertson, R. J. (1992). Honest advertisement in flight displays of bobolinks (Dolichonyx oryzivorus). The Auk, 109(4), 869-873.
+
+- Møller, A. (1994). Male ornament size as a reliable cue to enhanced offspring viability in the barn swallow. Proceedings of the National Academy of Sciences, 91(15), 6929-6932.
+
+- Ligon, R. A., Diaz, C. D., Morano, J. L., Troscianko, J., Stevens, M., Moskeland, A., ... & Scholes III, E. (2018). Evolution of correlated complexity in the radically different courtship signals of birds-of-paradise. PLoS biology, 16(11), e2006962.
+
+- Madden, J. (2001). Sex, bowers and brains. Proceedings of the Royal Society of London. Series B: Biological Sciences, 268(1469), 833-838.
+
+# References
+
+- Nolazco, S., Delhey, K., Nakagawa, S., & Peters, A. (2022). Ornaments are equally informative in male and female birds. Nature Communications, 13(1), 5917.
+
+- Griffith, S. C., Owens, I. P., & Thuman, K. A. (2002). Extra pair paternity in birds: a review of interspecific variation and adaptive function. Molecular Ecology, 11(11), 2195-2212.
+
+- Gonzalez‐Voyer, A., Thomas, G. H., Liker, A., Krüger, O., Komdeur, J., & Székely, T. (2022). Sex roles in birds: Phylogenetic analyses of the influence of climate, life histories and social environment. Ecology Letters, 25(3), 647-660.
+
+- Owens, I. P., & Hartley, I. R. (1998). Sexual dimorphism in birds: why are there so many different forms of dimorphism?. Proceedings of the Royal Society of London. Series B: Biological Sciences, 265(1394), 397-407.
+
+# References
+
+- Zhou, Y., Pan, Y., Wang, M., Wang, X., Zheng, X., & Zhou, Z. (2024). Fossil evidence sheds light on sexual selection during the early evolution of birds. Proceedings of the National Academy of Sciences, 121(3), e2309825120.
+
+- Beltrán, D. F., Araya-Salas, M., Parra, J. L., Stiles, F. G., & Rico-Guevara, A. (2022). The evolution of sexually dimorphic traits in ecological gradients: an interplay between natural and sexual selection in hummingbirds. Proceedings of the Royal Society B, 289(1989), 20221783.
+
+- Taylor, L. U., Uyeda, J. C., & Prum, R. O. (2025). Social context and the evolution of delayed reproduction in birds. bioRxiv, 2023-08.
+
+- Beehler, B. M., & Foster, M. S. (1988). Hotshots, hotspots, and female preference in the organization of lek mating systems. The American Naturalist, 131(2), 203-219.
+
+# References
+
+- Duraes, R., Loiselle, B. A., & Blake, J. G. (2007). Intersexual spatial relationships in a lekking species: blue-crowned manakins and female hot spots. Behavioral Ecology, 18(6), 1029-1039.
+
+
+
