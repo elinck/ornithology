@@ -1,0 +1,299 @@
+---
+title: "Nests and Incubation"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner20.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Nesting
+
+- No bird gives birth to live young
+- Birds prepare nests to **incubate** and **cradle** young, **control microclimate**, and **protect from predators**
+- Caring for eggs and young is energetically costly! 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/nests.png}
+\end{figure}  
+
+\hfill \tiny (MacFarland et al. 2004; Thomson 1910)
+
+# Nest diversity
+
+- Primary nest types: **cavity**, **dome**, **open cup**
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/nest_diversity.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=6svAIgEnFvw
+
+\hfill \tiny (Gill et al. 2019)  
+
+# Nest diversity
+
+- Open cup nests in trees with basal support are most common 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/nest_freq.png}
+\end{figure}  
+
+\hfill \tiny (Chia et al. 2023)
+
+# Which $H$ is consistent with the data below?
+
+\begin{figure}
+\includegraphics[width = 0.9\linewidth]{images/nest_freq_global.png}
+\end{figure}  
+
+\hfill \tiny (Chia et al. 2023)
+
+\normalsize
+
+a) Nests in termite colonies are common in the temperate zone
+b) Pensile attachments are rare in the tropics 
+c) Primary cavity nests are common worldwide
+d) Australian birds rarely have nests w/ forked attachments 
+
+# Passerine nest evolution
+
+- Domed nests ancestral to passerines
+- Open cup nests evolved multiple times in oscines and suboscines
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/nest_evol.png}
+\end{figure}  
+
+\hfill \tiny (Price & Griffiths 2017)
+
+# Adaptive radiation of nest architecture
+
+- Ancestral Furnariidae (overnbird) cavity nests gave rise to diverse domed nests from vegetation and mud 
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/furnariid.png}
+\end{figure}  
+
+\hfill \tiny (Zyskowski & Prum 1999)
+
+# Nesting is challenging
+
+- Selection from nest loss due to **predation**, starvation, desertion, hatching failure, adverse weather
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/virginia_mt.png}
+\end{figure}  
+
+\hfill \tiny (Lockyer et al. 2013)
+
+# Global patterns of nest predation
+
+- Highest nest predation rates in the tropics (figure below from songbirds)
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/predation.png}
+\end{figure}  
+
+\hfill \tiny (Matysioková & Remeš 2022)
+
+# Climate change is flipping nest predation gradients
+
+- Highest nest predation rates now in the Arctic for shorebirds
+- Causes: declining lemming populations, behavioral shifts in foxes, vegetation changes...
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/predation2.png}
+\end{figure}  
+
+\hfill \tiny (Kubelka et al. 2018)  
+
+# Nest protection by predators
+
+- Black-chinned hummingbirds nest near *Accipter* spp. nests, where Mexican Jays forage higher to avoid predation, finding fewer hummingbird eggs (example of a **trophic cascade**)
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/trophic.png}
+\end{figure}  
+
+\hfill \tiny (Greeney et al. 2015)
+
+# Which $H$ are consistent the following data?
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/ghalambor.png}
+\end{figure}  
+
+\hfill \tiny (Martin & Ghalambor 1999)
+
+\normalsize
+
+a) frequently feeding a partner draws predator attention
+b) hole nesters are less vulnerable to predation
+c) predation is more common in Arizona
+d) all of the above
+
+# Nests can protect against infection
+
+- Generalist hummingbird Green-backed Firecrown uses a rare moss to build its nest. 
+- Laboratory assays show it has better anti-microbial propertises (measured by **halo size** on plates than more common species and controls). 
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/moss.png}
+\end{figure}  
+
+\hfill \tiny (Fontúrbel et al. 2020)
+
+# Nest microclimates impact metabolism
+
+- Mean metabolic rates of birds perched outside nests are higher than those incubating within insulated nests
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/incubation.png}
+\end{figure}  
+
+\hfill \tiny (Walsberg & King 1978)
+
+# Cavity nesting drives competition
+
+- **Primary cavity nesters** create cavities, while **secondary cavity nesters** use abandoned ones
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/cavity.png}
+\end{figure}  
+
+\hfill \tiny (Martin et al. 2004)
+
+# Incubation
+
+- Eggs must be kept ~37-38°C; bad if <35°C or > 40.5°C
+- Lasts anywhere from 10-80 days
+- Eggs must be turned and repositioned to balance growth
+- Most birds delay incubation until clutch is complete for synchronous hatching 
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/incubate.png}
+\end{figure}  
+
+\hfill \tiny (DuRant et al. 2013)  
+
+# Brood Patches
+
+- **Brood patches** are patches of featherless skin on the underside of birds that form during nesting season
+- Effectively transfers heat to incubate eggs
+- Develops on the incubating sex (or sexes); under hormonal control 
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/brood_patch.png}
+\end{figure}  
+
+\hfill \tiny (Deeming & Du Freu 2008)    
+
+# Megapodes and environmental incubation
+
+- Megapodes (Galliformes: Megapodiidae) use environmental heat sources to incubate eggs: decomposing leaf litter, geothermal activity, hot sand
+- Megapode young are extremely precocial
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/megapode.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=eIXOF6aSZrs&t=94s
+
+\hfill \tiny (Gill et al. 2019; *Megapodius reinwardt*, *Alectura lathami*)
+
+# Evolution of incubation strategies
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/megapode_phylo.png}
+\end{figure}  
+
+\hfill \tiny (Dekker & Brom 1992)
+
+\normalsize
+
+Megapode nesting is...
+
+a) derived
+b) basal (or "primitive")
+c) neither
+
+# Embryonic Development
+
+- Developmental stages are the same across species, but time spent in each stage can differ
+- Incubation periods correlated with adult longevity, precocial young, reduced predation risk
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/development.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)    
+
+# Hatching
+
+- Facilitated by temporary **egg tooth** (L) and **hatching muscle** (R)
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/hatching.png}
+\end{figure}  
+
+\hfill \tiny ([Wikipedia](https://en.wikipedia.org/wiki/Egg_tooth); Gill et al. 2019)   
+
+# References
+
+- Title slide species: *Grus paradiseus*, *Bucorvus abyssinicus*, *Veniliornis callonotus*, *Spindalis portoricensis*
+
+- McFarland, C., Monjello, M., & Moskowitz, D. (2021). Peterson Field Guide to North American Bird Nests. Mariner Books.
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+- Thomson, A. L. (1910). Britain's birds and their nests. W. & R. Chambers.
+
+- Chia, S. Y., Fang, Y. T., Su, Y. T., Tsai, P. Y., Hsieh, C., Tsao, S. H., ... & Tuanmu, M. N. (2023). A global database of bird nest traits. Scientific Data, 10(1), 923.
+
+- Price, J. J., & Griffith, S. C. (2017). Open cup nests evolved from roofed nests in the early passerines. Proceedings of the Royal Society B: Biological Sciences, 284(1848), 20162708.
+
+# References
+
+- Zyskowski, K., & Prum, R. O. (1999). Phylogenetic analysis of the nest architecture of Neotropical ovenbirds (Furnariidae). The Auk, 116(4), 891-911.
+
+- Lockyer, Z. B., Coates, P. S., Casazza, M. L., Espinosa, S., & Delehanty, D. J. (2013). Greater sage-grouse nest predators in the Virginia Mountains of northwestern Nevada. Journal of Fish and Wildlife Management, 4(2), 242-255.
+
+- Matysioková, B., & Remeš, V. (2022). Stronger negative species interactions in the tropics supported by a global analysis of nest predation in songbirds. Journal of Biogeography, 49(3), 511-522.
+
+- Kubelka, V., Šálek, M., Tomkovich, P., Végvári, Z., Freckleton, R. P., & Székely, T. (2018). Global pattern of nest predation is disrupted by climate change in shorebirds. Science, 362(6415), 680-683.
+
+# References
+
+- Greeney, H. F., Meneses, M. R., Hamilton, C. E., Lichter-Marck, E., Mannan, R. W., Snyder, N., ... & Dyer, L. A. (2015). Trait-mediated trophic cascade creates enemy-free space for nesting hummingbirds. Science advances, 1(8), e1500310.
+
+- Martin, T. E., & Ghalambor, C. K. (1999). Males feeding females during incubation. I. Required by microclimate or constrained by nest predation?. The American Naturalist, 153(1), 131-139.
+
+- Fontúrbel, F. E., Osorio, F., Riffo, V., Nuñez, M., Bastias, R., & Carvallo, G. O. (2020). Mamma knows best. Ecology, 101(7), 1-4.
+
+- Walsberg, G. E., & King, J. R. (1978). The energetic consequences of incubation for two passerine species. The Auk, 95(4), 644-655
+
+# References
+
+- Martin, K., Aitken, K. E., & Wiebe, K. L. (2004). Nest sites and nest webs for cavity-nesting communities in interior British Columbia, Canada: nest characteristics and niche partitioning. The condor, 106(1), 5-19.
+
+- DuRant, S. E., Hopkins, W. A., Hepp, G. R., & Walters, J. R. (2013). Ecological, evolutionary, and conservation implications of incubation temperature‐dependent phenotypes in birds. Biological Reviews, 88(2), 499-509.
+
+- Deeming, D. C., & Du Feu, C. R. (2008). Measurement of brood patch temperature of British passerines using an infrared thermometer. Bird Study, 55(1), 139-143.
+
+- Dekker, R., & Brom, T. (1992). Megapode phylogeny and the interpretation of incubation strategies. Zoologische Verhandelingen, 278(2), 19-31.
+
+

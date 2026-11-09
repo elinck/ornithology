@@ -1,0 +1,299 @@
+---
+title: "Breeding Systems"
+author:
+date: | 
+  | Office: 305 Lewis Hall
+  | Dr. Ethan Linck
+output: beamer_presentation
+fontsize: 11pt
+theme: boxes
+header-includes:
+  - \addtobeamertemplate{title page}{\centering \includegraphics[width=1\textwidth]{images/banner19.png}}{}
+knit: (function(input, ...) {
+    out <- rmarkdown::render(input, ...);
+    tools::compactPDF(out, gs_quality = "printer");
+    out
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Breeding systems are correlated with environmental factors
+
+- Factors like the strength and bias in parental care and distribution of resources interact to shape breeding systems
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/systems.png}
+\end{figure}  
+
+\hfill \tiny [Katherine Furniss](https://open.lib.umn.edu/evosex/chapter/10-7-correlation-of-environmental-factors-with-mating-systems/)  
+
+# Monogamy
+
+- 2 parents involved in raising & caring for offspring
+- ~90% of species
+- Duration: 1 nesting attempt to 1 breeding season to a lifetime
+- **Extra pair copulations common** (~11% of offspring; consistent with "social monogamy")
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/trumpeter2.png}
+\end{figure}  
+
+\hfill \tiny [*Cygnus buccinator*](https://macaulaylibrary.org/asset/55977761)  
+
+# Consequences of extra pair copulation  
+
+- Male Barn Swallows protect females from competitors during her most fertile period, but pursue extrapair copulations after it has ended
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/swallow_chasing.png}
+\end{figure}  
+
+\hfill \tiny (Beecher & Beecher 1979)    
+
+# Polygamy
+
+- Any mating system involving multiple mates of the opposite sex
+- ~3% of species 
+- Strong variation in reproductive success for one species -> strong sexual selection
+- Can be **polygyny**,  **polyandry**, or **polygynandry**
+
+\begin{figure}
+\includegraphics[width = 0.55\linewidth]{images/wilson.png}
+\end{figure}  
+
+\hfill \tiny [*Phalaropus tricolor*](https://macaulaylibrary.org/asset/60920031)
+
+# Polygyny
+
+- **Territorial polygyny**: multiple females join a single male territory with high quality resources
+- Associated with clumped resource distributions
+- Found in ~2% of spp. overall
+- Found in 14/278 breeding North American songbirds, 11 of which nest in marshes or grasslands
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/rwbb.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=c0Lw23yQFwQ
+
+\hfill \tiny [*Agelaius phoeniceus*](https://macaulaylibrary.org/asset/49503081)
+
+# Polygyny
+
+- **Lek polygyny**: multiple females mate with a limited number of males from communal lek or solitary arena
+- Females do all parental care
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/sagegr.png}
+\end{figure}  
+
+https://www.youtube.com/watch?v=c0Lw23yQFwQ  
+https://www.youtube.com/watch?v=cLnbiTkj1TQ
+
+\hfill \tiny [*Centrocercus urophasianus*](https://macaulaylibrary.org/asset/46364181)
+
+# Polyandry
+
+- Multiple males mate with a single female 
+- <1% of species; most common in Charadriiformes (due to fixed, 4-egg clutch?)
+- Sexual selection on females can lead to sex-role reversal
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/spsp.png}
+\end{figure}  
+
+\hfill \tiny [*Actitis macularius*](https://macaulaylibrary.org/asset/35730281)
+
+# What mating system is likely to evolve under dispersed resources? 
+
+\begin{figure}
+\includegraphics[width = 0.55\linewidth]{images/ammo.png}
+\end{figure}  
+
+\hfill \tiny ([*Ammospiza caudacuta*](https://macaulaylibrary.org/asset/60716171))
+
+\normalsize
+
+a) polyandry
+b) polygamy
+c) promiscuity
+d) monogamy
+
+
+# Testosterone and sex role reversal in Spotted Sandpipers
+
+- Females have higher testosterone, fight each other for males
+- Males incubate eggs, defend territories, provide most parental care
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/endocrine.png}
+\end{figure}  
+
+\hfill \tiny (Gill et al. 2019)  
+
+# Sexual selection in Wattled Jacanas
+
+- Females have more mates, greater variance in reproductive success
+- Females with larger tarsi have greater mating success
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/jacana2.png}
+\end{figure}  
+
+\hfill \tiny ([ML27855351](https://macaulaylibrary.org/asset/27855351); Emlen & Wrege 2004)  
+
+# Polygynandry 
+
+- Both males and females have >1 mate
+- <1% of species: tinamous, ratites, some parrots
+- Males incubate mixed clutches of >1 female
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/emu.png}
+\end{figure}  
+
+\hfill \tiny [*Dromaius novaehollandiae*](https://macaulaylibrary.org/asset/460698641) 
+
+# Polygynandry in Electus Parrots
+
+- Females depend on males for almost all food, stay in nest trees
+- Telemetry data shows male territories overlap with each other and female trees
+- Males equally likely to have offspring with females across territory (and vice versa)
+
+\begin{figure}
+\includegraphics[width = 0.55\linewidth]{images/ec_poly.png}
+\end{figure}  
+
+\hfill \tiny ([*ML81458761s*](https://macaulaylibrary.org/asset/81458761); Heinsohn et al. 2024)   
+
+# Evolution of social mating systems
+
+- "Divorce" in monogamous birds associated with male promiscuity and migration distance
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/divorce.png}
+\end{figure}  
+
+\hfill \tiny (Chen et al. Douvas 2023)    
+
+# Evolution of mating systems
+
+- Monogamy is ubiquitous, ancestral for most species
+- Reversion from lekking to monogamy is hard
+- Reversion from resource-defense polygamy is a little easier
+
+\begin{figure}
+\includegraphics[width = 0.8\linewidth]{images/mating_systems.png}
+\end{figure}  
+
+\hfill \tiny (Marcondes & Douvas 2024)    
+
+# Brood Parasitism
+
+- Female of one species lays an egg in the nest of another species
+- Boosts reproductive success without additional parental care
+- Can be **intraspecific** or **interspecific**, **obligate** or **non-obligate**, **specialized** on a host species or **generalist**
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/cowbird.png}
+\end{figure}  
+
+\hfill \tiny [*Molothrus ater*](https://macaulaylibrary.org/asset/84247171) 
+
+# *Vidua* Brood Parasites
+
+- *Vidua* species mimic grassfinch hosts through gape patterns and sounds of host nestlings
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/vidua.png}
+\end{figure}  
+
+\hfill \tiny (Jamie et al. 2020)
+
+# What kind of brood parasites are *Vidua*? 
+
+\begin{figure}
+\includegraphics[width = 0.7\linewidth]{images/vidua.png}
+\end{figure}  
+
+\hfill \tiny (Jamie et al. 2020)
+
+\normalsize 
+
+a) generalist, non-obligate, intraspecific
+b) specialized, obligate, interspecific
+c) generalist, obligate, intraspecific
+b) specialized, non-obligate, intraspecific
+
+# Cospeciation in *Vidua* and hosts?
+
+- **Cospeciation** is simultaneous divergence in interacting lineages (host / parasites)
+- $H$: Shared divergence times in hosts and parasites 
+- Limited evidence, but strong correlation from "clade-limited colonization"
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/cospeciation.png}
+\end{figure}  
+
+\hfill \tiny (Sorenson et al. 2004)
+
+
+# Cooperative Breeding 
+
+- "Helpers" care for young that are not theirs
+- <9% of birds
+- Driven by **kin selection** (ensure success of genes shared in distant relatives), **reciprocal altruism** (you scratch my back I'll scratch yours), ecological constraints, practice...
+
+\begin{figure}
+\includegraphics[width = 0.6\linewidth]{images/scrub_jay.png}
+\end{figure}  
+
+\hfill \tiny [*Aphelocoma coerulescens*](https://macaulaylibrary.org/asset/230141521) 
+
+# Hormonal differences between breeders and helpers
+
+- Male helpers have lower testosterone than breeders
+- Female helpers have estradiol peak when breeder is incubating and they disperse to find their own territory 
+
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{images/cooperate.png}
+\end{figure}  
+
+\hfill \tiny (Schoech 1998) 
+
+# Evidence for kin selection in White-fronted Bee-eaters
+
+- "Helpers" preferentially assist most closely related mating pairs, maximizing their "inclusive" reproductive fitness
+
+\begin{figure}
+\includegraphics[width = \linewidth]{images/beeeater.png}
+\end{figure}  
+
+\hfill \tiny (Emlen et al. 1995)
+
+# References
+
+- Title slide species: *Pithys castaneus*, *Scytalopus argentifrons*, *Vireo gundlachii*, *Eudyptes filholi*
+
+- Gill, F. B., Prum, R. O., & Robinson, S. K. (2019). Ornithology (4th ed.). W. H. Freeman. 
+
+- Emlen, S. T., & Wrege, P. H. (2004). Size dimorphism, intrasexual competition, and sexual selection in Wattled Jacana (Jacana jacana), a sex-role-reversed shorebird in Panama. The Auk, 121(2), 391-403.
+
+- Heinsohn, R., Appleby, D., Wilson, D., & Legge, S. (2024). Large, overlapping home ranges reveal male mating strategies in polygynandrous Eclectus parrots. Emu-Austral Ornithology, 124(3-4), 261-267.
+
+- Chen, Y., Lin, X., Song, Z., & Liu, Y. (2023). Divorce rate in monogamous birds increases with male promiscuity and migration distance. Proceedings of the Royal Society B, 290(2002), 20230450.
+
+# References
+
+- Marcondes, R. S., & Douvas, N. (2024). Social mating systems in birds: resource-defense polygamy—but not lekking—is a macroevolutionarily unstable trait. Evolution, 78(12), 1980-1990.
+
+- Jamie, G. A., Van Belleghem, S. M., Hogan, B. G., Hamama, S., Moya, C., Troscianko, J., ... & Spottiswoode, C. N. (2020). Multimodal mimicry of hosts in a radiation of parasitic finches. Evolution, 74(11), 2526-2538.
+
+- Sorenson, M. D., Balakrishnan, C. N., & Payne, R. B. (2004). Clade-limited colonization in brood parasitic finches (Vidua spp.). Systematic Biology, 53(1), 140-153.
+
+- Schoech, S. J. (1998). Physiology of Helping in Florida Scrub-Jays. American Scientist, 86(1), 70-77.
+
+- Emlen, S. T., Wrege, P. H., & Demong, N. J. (1995). Making decisions in the family: an evolutionary perspective. American Scientist, 83(2), 148-157.
